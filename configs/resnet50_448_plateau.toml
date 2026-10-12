@@ -1,0 +1,13 @@
+run_name = "resnet50_448_plateau"
+backbone = "resnet50_in1k"
+img_size = 448
+head_init = "heads/resnet50_in1k@448__pooled__fit.pt"
+epochs = 100
+lr_schedule = "plateau"
+plateau_patience = 5
+early_stop_patience = 15
+batch_size = 32
+accum_steps = 2
+lr = 3e-4
+layer_decay = 1.0
+drop_path = 0.05

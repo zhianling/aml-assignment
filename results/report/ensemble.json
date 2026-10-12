@@ -1,0 +1,16 @@
+{
+ "selected_on_val": [
+  "LP:eva02_l_inat21__pooled_patch",
+  "FT:vit_l_dinov3_336",
+  "LP:bioclip25_h__pooled",
+  "LP:eva02_l_inat21@448__pooled_patch"
+ ],
+ "scored_on_test": [
+  "LP:eva02_l_inat21__pooled_patch",
+  "FT:vit_l_dinov3_336",
+  "LP:bioclip25_h__pooled",
+  "LP:eva02_l_inat21@448__pooled_patch"
+ ],
+ "reference_single_model": "LP:bioclip25_h__pooled",
+ "clean_subset_size": 1141
+}

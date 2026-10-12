@@ -1,0 +1,14 @@
+run_name = "eva02_l_inat21_336"
+backbone = "eva02_l_inat21"
+
+img_size = 336
+head_init = "heads/eva02_l_inat21__pooled__fit.pt"
+epochs = 20
+early_stop_patience = 0
+batch_size = 16
+accum_steps = 4
+lr = 5e-5
+layer_decay = 0.8
+drop_path = 0.2
+grad_checkpointing = true
+channels_last = false

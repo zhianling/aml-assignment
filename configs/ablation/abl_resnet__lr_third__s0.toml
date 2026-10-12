@@ -1,0 +1,13 @@
+run_name = "abl_resnet__lr_third__s0"
+backbone = "resnet50_in1k"
+img_size = 448
+head_init = "heads/resnet50_in1k@448__pooled__fit.pt"
+epochs = 30
+early_stop_patience = 0
+batch_size = 32
+accum_steps = 2
+lr = 0.0001
+layer_decay = 1.0
+drop_path = 0.05
+seed = 0
+notes = "ablation hp/lr_third: peak LR 1e-4 instead of 3e-4"

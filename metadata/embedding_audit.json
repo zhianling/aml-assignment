@@ -1,0 +1,7231 @@
+{
+ "features": "vit_l_dinov3@448",
+ "feature": "pooled",
+ "note": "Nearest training image of every test image by cosine similarity of the flip-averaged embedding. The same-session threshold is set in dedup_review.json.",
+ "test": [
+  {
+   "file": "0000.jpg",
+   "nearest_train": "Black_footed_Albatross_0006_2928372528.jpg",
+   "cosine": 0.9762,
+   "same_label": true
+  },
+  {
+   "file": "0001.jpg",
+   "nearest_train": "Black_footed_Albatross_0006_2928372528.jpg",
+   "cosine": 0.9734,
+   "same_label": true
+  },
+  {
+   "file": "0002.jpg",
+   "nearest_train": "Black_footed_Albatross_0024_2444047518.jpg",
+   "cosine": 0.9689,
+   "same_label": true
+  },
+  {
+   "file": "0003.jpg",
+   "nearest_train": "Black_footed_Albatross_0034_2134386992.jpg",
+   "cosine": 0.9741,
+   "same_label": true
+  },
+  {
+   "file": "0004.jpg",
+   "nearest_train": "Brown_Pelican_0012_302096318.jpg",
+   "cosine": 0.7464,
+   "same_label": false
+  },
+  {
+   "file": "0005.jpg",
+   "nearest_train": "Black_footed_Albatross_0028_2801836036.jpg",
+   "cosine": 0.9468,
+   "same_label": true
+  },
+  {
+   "file": "0006.jpg",
+   "nearest_train": "Black_footed_Albatross_0006_2928372528.jpg",
+   "cosine": 0.96,
+   "same_label": true
+  },
+  {
+   "file": "0007.jpg",
+   "nearest_train": "Laysan_Albatross_0019_2432472951.jpg",
+   "cosine": 0.8676,
+   "same_label": true
+  },
+  {
+   "file": "0008.jpg",
+   "nearest_train": "Laysan_Albatross_0006_2761419007.jpg",
+   "cosine": 0.9676,
+   "same_label": true
+  },
+  {
+   "file": "0009.jpg",
+   "nearest_train": "Black_footed_Albatross_0009_2408326989.jpg",
+   "cosine": 0.9647,
+   "same_label": false
+  },
+  {
+   "file": "0010.jpg",
+   "nearest_train": "Laysan_Albatross_0024_2547221176.jpg",
+   "cosine": 0.9663,
+   "same_label": true
+  },
+  {
+   "file": "0011.jpg",
+   "nearest_train": "Northern_Fulmar_0018_2707368242.jpg",
+   "cosine": 0.8822,
+   "same_label": false
+  },
+  {
+   "file": "0012.jpg",
+   "nearest_train": "Sooty_Albatross_0021_2753624466.jpg",
+   "cosine": 0.9521,
+   "same_label": true
+  },
+  {
+   "file": "0013.jpg",
+   "nearest_train": "Sooty_Albatross_0025_2212587920.jpg",
+   "cosine": 0.9358,
+   "same_label": true
+  },
+  {
+   "file": "0014.jpg",
+   "nearest_train": "Laysan_Albatross_0016_64734298.jpg",
+   "cosine": 0.9412,
+   "same_label": false
+  },
+  {
+   "file": "0015.jpg",
+   "nearest_train": "Sooty_Albatross_0009_2162719616.jpg",
+   "cosine": 0.9329,
+   "same_label": true
+  },
+  {
+   "file": "0016.jpg",
+   "nearest_train": "Northern_Fulmar_0026_413770047.jpg",
+   "cosine": 0.8854,
+   "same_label": false
+  },
+  {
+   "file": "0017.jpg",
+   "nearest_train": "Groove_billed_Ani_0027_1344877998.jpg",
+   "cosine": 0.9099,
+   "same_label": true
+  },
+  {
+   "file": "0018.jpg",
+   "nearest_train": "Groove_billed_Ani_0033_2267259581.jpg",
+   "cosine": 0.9196,
+   "same_label": true
+  },
+  {
+   "file": "0019.jpg",
+   "nearest_train": "Groove_billed_Ani_0001_2380886537.jpg",
+   "cosine": 0.9203,
+   "same_label": true
+  },
+  {
+   "file": "0020.jpg",
+   "nearest_train": "Mangrove_Cuckoo_0003_2196243646.jpg",
+   "cosine": 0.9013,
+   "same_label": false
+  },
+  {
+   "file": "0021.jpg",
+   "nearest_train": "Groove_billed_Ani_0017_2407127570.jpg",
+   "cosine": 0.8585,
+   "same_label": true
+  },
+  {
+   "file": "0022.jpg",
+   "nearest_train": "Groove_billed_Ani_0002_3019980203.jpg",
+   "cosine": 0.9446,
+   "same_label": true
+  },
+  {
+   "file": "0023.jpg",
+   "nearest_train": "Groove_billed_Ani_0014_414112726.jpg",
+   "cosine": 0.8567,
+   "same_label": true
+  },
+  {
+   "file": "0024.jpg",
+   "nearest_train": "Crested_Auklet_0010_750898202.jpg",
+   "cosine": 0.9373,
+   "same_label": true
+  },
+  {
+   "file": "0025.jpg",
+   "nearest_train": "Crested_Auklet_0009_2598577217.jpg",
+   "cosine": 0.9614,
+   "same_label": true
+  },
+  {
+   "file": "0026.jpg",
+   "nearest_train": "Crested_Auklet_0012_751253546.jpg",
+   "cosine": 0.9752,
+   "same_label": true
+  },
+  {
+   "file": "0027.jpg",
+   "nearest_train": "Crested_Auklet_0008_2771761648.jpg",
+   "cosine": 0.9654,
+   "same_label": true
+  },
+  {
+   "file": "0028.jpg",
+   "nearest_train": "Least_Auklet_0006_1838200797.jpg",
+   "cosine": 0.9246,
+   "same_label": false
+  },
+  {
+   "file": "0029.jpg",
+   "nearest_train": "Crested_Auklet_0016_1415357086.jpg",
+   "cosine": 0.9,
+   "same_label": false
+  },
+  {
+   "file": "0030.jpg",
+   "nearest_train": "Least_Auklet_0012_2599408122.jpg",
+   "cosine": 0.9526,
+   "same_label": true
+  },
+  {
+   "file": "0031.jpg",
+   "nearest_train": "Parakeet_Auklet_0012_2688257292.jpg",
+   "cosine": 0.9123,
+   "same_label": false
+  },
+  {
+   "file": "0032.jpg",
+   "nearest_train": "Crested_Auklet_0006_2826660365.jpg",
+   "cosine": 0.9151,
+   "same_label": false
+  },
+  {
+   "file": "0033.jpg",
+   "nearest_train": "Crested_Auklet_0016_1415357086.jpg",
+   "cosine": 0.9138,
+   "same_label": false
+  },
+  {
+   "file": "0034.jpg",
+   "nearest_train": "Least_Auklet_0011_2687886164.jpg",
+   "cosine": 0.9808,
+   "same_label": true
+  },
+  {
+   "file": "0035.jpg",
+   "nearest_train": "Parakeet_Auklet_0001_2689246847.jpg",
+   "cosine": 0.9215,
+   "same_label": true
+  },
+  {
+   "file": "0036.jpg",
+   "nearest_train": "Parakeet_Auklet_0009_2598577739.jpg",
+   "cosine": 0.9455,
+   "same_label": true
+  },
+  {
+   "file": "0037.jpg",
+   "nearest_train": "Crested_Auklet_0023_422144547.jpg",
+   "cosine": 0.9159,
+   "same_label": false
+  },
+  {
+   "file": "0038.jpg",
+   "nearest_train": "Parakeet_Auklet_0029_1297120844.jpg",
+   "cosine": 0.9456,
+   "same_label": true
+  },
+  {
+   "file": "0039.jpg",
+   "nearest_train": "Crested_Auklet_0014_103482387.jpg",
+   "cosine": 0.9362,
+   "same_label": false
+  },
+  {
+   "file": "0040.jpg",
+   "nearest_train": "Crested_Auklet_0024_2676149281.jpg",
+   "cosine": 0.9057,
+   "same_label": false
+  },
+  {
+   "file": "0041.jpg",
+   "nearest_train": "Parakeet_Auklet_0029_1297120844.jpg",
+   "cosine": 0.9499,
+   "same_label": true
+  },
+  {
+   "file": "0042.jpg",
+   "nearest_train": "Rhinoceros_Auklet_0011_458012208.jpg",
+   "cosine": 0.9529,
+   "same_label": true
+  },
+  {
+   "file": "0043.jpg",
+   "nearest_train": "Rhinoceros_Auklet_0019_1232573433.jpg",
+   "cosine": 0.95,
+   "same_label": true
+  },
+  {
+   "file": "0044.jpg",
+   "nearest_train": "Rhinoceros_Auklet_0005_2558782887.jpg",
+   "cosine": 0.9336,
+   "same_label": true
+  },
+  {
+   "file": "0045.jpg",
+   "nearest_train": "Rhinoceros_Auklet_0020_172412571.jpg",
+   "cosine": 0.9313,
+   "same_label": true
+  },
+  {
+   "file": "0046.jpg",
+   "nearest_train": "Rhinoceros_Auklet_0007_2928370434.jpg",
+   "cosine": 0.943,
+   "same_label": true
+  },
+  {
+   "file": "0047.jpg",
+   "nearest_train": "Rhinoceros_Auklet_0003_804374223.jpg",
+   "cosine": 0.94,
+   "same_label": true
+  },
+  {
+   "file": "0048.jpg",
+   "nearest_train": "Bay_breasted_Warbler_0006_2558964359.jpg",
+   "cosine": 0.9233,
+   "same_label": false
+  },
+  {
+   "file": "0049.jpg",
+   "nearest_train": "Cape_Glossy_Starling_0028_3084579201.jpg",
+   "cosine": 0.8668,
+   "same_label": false
+  },
+  {
+   "file": "0050.jpg",
+   "nearest_train": "Common_Raven_0027_2819369309.jpg",
+   "cosine": 0.9194,
+   "same_label": false
+  },
+  {
+   "file": "0051.jpg",
+   "nearest_train": "Palm_Warbler_0013_2154139521.jpg",
+   "cosine": 0.8948,
+   "same_label": false
+  },
+  {
+   "file": "0052.jpg",
+   "nearest_train": "Cape_Glossy_Starling_0010_2710064439.jpg",
+   "cosine": 0.8358,
+   "same_label": false
+  },
+  {
+   "file": "0053.jpg",
+   "nearest_train": "Clark_Nutcracker_0002_269774117.jpg",
+   "cosine": 0.883,
+   "same_label": false
+  },
+  {
+   "file": "0054.jpg",
+   "nearest_train": "Orchard_Oriole_0020_456987442.jpg",
+   "cosine": 0.9041,
+   "same_label": false
+  },
+  {
+   "file": "0055.jpg",
+   "nearest_train": "Bank_Swallow_0023_2647552341.jpg",
+   "cosine": 0.7535,
+   "same_label": false
+  },
+  {
+   "file": "0056.jpg",
+   "nearest_train": "Common_Raven_0026_2756743636.jpg",
+   "cosine": 0.9257,
+   "same_label": false
+  },
+  {
+   "file": "0057.jpg",
+   "nearest_train": "Red_winged_Blackbird_0022_2179939448.jpg",
+   "cosine": 0.9141,
+   "same_label": true
+  },
+  {
+   "file": "0058.jpg",
+   "nearest_train": "Rusty_Blackbird_0007_2393337841.jpg",
+   "cosine": 0.936,
+   "same_label": true
+  },
+  {
+   "file": "0059.jpg",
+   "nearest_train": "Rusty_Blackbird_0013_62306687.jpg",
+   "cosine": 0.9485,
+   "same_label": true
+  },
+  {
+   "file": "0060.jpg",
+   "nearest_train": "Horned_Lark_0013_2232041474.jpg",
+   "cosine": 0.8527,
+   "same_label": false
+  },
+  {
+   "file": "0061.jpg",
+   "nearest_train": "Cactus_Wren_0016_2487431.jpg",
+   "cosine": 0.926,
+   "same_label": false
+  },
+  {
+   "file": "0062.jpg",
+   "nearest_train": "Orchard_Oriole_0003_167615828.jpg",
+   "cosine": 0.9381,
+   "same_label": false
+  },
+  {
+   "file": "0063.jpg",
+   "nearest_train": "Common_Yellowthroat_0003_2278933940.jpg",
+   "cosine": 0.948,
+   "same_label": false
+  },
+  {
+   "file": "0064.jpg",
+   "nearest_train": "Boat_tailed_Grackle_0024_462834561.jpg",
+   "cosine": 0.9132,
+   "same_label": false
+  },
+  {
+   "file": "0065.jpg",
+   "nearest_train": "Hooded_Oriole_0024_109368262.jpg",
+   "cosine": 0.9027,
+   "same_label": false
+  },
+  {
+   "file": "0066.jpg",
+   "nearest_train": "Boat_tailed_Grackle_0007_2694768577.jpg",
+   "cosine": 0.9053,
+   "same_label": false
+  },
+  {
+   "file": "0067.jpg",
+   "nearest_train": "Western_Meadowlark_0012_783456360.jpg",
+   "cosine": 0.8814,
+   "same_label": false
+  },
+  {
+   "file": "0068.jpg",
+   "nearest_train": "Sage_Thrasher_0002_2532542571.jpg",
+   "cosine": 0.8996,
+   "same_label": false
+  },
+  {
+   "file": "0069.jpg",
+   "nearest_train": "Bobolink_0007_2617557626.jpg",
+   "cosine": 0.9286,
+   "same_label": true
+  },
+  {
+   "file": "0070.jpg",
+   "nearest_train": "European_Goldfinch_0023_2508668954.jpg",
+   "cosine": 0.9021,
+   "same_label": false
+  },
+  {
+   "file": "0071.jpg",
+   "nearest_train": "Bobolink_0025_2502658999.jpg",
+   "cosine": 0.8839,
+   "same_label": true
+  },
+  {
+   "file": "0072.jpg",
+   "nearest_train": "Prairie_Warbler_0033_1445140599.jpg",
+   "cosine": 0.9073,
+   "same_label": false
+  },
+  {
+   "file": "0073.jpg",
+   "nearest_train": "Bobolink_0014_2545596115.jpg",
+   "cosine": 0.9312,
+   "same_label": true
+  },
+  {
+   "file": "0074.jpg",
+   "nearest_train": "Blue_Grosbeak_0023_480770563.jpg",
+   "cosine": 0.9336,
+   "same_label": false
+  },
+  {
+   "file": "0075.jpg",
+   "nearest_train": "Indigo_Bunting_0011_2502713073.jpg",
+   "cosine": 0.9324,
+   "same_label": true
+  },
+  {
+   "file": "0076.jpg",
+   "nearest_train": "Western_Wood_Pewee_0030_166686425.jpg",
+   "cosine": 0.9105,
+   "same_label": false
+  },
+  {
+   "file": "0077.jpg",
+   "nearest_train": "Blue_Grosbeak_0017_2683222164.jpg",
+   "cosine": 0.9458,
+   "same_label": false
+  },
+  {
+   "file": "0078.jpg",
+   "nearest_train": "Blue_Grosbeak_0028_2450029205.jpg",
+   "cosine": 0.9502,
+   "same_label": false
+  },
+  {
+   "file": "0079.jpg",
+   "nearest_train": "Indigo_Bunting_0011_2502713073.jpg",
+   "cosine": 0.9478,
+   "same_label": true
+  },
+  {
+   "file": "0080.jpg",
+   "nearest_train": "Indigo_Bunting_0024_2539293425.jpg",
+   "cosine": 0.9284,
+   "same_label": true
+  },
+  {
+   "file": "0081.jpg",
+   "nearest_train": "Lazuli_Bunting_0019_2785250577.jpg",
+   "cosine": 0.978,
+   "same_label": true
+  },
+  {
+   "file": "0082.jpg",
+   "nearest_train": "Lazuli_Bunting_0016_750064695.jpg",
+   "cosine": 0.9097,
+   "same_label": true
+  },
+  {
+   "file": "0083.jpg",
+   "nearest_train": "Brown_Creeper_0005_2944141013.jpg",
+   "cosine": 0.8797,
+   "same_label": false
+  },
+  {
+   "file": "0084.jpg",
+   "nearest_train": "Olive_sided_Flycatcher_0007_1031881143.jpg",
+   "cosine": 0.9592,
+   "same_label": false
+  },
+  {
+   "file": "0085.jpg",
+   "nearest_train": "Purple_Finch_0028_228676926.jpg",
+   "cosine": 0.8631,
+   "same_label": false
+  },
+  {
+   "file": "0086.jpg",
+   "nearest_train": "Least_Flycatcher_0025_2956528039.jpg",
+   "cosine": 0.9107,
+   "same_label": false
+  },
+  {
+   "file": "0087.jpg",
+   "nearest_train": "Painted_Bunting_0028_xxx.jpg",
+   "cosine": 0.9091,
+   "same_label": true
+  },
+  {
+   "file": "0088.jpg",
+   "nearest_train": "Baltimore_Oriole_0007_2549684342.jpg",
+   "cosine": 0.8578,
+   "same_label": false
+  },
+  {
+   "file": "0089.jpg",
+   "nearest_train": "Wilson_Warbler_0009_414613725.jpg",
+   "cosine": 0.8824,
+   "same_label": false
+  },
+  {
+   "file": "0090.jpg",
+   "nearest_train": "Great_Crested_Flycatcher_0004_171950526.jpg",
+   "cosine": 0.8997,
+   "same_label": false
+  },
+  {
+   "file": "0091.jpg",
+   "nearest_train": "Painted_Bunting_0017_2621594373.jpg",
+   "cosine": 0.9333,
+   "same_label": true
+  },
+  {
+   "file": "0092.jpg",
+   "nearest_train": "Painted_Bunting_0028_xxx.jpg",
+   "cosine": 0.8896,
+   "same_label": true
+  },
+  {
+   "file": "0093.jpg",
+   "nearest_train": "Red_bellied_Woodpecker_0005_374451860.jpg",
+   "cosine": 0.8913,
+   "same_label": false
+  },
+  {
+   "file": "0094.jpg",
+   "nearest_train": "Pine_Grosbeak_0004_2218734106.jpg",
+   "cosine": 0.8712,
+   "same_label": false
+  },
+  {
+   "file": "0095.jpg",
+   "nearest_train": "Purple_Finch_0027_2240951910.jpg",
+   "cosine": 0.8932,
+   "same_label": false
+  },
+  {
+   "file": "0096.jpg",
+   "nearest_train": "Cardinal_0004_425957113.jpg",
+   "cosine": 0.8953,
+   "same_label": true
+  },
+  {
+   "file": "0097.jpg",
+   "nearest_train": "American_Goldfinch_0015_455770809.jpg",
+   "cosine": 0.8527,
+   "same_label": false
+  },
+  {
+   "file": "0098.jpg",
+   "nearest_train": "Spotted_Catbird_0011_1429854950.jpg",
+   "cosine": 0.8584,
+   "same_label": true
+  },
+  {
+   "file": "0099.jpg",
+   "nearest_train": "Cape_Glossy_Starling_0019_43942619.jpg",
+   "cosine": 0.869,
+   "same_label": false
+  },
+  {
+   "file": "0100.jpg",
+   "nearest_train": "Spotted_Catbird_0006_2132520881.jpg",
+   "cosine": 0.9763,
+   "same_label": true
+  },
+  {
+   "file": "0101.jpg",
+   "nearest_train": "Spotted_Catbird_0002_2609850097.jpg",
+   "cosine": 0.9267,
+   "same_label": true
+  },
+  {
+   "file": "0102.jpg",
+   "nearest_train": "Sayornis_0022_384793827.jpg",
+   "cosine": 0.8915,
+   "same_label": false
+  },
+  {
+   "file": "0103.jpg",
+   "nearest_train": "Green_tailed_Towhee_0013_184430669.jpg",
+   "cosine": 0.919,
+   "same_label": false
+  },
+  {
+   "file": "0104.jpg",
+   "nearest_train": "Gray_Catbird_0031_148467783.jpg",
+   "cosine": 0.9558,
+   "same_label": true
+  },
+  {
+   "file": "0105.jpg",
+   "nearest_train": "White_throated_Sparrow_0012_2660677462.jpg",
+   "cosine": 0.9311,
+   "same_label": false
+  },
+  {
+   "file": "0106.jpg",
+   "nearest_train": "Downy_Woodpecker_0032_116312748.jpg",
+   "cosine": 0.8516,
+   "same_label": false
+  },
+  {
+   "file": "0107.jpg",
+   "nearest_train": "Orchard_Oriole_0029_338933477.jpg",
+   "cosine": 0.8535,
+   "same_label": false
+  },
+  {
+   "file": "0108.jpg",
+   "nearest_train": "Western_Wood_Pewee_0028_16504877.jpg",
+   "cosine": 0.9071,
+   "same_label": false
+  },
+  {
+   "file": "0109.jpg",
+   "nearest_train": "Vermilion_Flycatcher_0007_2213007308.jpg",
+   "cosine": 0.897,
+   "same_label": false
+  },
+  {
+   "file": "0110.jpg",
+   "nearest_train": "Swainson_Warbler_0014_2517642117.jpg",
+   "cosine": 0.8604,
+   "same_label": false
+  },
+  {
+   "file": "0111.jpg",
+   "nearest_train": "Yellow_breasted_Chat_0027_165229990.jpg",
+   "cosine": 0.9848,
+   "same_label": true
+  },
+  {
+   "file": "0112.jpg",
+   "nearest_train": "Great_Crested_Flycatcher_0026_447799897.jpg",
+   "cosine": 0.9188,
+   "same_label": false
+  },
+  {
+   "file": "0113.jpg",
+   "nearest_train": "Olive_sided_Flycatcher_0001_2222824199.jpg",
+   "cosine": 0.9592,
+   "same_label": false
+  },
+  {
+   "file": "0114.jpg",
+   "nearest_train": "Warbling_Vireo_0016_2412866967.jpg",
+   "cosine": 0.8984,
+   "same_label": false
+  },
+  {
+   "file": "0115.jpg",
+   "nearest_train": "Prothonotary_Warbler_0026_144912819.jpg",
+   "cosine": 0.9569,
+   "same_label": false
+  },
+  {
+   "file": "0116.jpg",
+   "nearest_train": "Eastern_Towhee_0020_2599674379.jpg",
+   "cosine": 0.9917,
+   "same_label": true
+  },
+  {
+   "file": "0117.jpg",
+   "nearest_train": "White_eyed_Vireo_0013_2191468922.jpg",
+   "cosine": 0.8753,
+   "same_label": false
+  },
+  {
+   "file": "0118.jpg",
+   "nearest_train": "Louisiana_Waterthrush_0011_2513079700.jpg",
+   "cosine": 0.8184,
+   "same_label": false
+  },
+  {
+   "file": "0119.jpg",
+   "nearest_train": "Harris_Sparrow_0012_399463859.jpg",
+   "cosine": 0.83,
+   "same_label": false
+  },
+  {
+   "file": "0120.jpg",
+   "nearest_train": "Eastern_Towhee_0009_2509457459.jpg",
+   "cosine": 0.9965,
+   "same_label": true
+  },
+  {
+   "file": "0121.jpg",
+   "nearest_train": "Eastern_Towhee_0009_2509457459.jpg",
+   "cosine": 0.9845,
+   "same_label": true
+  },
+  {
+   "file": "0122.jpg",
+   "nearest_train": "Nighthawk_0011_30160821.jpg",
+   "cosine": 0.8625,
+   "same_label": false
+  },
+  {
+   "file": "0123.jpg",
+   "nearest_train": "Chuck_will_Widow_0013_486474156.jpg",
+   "cosine": 0.9259,
+   "same_label": true
+  },
+  {
+   "file": "0124.jpg",
+   "nearest_train": "Ringed_Kingfisher_0015_860383444.jpg",
+   "cosine": 0.8598,
+   "same_label": false
+  },
+  {
+   "file": "0125.jpg",
+   "nearest_train": "Chuck_will_Widow_0015_205762941.jpg",
+   "cosine": 0.869,
+   "same_label": true
+  },
+  {
+   "file": "0126.jpg",
+   "nearest_train": "Red_faced_Cormorant_0020_290250302.jpg",
+   "cosine": 0.9304,
+   "same_label": false
+  },
+  {
+   "file": "0127.jpg",
+   "nearest_train": "Pigeon_Guillemot_0007_2477632639.jpg",
+   "cosine": 0.8875,
+   "same_label": false
+  },
+  {
+   "file": "0128.jpg",
+   "nearest_train": "Brandt_Cormorant_0023_2610416910.jpg",
+   "cosine": 0.9162,
+   "same_label": true
+  },
+  {
+   "file": "0129.jpg",
+   "nearest_train": "Brandt_Cormorant_0022_143260613.jpg",
+   "cosine": 0.9421,
+   "same_label": true
+  },
+  {
+   "file": "0130.jpg",
+   "nearest_train": "Brandt_Cormorant_0015_444861364.jpg",
+   "cosine": 0.886,
+   "same_label": true
+  },
+  {
+   "file": "0131.jpg",
+   "nearest_train": "Red_faced_Cormorant_0021_992493481.jpg",
+   "cosine": 0.8938,
+   "same_label": true
+  },
+  {
+   "file": "0132.jpg",
+   "nearest_train": "Western_Grebe_0016_2844327149.jpg",
+   "cosine": 0.8869,
+   "same_label": false
+  },
+  {
+   "file": "0133.jpg",
+   "nearest_train": "Rhinoceros_Auklet_0022_2421989415.jpg",
+   "cosine": 0.9097,
+   "same_label": false
+  },
+  {
+   "file": "0134.jpg",
+   "nearest_train": "Red_faced_Cormorant_0008_707313905.jpg",
+   "cosine": 0.8867,
+   "same_label": true
+  },
+  {
+   "file": "0135.jpg",
+   "nearest_train": "Pelagic_Cormorant_0013_2554801490.jpg",
+   "cosine": 0.8734,
+   "same_label": true
+  },
+  {
+   "file": "0136.jpg",
+   "nearest_train": "Pelagic_Cormorant_0017_3062984908.jpg",
+   "cosine": 0.9492,
+   "same_label": true
+  },
+  {
+   "file": "0137.jpg",
+   "nearest_train": "Elegant_Tern_0001_2800524137.jpg",
+   "cosine": 0.8801,
+   "same_label": false
+  },
+  {
+   "file": "0138.jpg",
+   "nearest_train": "Pelagic_Cormorant_0014_2956269375.jpg",
+   "cosine": 0.8772,
+   "same_label": true
+  },
+  {
+   "file": "0139.jpg",
+   "nearest_train": "Pelagic_Cormorant_0014_2956269375.jpg",
+   "cosine": 0.9344,
+   "same_label": true
+  },
+  {
+   "file": "0140.jpg",
+   "nearest_train": "Black_footed_Albatross_0028_2801836036.jpg",
+   "cosine": 0.9119,
+   "same_label": false
+  },
+  {
+   "file": "0141.jpg",
+   "nearest_train": "Bronzed_Cowbird_0013_2417085161.jpg",
+   "cosine": 0.9952,
+   "same_label": true
+  },
+  {
+   "file": "0142.jpg",
+   "nearest_train": "Shiny_Cowbird_0007_533020160.jpg",
+   "cosine": 0.9082,
+   "same_label": false
+  },
+  {
+   "file": "0143.jpg",
+   "nearest_train": "Cactus_Wren_0004_2616111360.jpg",
+   "cosine": 0.9187,
+   "same_label": false
+  },
+  {
+   "file": "0144.jpg",
+   "nearest_train": "Shiny_Cowbird_0012_2214184421.jpg",
+   "cosine": 0.9194,
+   "same_label": false
+  },
+  {
+   "file": "0145.jpg",
+   "nearest_train": "Bronzed_Cowbird_0001_2660673621.jpg",
+   "cosine": 0.9228,
+   "same_label": true
+  },
+  {
+   "file": "0146.jpg",
+   "nearest_train": "American_Crow_0019_2863695170.jpg",
+   "cosine": 0.9244,
+   "same_label": false
+  },
+  {
+   "file": "0147.jpg",
+   "nearest_train": "Shiny_Cowbird_0016_426558149.jpg",
+   "cosine": 0.988,
+   "same_label": true
+  },
+  {
+   "file": "0148.jpg",
+   "nearest_train": "Cape_Glossy_Starling_0017_256745870.jpg",
+   "cosine": 0.9247,
+   "same_label": false
+  },
+  {
+   "file": "0149.jpg",
+   "nearest_train": "Cape_Glossy_Starling_0004_2970296856.jpg",
+   "cosine": 0.9307,
+   "same_label": false
+  },
+  {
+   "file": "0150.jpg",
+   "nearest_train": "Shiny_Cowbird_0019_2901038899.jpg",
+   "cosine": 0.9703,
+   "same_label": true
+  },
+  {
+   "file": "0151.jpg",
+   "nearest_train": "Cape_Glossy_Starling_0020_2500538955.jpg",
+   "cosine": 0.9213,
+   "same_label": false
+  },
+  {
+   "file": "0152.jpg",
+   "nearest_train": "Brown_Creeper_0007_2403872606.jpg",
+   "cosine": 0.9674,
+   "same_label": true
+  },
+  {
+   "file": "0153.jpg",
+   "nearest_train": "Brown_Creeper_0006_2410485405.jpg",
+   "cosine": 0.9492,
+   "same_label": true
+  },
+  {
+   "file": "0154.jpg",
+   "nearest_train": "Brown_Creeper_0007_2403872606.jpg",
+   "cosine": 0.9555,
+   "same_label": true
+  },
+  {
+   "file": "0155.jpg",
+   "nearest_train": "Brown_Creeper_0010_38011241.jpg",
+   "cosine": 0.8912,
+   "same_label": true
+  },
+  {
+   "file": "0156.jpg",
+   "nearest_train": "Brown_Creeper_0019_2410481067.jpg",
+   "cosine": 0.9407,
+   "same_label": true
+  },
+  {
+   "file": "0157.jpg",
+   "nearest_train": "Brown_Creeper_0029_2202868648.jpg",
+   "cosine": 0.9205,
+   "same_label": true
+  },
+  {
+   "file": "0158.jpg",
+   "nearest_train": "Brown_Creeper_0009_2125321569.jpg",
+   "cosine": 0.8556,
+   "same_label": true
+  },
+  {
+   "file": "0159.jpg",
+   "nearest_train": "Rose_breasted_Grosbeak_0004_477762455.jpg",
+   "cosine": 0.8383,
+   "same_label": false
+  },
+  {
+   "file": "0160.jpg",
+   "nearest_train": "Fish_Crow_0001_485408347.jpg",
+   "cosine": 0.916,
+   "same_label": false
+  },
+  {
+   "file": "0161.jpg",
+   "nearest_train": "American_Crow_0024_2618947526.jpg",
+   "cosine": 0.9043,
+   "same_label": true
+  },
+  {
+   "file": "0162.jpg",
+   "nearest_train": "Common_Raven_0006_268818212.jpg",
+   "cosine": 0.9296,
+   "same_label": false
+  },
+  {
+   "file": "0163.jpg",
+   "nearest_train": "Common_Raven_0017_1428576500.jpg",
+   "cosine": 0.91,
+   "same_label": false
+  },
+  {
+   "file": "0164.jpg",
+   "nearest_train": "Pigeon_Guillemot_0012_2687292024.jpg",
+   "cosine": 0.8286,
+   "same_label": false
+  },
+  {
+   "file": "0165.jpg",
+   "nearest_train": "Fish_Crow_0016_2061064881.jpg",
+   "cosine": 0.9532,
+   "same_label": true
+  },
+  {
+   "file": "0166.jpg",
+   "nearest_train": "Red_winged_Blackbird_0006_2376861574.jpg",
+   "cosine": 0.9285,
+   "same_label": false
+  },
+  {
+   "file": "0167.jpg",
+   "nearest_train": "Fish_Crow_0013_2061065583.jpg",
+   "cosine": 0.9681,
+   "same_label": true
+  },
+  {
+   "file": "0168.jpg",
+   "nearest_train": "American_Crow_0006_2179902676.jpg",
+   "cosine": 0.8693,
+   "same_label": false
+  },
+  {
+   "file": "0169.jpg",
+   "nearest_train": "Fish_Crow_0016_2061064881.jpg",
+   "cosine": 0.9892,
+   "same_label": true
+  },
+  {
+   "file": "0170.jpg",
+   "nearest_train": "Black_billed_Cuckoo_0033_2598832589.jpg",
+   "cosine": 0.9818,
+   "same_label": true
+  },
+  {
+   "file": "0171.jpg",
+   "nearest_train": "Black_billed_Cuckoo_0022_488730277.jpg",
+   "cosine": 0.9698,
+   "same_label": true
+  },
+  {
+   "file": "0172.jpg",
+   "nearest_train": "Black_billed_Cuckoo_0015_xxx.jpg",
+   "cosine": 0.911,
+   "same_label": true
+  },
+  {
+   "file": "0173.jpg",
+   "nearest_train": "Great_Crested_Flycatcher_0012_2542508476.jpg",
+   "cosine": 0.9246,
+   "same_label": false
+  },
+  {
+   "file": "0174.jpg",
+   "nearest_train": "Bobolink_0015_2690957827.jpg",
+   "cosine": 0.8103,
+   "same_label": false
+  },
+  {
+   "file": "0175.jpg",
+   "nearest_train": "Black_billed_Cuckoo_0033_2598832589.jpg",
+   "cosine": 0.9771,
+   "same_label": true
+  },
+  {
+   "file": "0176.jpg",
+   "nearest_train": "Black_billed_Cuckoo_0033_2598832589.jpg",
+   "cosine": 0.9759,
+   "same_label": true
+  },
+  {
+   "file": "0177.jpg",
+   "nearest_train": "Mangrove_Cuckoo_0012_2191613879.jpg",
+   "cosine": 0.973,
+   "same_label": true
+  },
+  {
+   "file": "0178.jpg",
+   "nearest_train": "Black_billed_Cuckoo_0003_2547137172.jpg",
+   "cosine": 0.8618,
+   "same_label": false
+  },
+  {
+   "file": "0179.jpg",
+   "nearest_train": "Canada_Warbler_0015_2693135953.jpg",
+   "cosine": 0.8237,
+   "same_label": false
+  },
+  {
+   "file": "0180.jpg",
+   "nearest_train": "Mangrove_Cuckoo_0020_2499071203.jpg",
+   "cosine": 0.8364,
+   "same_label": true
+  },
+  {
+   "file": "0181.jpg",
+   "nearest_train": "Mangrove_Cuckoo_0001_2409239098.jpg",
+   "cosine": 0.8971,
+   "same_label": true
+  },
+  {
+   "file": "0182.jpg",
+   "nearest_train": "Mangrove_Cuckoo_0016_503642495.jpg",
+   "cosine": 0.9553,
+   "same_label": true
+  },
+  {
+   "file": "0183.jpg",
+   "nearest_train": "Yellow_billed_Cuckoo_0002_1506924158.jpg",
+   "cosine": 0.9154,
+   "same_label": true
+  },
+  {
+   "file": "0184.jpg",
+   "nearest_train": "Red_cockaded_Woodpecker_0021_2341905802.jpg",
+   "cosine": 0.9223,
+   "same_label": false
+  },
+  {
+   "file": "0185.jpg",
+   "nearest_train": "Orchard_Oriole_0028_2481603085.jpg",
+   "cosine": 0.9078,
+   "same_label": false
+  },
+  {
+   "file": "0186.jpg",
+   "nearest_train": "Golden_winged_Warbler_0018_2507666617.jpg",
+   "cosine": 0.9179,
+   "same_label": false
+  },
+  {
+   "file": "0187.jpg",
+   "nearest_train": "Orchard_Oriole_0006_2527242917.jpg",
+   "cosine": 0.9009,
+   "same_label": false
+  },
+  {
+   "file": "0188.jpg",
+   "nearest_train": "Black_billed_Cuckoo_0013_53594671.jpg",
+   "cosine": 0.8385,
+   "same_label": false
+  },
+  {
+   "file": "0189.jpg",
+   "nearest_train": "Acadian_Flycatcher_0026_2511706172.jpg",
+   "cosine": 0.9322,
+   "same_label": false
+  },
+  {
+   "file": "0190.jpg",
+   "nearest_train": "Green_tailed_Towhee_0007_200535228.jpg",
+   "cosine": 0.8957,
+   "same_label": false
+  },
+  {
+   "file": "0191.jpg",
+   "nearest_train": "Savannah_Sparrow_0002_358158578.jpg",
+   "cosine": 0.7865,
+   "same_label": false
+  },
+  {
+   "file": "0192.jpg",
+   "nearest_train": "Common_Raven_0025_2872812106.jpg",
+   "cosine": 0.8615,
+   "same_label": false
+  },
+  {
+   "file": "0193.jpg",
+   "nearest_train": "Cape_May_Warbler_0035_2508656935.jpg",
+   "cosine": 0.8777,
+   "same_label": false
+  },
+  {
+   "file": "0194.jpg",
+   "nearest_train": "Fish_Crow_0025_2473090722.jpg",
+   "cosine": 0.8886,
+   "same_label": false
+  },
+  {
+   "file": "0195.jpg",
+   "nearest_train": "American_Goldfinch_0021_701242959.jpg",
+   "cosine": 0.94,
+   "same_label": false
+  },
+  {
+   "file": "0196.jpg",
+   "nearest_train": "Green_tailed_Towhee_0013_184430669.jpg",
+   "cosine": 0.8774,
+   "same_label": false
+  },
+  {
+   "file": "0197.jpg",
+   "nearest_train": "American_Goldfinch_0013_146872871.jpg",
+   "cosine": 1.0,
+   "same_label": false
+  },
+  {
+   "file": "0198.jpg",
+   "nearest_train": "Myrtle_Warbler_0015_280820949.jpg",
+   "cosine": 0.898,
+   "same_label": false
+  },
+  {
+   "file": "0199.jpg",
+   "nearest_train": "Pine_Warbler_0015_448528089.jpg",
+   "cosine": 0.9057,
+   "same_label": false
+  },
+  {
+   "file": "0200.jpg",
+   "nearest_train": "Northern_Waterthrush_0019_2266599292.jpg",
+   "cosine": 0.8802,
+   "same_label": false
+  },
+  {
+   "file": "0201.jpg",
+   "nearest_train": "Gray_Catbird_0005_174010311.jpg",
+   "cosine": 0.9105,
+   "same_label": false
+  },
+  {
+   "file": "0202.jpg",
+   "nearest_train": "Bobolink_0019_2509438067.jpg",
+   "cosine": 0.8376,
+   "same_label": false
+  },
+  {
+   "file": "0203.jpg",
+   "nearest_train": "Green_Jay_0009_2275212527.jpg",
+   "cosine": 0.7482,
+   "same_label": false
+  },
+  {
+   "file": "0204.jpg",
+   "nearest_train": "Nighthawk_0003_2682269691.jpg",
+   "cosine": 0.8166,
+   "same_label": false
+  },
+  {
+   "file": "0205.jpg",
+   "nearest_train": "Northern_Flicker_0004_3048325708.jpg",
+   "cosine": 0.921,
+   "same_label": true
+  },
+  {
+   "file": "0206.jpg",
+   "nearest_train": "Northern_Flicker_0011_2275747264.jpg",
+   "cosine": 0.8512,
+   "same_label": true
+  },
+  {
+   "file": "0207.jpg",
+   "nearest_train": "Northern_Flicker_0010_439155053.jpg",
+   "cosine": 0.9652,
+   "same_label": true
+  },
+  {
+   "file": "0208.jpg",
+   "nearest_train": "Northern_Flicker_0037_2984672383.jpg",
+   "cosine": 0.8323,
+   "same_label": true
+  },
+  {
+   "file": "0209.jpg",
+   "nearest_train": "Acadian_Flycatcher_0029_xxx.jpg",
+   "cosine": 0.899,
+   "same_label": true
+  },
+  {
+   "file": "0210.jpg",
+   "nearest_train": "Black_and_white_Warbler_0016_532383488.jpg",
+   "cosine": 0.9444,
+   "same_label": false
+  },
+  {
+   "file": "0211.jpg",
+   "nearest_train": "Acadian_Flycatcher_0034_887558546.jpg",
+   "cosine": 0.9943,
+   "same_label": true
+  },
+  {
+   "file": "0212.jpg",
+   "nearest_train": "Least_Flycatcher_0024_162865430.jpg",
+   "cosine": 0.9331,
+   "same_label": false
+  },
+  {
+   "file": "0213.jpg",
+   "nearest_train": "Acadian_Flycatcher_0035_886796969.jpg",
+   "cosine": 0.9804,
+   "same_label": true
+  },
+  {
+   "file": "0214.jpg",
+   "nearest_train": "Marsh_Wren_0010_2999206139.jpg",
+   "cosine": 0.9009,
+   "same_label": false
+  },
+  {
+   "file": "0215.jpg",
+   "nearest_train": "Acadian_Flycatcher_0016_887710060.jpg",
+   "cosine": 0.9832,
+   "same_label": true
+  },
+  {
+   "file": "0216.jpg",
+   "nearest_train": "Pine_Warbler_0012_465327172.jpg",
+   "cosine": 0.9319,
+   "same_label": false
+  },
+  {
+   "file": "0217.jpg",
+   "nearest_train": "Great_Crested_Flycatcher_0027_2538117932.jpg",
+   "cosine": 0.9379,
+   "same_label": true
+  },
+  {
+   "file": "0218.jpg",
+   "nearest_train": "Palm_Warbler_0018_1465181028.jpg",
+   "cosine": 0.9148,
+   "same_label": false
+  },
+  {
+   "file": "0219.jpg",
+   "nearest_train": "Yellow_bellied_Flycatcher_0019_2512005305.jpg",
+   "cosine": 0.9372,
+   "same_label": false
+  },
+  {
+   "file": "0220.jpg",
+   "nearest_train": "Great_Crested_Flycatcher_0007_2623102305.jpg",
+   "cosine": 0.9694,
+   "same_label": true
+  },
+  {
+   "file": "0221.jpg",
+   "nearest_train": "Field_Sparrow_0009_2687291480.jpg",
+   "cosine": 0.8882,
+   "same_label": false
+  },
+  {
+   "file": "0222.jpg",
+   "nearest_train": "Yellow_billed_Cuckoo_0023_249152383.jpg",
+   "cosine": 0.9278,
+   "same_label": false
+  },
+  {
+   "file": "0223.jpg",
+   "nearest_train": "White_eyed_Vireo_0009_2471638203.jpg",
+   "cosine": 0.9469,
+   "same_label": false
+  },
+  {
+   "file": "0224.jpg",
+   "nearest_train": "Least_Flycatcher_0001_2763157112.jpg",
+   "cosine": 0.9922,
+   "same_label": true
+  },
+  {
+   "file": "0225.jpg",
+   "nearest_train": "White_eyed_Vireo_0014_163976129.jpg",
+   "cosine": 0.9503,
+   "same_label": false
+  },
+  {
+   "file": "0226.jpg",
+   "nearest_train": "Least_Flycatcher_0028_2519930816.jpg",
+   "cosine": 0.9479,
+   "same_label": true
+  },
+  {
+   "file": "0227.jpg",
+   "nearest_train": "Acadian_Flycatcher_0027_2701321003.jpg",
+   "cosine": 0.9411,
+   "same_label": false
+  },
+  {
+   "file": "0228.jpg",
+   "nearest_train": "White_eyed_Vireo_0014_163976129.jpg",
+   "cosine": 0.913,
+   "same_label": false
+  },
+  {
+   "file": "0229.jpg",
+   "nearest_train": "White_crowned_Sparrow_0021_xxx.jpg",
+   "cosine": 0.9012,
+   "same_label": false
+  },
+  {
+   "file": "0230.jpg",
+   "nearest_train": "Sayornis_0007_2938190089.jpg",
+   "cosine": 0.9286,
+   "same_label": false
+  },
+  {
+   "file": "0231.jpg",
+   "nearest_train": "Bewick_Wren_0018_305351820.jpg",
+   "cosine": 0.941,
+   "same_label": false
+  },
+  {
+   "file": "0232.jpg",
+   "nearest_train": "Blue_headed_Vireo_0034_2691472948.jpg",
+   "cosine": 0.9195,
+   "same_label": false
+  },
+  {
+   "file": "0233.jpg",
+   "nearest_train": "Olive_sided_Flycatcher_0022_2764858421.jpg",
+   "cosine": 0.9266,
+   "same_label": true
+  },
+  {
+   "file": "0234.jpg",
+   "nearest_train": "Gray_Catbird_0018_2539643175.jpg",
+   "cosine": 0.9305,
+   "same_label": false
+  },
+  {
+   "file": "0235.jpg",
+   "nearest_train": "Scissor_tailed_Flycatcher_0021_214737126.jpg",
+   "cosine": 0.8852,
+   "same_label": true
+  },
+  {
+   "file": "0236.jpg",
+   "nearest_train": "Vermilion_Flycatcher_0002_2801919792.jpg",
+   "cosine": 0.9283,
+   "same_label": false
+  },
+  {
+   "file": "0237.jpg",
+   "nearest_train": "Song_Sparrow_0006_2075202921.jpg",
+   "cosine": 0.888,
+   "same_label": false
+  },
+  {
+   "file": "0238.jpg",
+   "nearest_train": "Scissor_tailed_Flycatcher_0012_536235427.jpg",
+   "cosine": 0.9564,
+   "same_label": true
+  },
+  {
+   "file": "0239.jpg",
+   "nearest_train": "Western_Meadowlark_0028_2980525131.jpg",
+   "cosine": 0.9108,
+   "same_label": false
+  },
+  {
+   "file": "0240.jpg",
+   "nearest_train": "Scissor_tailed_Flycatcher_0016_2900317051.jpg",
+   "cosine": 0.9666,
+   "same_label": true
+  },
+  {
+   "file": "0241.jpg",
+   "nearest_train": "Tree_Swallow_0020_155617388.jpg",
+   "cosine": 0.9413,
+   "same_label": false
+  },
+  {
+   "file": "0242.jpg",
+   "nearest_train": "Cardinal_0002_2981916350.jpg",
+   "cosine": 0.9095,
+   "same_label": false
+  },
+  {
+   "file": "0243.jpg",
+   "nearest_train": "Vermilion_Flycatcher_0019_2848875652.jpg",
+   "cosine": 0.984,
+   "same_label": true
+  },
+  {
+   "file": "0244.jpg",
+   "nearest_train": "Western_Wood_Pewee_0011_2238182192.jpg",
+   "cosine": 0.9605,
+   "same_label": false
+  },
+  {
+   "file": "0245.jpg",
+   "nearest_train": "Black_billed_Cuckoo_0035_2599662686.jpg",
+   "cosine": 0.9083,
+   "same_label": false
+  },
+  {
+   "file": "0246.jpg",
+   "nearest_train": "Olive_sided_Flycatcher_0029_131576131.jpg",
+   "cosine": 0.9455,
+   "same_label": false
+  },
+  {
+   "file": "0247.jpg",
+   "nearest_train": "Yellow_bellied_Flycatcher_0013_2838154470.jpg",
+   "cosine": 0.9928,
+   "same_label": true
+  },
+  {
+   "file": "0248.jpg",
+   "nearest_train": "Acadian_Flycatcher_0026_2511706172.jpg",
+   "cosine": 0.95,
+   "same_label": false
+  },
+  {
+   "file": "0249.jpg",
+   "nearest_train": "Black_capped_Vireo_0001_xxx.jpg",
+   "cosine": 0.9188,
+   "same_label": false
+  },
+  {
+   "file": "0250.jpg",
+   "nearest_train": "Prothonotary_Warbler_0025_716213749.jpg",
+   "cosine": 0.9404,
+   "same_label": false
+  },
+  {
+   "file": "0251.jpg",
+   "nearest_train": "Bay_breasted_Warbler_0030_2465487083.jpg",
+   "cosine": 0.9164,
+   "same_label": false
+  },
+  {
+   "file": "0252.jpg",
+   "nearest_train": "Blue_headed_Vireo_0017_2846234840.jpg",
+   "cosine": 0.954,
+   "same_label": false
+  },
+  {
+   "file": "0253.jpg",
+   "nearest_train": "Yellow_bellied_Flycatcher_0029_251781264.jpg",
+   "cosine": 0.8164,
+   "same_label": true
+  },
+  {
+   "file": "0254.jpg",
+   "nearest_train": "Brandt_Cormorant_0011_2205747286.jpg",
+   "cosine": 0.9284,
+   "same_label": false
+  },
+  {
+   "file": "0255.jpg",
+   "nearest_train": "Frigatebird_0012_331403867.jpg",
+   "cosine": 0.8197,
+   "same_label": true
+  },
+  {
+   "file": "0256.jpg",
+   "nearest_train": "Frigatebird_0003_1478659470.jpg",
+   "cosine": 0.9318,
+   "same_label": true
+  },
+  {
+   "file": "0257.jpg",
+   "nearest_train": "Bewick_Wren_0022_3048441336.jpg",
+   "cosine": 0.6868,
+   "same_label": false
+  },
+  {
+   "file": "0258.jpg",
+   "nearest_train": "Parakeet_Auklet_0025_1316312479.jpg",
+   "cosine": 0.8746,
+   "same_label": false
+  },
+  {
+   "file": "0259.jpg",
+   "nearest_train": "Northern_Fulmar_0007_2517464695.jpg",
+   "cosine": 0.9597,
+   "same_label": true
+  },
+  {
+   "file": "0260.jpg",
+   "nearest_train": "Parakeet_Auklet_0015_2690119694.jpg",
+   "cosine": 0.9043,
+   "same_label": false
+  },
+  {
+   "file": "0261.jpg",
+   "nearest_train": "Northern_Fulmar_0026_413770047.jpg",
+   "cosine": 0.8936,
+   "same_label": true
+  },
+  {
+   "file": "0262.jpg",
+   "nearest_train": "Northern_Fulmar_0009_2220079159.jpg",
+   "cosine": 0.977,
+   "same_label": true
+  },
+  {
+   "file": "0263.jpg",
+   "nearest_train": "Parakeet_Auklet_0009_2598577739.jpg",
+   "cosine": 0.8866,
+   "same_label": false
+  },
+  {
+   "file": "0264.jpg",
+   "nearest_train": "Gadwall_0031_231312401.jpg",
+   "cosine": 0.9544,
+   "same_label": true
+  },
+  {
+   "file": "0265.jpg",
+   "nearest_train": "Gadwall_0021_2300228630.jpg",
+   "cosine": 0.9399,
+   "same_label": true
+  },
+  {
+   "file": "0266.jpg",
+   "nearest_train": "Pied_billed_Grebe_0012_2388057959.jpg",
+   "cosine": 0.9066,
+   "same_label": false
+  },
+  {
+   "file": "0267.jpg",
+   "nearest_train": "Gadwall_0018_2557057347.jpg",
+   "cosine": 0.9162,
+   "same_label": true
+  },
+  {
+   "file": "0268.jpg",
+   "nearest_train": "Hooded_Merganser_0017_374902987.jpg",
+   "cosine": 0.8654,
+   "same_label": false
+  },
+  {
+   "file": "0269.jpg",
+   "nearest_train": "Gadwall_0011_403017853.jpg",
+   "cosine": 0.9639,
+   "same_label": true
+  },
+  {
+   "file": "0270.jpg",
+   "nearest_train": "Gadwall_0021_2300228630.jpg",
+   "cosine": 0.9492,
+   "same_label": true
+  },
+  {
+   "file": "0271.jpg",
+   "nearest_train": "American_Goldfinch_0004_155617438.jpg",
+   "cosine": 0.911,
+   "same_label": true
+  },
+  {
+   "file": "0272.jpg",
+   "nearest_train": "American_Goldfinch_0015_455770809.jpg",
+   "cosine": 0.9501,
+   "same_label": true
+  },
+  {
+   "file": "0273.jpg",
+   "nearest_train": "Indigo_Bunting_0006_15376001.jpg",
+   "cosine": 1.0,
+   "same_label": false
+  },
+  {
+   "file": "0274.jpg",
+   "nearest_train": "Indigo_Bunting_0029_531831549.jpg",
+   "cosine": 0.8882,
+   "same_label": false
+  },
+  {
+   "file": "0275.jpg",
+   "nearest_train": "American_Goldfinch_0009_137253571.jpg",
+   "cosine": 0.9012,
+   "same_label": true
+  },
+  {
+   "file": "0276.jpg",
+   "nearest_train": "Bronzed_Cowbird_0023_2740056869.jpg",
+   "cosine": 0.7628,
+   "same_label": false
+  },
+  {
+   "file": "0277.jpg",
+   "nearest_train": "European_Goldfinch_0002_285947945.jpg",
+   "cosine": 0.9587,
+   "same_label": true
+  },
+  {
+   "file": "0278.jpg",
+   "nearest_train": "European_Goldfinch_0022_1891622914.jpg",
+   "cosine": 0.8816,
+   "same_label": true
+  },
+  {
+   "file": "0279.jpg",
+   "nearest_train": "European_Goldfinch_0012_2615756907.jpg",
+   "cosine": 0.9234,
+   "same_label": true
+  },
+  {
+   "file": "0280.jpg",
+   "nearest_train": "Yellow_breasted_Chat_0006_2532258030.jpg",
+   "cosine": 0.8947,
+   "same_label": false
+  },
+  {
+   "file": "0281.jpg",
+   "nearest_train": "Painted_Bunting_0005_xxx.jpg",
+   "cosine": 0.9353,
+   "same_label": false
+  },
+  {
+   "file": "0282.jpg",
+   "nearest_train": "European_Goldfinch_0007_2689891155.jpg",
+   "cosine": 0.9402,
+   "same_label": true
+  },
+  {
+   "file": "0283.jpg",
+   "nearest_train": "Clark_Nutcracker_0024_1224403936.jpg",
+   "cosine": 0.8999,
+   "same_label": false
+  },
+  {
+   "file": "0284.jpg",
+   "nearest_train": "Red_winged_Blackbird_0022_2179939448.jpg",
+   "cosine": 0.8994,
+   "same_label": false
+  },
+  {
+   "file": "0285.jpg",
+   "nearest_train": "Boat_tailed_Grackle_0020_2341546705.jpg",
+   "cosine": 0.9714,
+   "same_label": true
+  },
+  {
+   "file": "0286.jpg",
+   "nearest_train": "Geococcyx_0005_467915683.jpg",
+   "cosine": 0.8537,
+   "same_label": false
+  },
+  {
+   "file": "0287.jpg",
+   "nearest_train": "Cape_Glossy_Starling_0008_1423783258.jpg",
+   "cosine": 0.9161,
+   "same_label": false
+  },
+  {
+   "file": "0288.jpg",
+   "nearest_train": "Scissor_tailed_Flycatcher_0033_2182406758.jpg",
+   "cosine": 0.9586,
+   "same_label": false
+  },
+  {
+   "file": "0289.jpg",
+   "nearest_train": "Fish_Crow_0025_2473090722.jpg",
+   "cosine": 0.8878,
+   "same_label": false
+  },
+  {
+   "file": "0290.jpg",
+   "nearest_train": "Eared_Grebe_0020_xxx.jpg",
+   "cosine": 0.9613,
+   "same_label": true
+  },
+  {
+   "file": "0291.jpg",
+   "nearest_train": "Eared_Grebe_0001_2577734493.jpg",
+   "cosine": 0.9633,
+   "same_label": true
+  },
+  {
+   "file": "0292.jpg",
+   "nearest_train": "Pied_billed_Grebe_0002_153897739.jpg",
+   "cosine": 0.9249,
+   "same_label": false
+  },
+  {
+   "file": "0293.jpg",
+   "nearest_train": "Eared_Grebe_0031_447811060.jpg",
+   "cosine": 0.9503,
+   "same_label": true
+  },
+  {
+   "file": "0294.jpg",
+   "nearest_train": "Horned_Grebe_0012_2376500154.jpg",
+   "cosine": 0.9513,
+   "same_label": false
+  },
+  {
+   "file": "0295.jpg",
+   "nearest_train": "Eared_Grebe_0001_2577734493.jpg",
+   "cosine": 0.965,
+   "same_label": true
+  },
+  {
+   "file": "0296.jpg",
+   "nearest_train": "Eared_Grebe_0013_2356767322.jpg",
+   "cosine": 0.9629,
+   "same_label": true
+  },
+  {
+   "file": "0297.jpg",
+   "nearest_train": "Eared_Grebe_0022_2568688818.jpg",
+   "cosine": 0.9299,
+   "same_label": false
+  },
+  {
+   "file": "0298.jpg",
+   "nearest_train": "Horned_Grebe_0012_2376500154.jpg",
+   "cosine": 0.9537,
+   "same_label": true
+  },
+  {
+   "file": "0299.jpg",
+   "nearest_train": "Western_Grebe_0011_509040451.jpg",
+   "cosine": 0.9512,
+   "same_label": false
+  },
+  {
+   "file": "0300.jpg",
+   "nearest_train": "Western_Grebe_0034_805114294.jpg",
+   "cosine": 0.9486,
+   "same_label": false
+  },
+  {
+   "file": "0301.jpg",
+   "nearest_train": "Eared_Grebe_0006_510224634.jpg",
+   "cosine": 0.956,
+   "same_label": false
+  },
+  {
+   "file": "0302.jpg",
+   "nearest_train": "Eared_Grebe_0013_2356767322.jpg",
+   "cosine": 0.9731,
+   "same_label": false
+  },
+  {
+   "file": "0303.jpg",
+   "nearest_train": "Pied_billed_Grebe_0026_2159703847.jpg",
+   "cosine": 0.9193,
+   "same_label": true
+  },
+  {
+   "file": "0304.jpg",
+   "nearest_train": "Pied_billed_Grebe_0029_300538392.jpg",
+   "cosine": 0.9368,
+   "same_label": true
+  },
+  {
+   "file": "0305.jpg",
+   "nearest_train": "Pied_billed_Grebe_0019_397191117.jpg",
+   "cosine": 0.9162,
+   "same_label": true
+  },
+  {
+   "file": "0306.jpg",
+   "nearest_train": "Pacific_Loon_0005_2570818279.jpg",
+   "cosine": 0.9294,
+   "same_label": false
+  },
+  {
+   "file": "0307.jpg",
+   "nearest_train": "Pied_billed_Grebe_0020_397191373.jpg",
+   "cosine": 0.9473,
+   "same_label": true
+  },
+  {
+   "file": "0308.jpg",
+   "nearest_train": "Western_Grebe_0006_2855115391.jpg",
+   "cosine": 0.9296,
+   "same_label": false
+  },
+  {
+   "file": "0309.jpg",
+   "nearest_train": "Western_Grebe_0014_462492742.jpg",
+   "cosine": 0.955,
+   "same_label": true
+  },
+  {
+   "file": "0310.jpg",
+   "nearest_train": "Western_Grebe_0034_805114294.jpg",
+   "cosine": 0.9391,
+   "same_label": true
+  },
+  {
+   "file": "0311.jpg",
+   "nearest_train": "Western_Grebe_0011_509040451.jpg",
+   "cosine": 0.936,
+   "same_label": true
+  },
+  {
+   "file": "0312.jpg",
+   "nearest_train": "Western_Grebe_0004_327625607.jpg",
+   "cosine": 0.9759,
+   "same_label": true
+  },
+  {
+   "file": "0313.jpg",
+   "nearest_train": "Western_Grebe_0033_2639947297.jpg",
+   "cosine": 0.9817,
+   "same_label": true
+  },
+  {
+   "file": "0314.jpg",
+   "nearest_train": "Pied_billed_Grebe_0002_153897739.jpg",
+   "cosine": 0.928,
+   "same_label": false
+  },
+  {
+   "file": "0315.jpg",
+   "nearest_train": "Western_Grebe_0020_509040909.jpg",
+   "cosine": 0.9839,
+   "same_label": true
+  },
+  {
+   "file": "0316.jpg",
+   "nearest_train": "Blue_Grosbeak_0028_2450029205.jpg",
+   "cosine": 0.9973,
+   "same_label": true
+  },
+  {
+   "file": "0317.jpg",
+   "nearest_train": "Philadelphia_Vireo_0008_2536401505.jpg",
+   "cosine": 0.9188,
+   "same_label": false
+  },
+  {
+   "file": "0318.jpg",
+   "nearest_train": "Scissor_tailed_Flycatcher_0008_466355443.jpg",
+   "cosine": 0.9174,
+   "same_label": false
+  },
+  {
+   "file": "0319.jpg",
+   "nearest_train": "Green_tailed_Towhee_0024_2660589322.jpg",
+   "cosine": 0.909,
+   "same_label": false
+  },
+  {
+   "file": "0320.jpg",
+   "nearest_train": "Evening_Grosbeak_0021_2655045152.jpg",
+   "cosine": 0.8831,
+   "same_label": false
+  },
+  {
+   "file": "0321.jpg",
+   "nearest_train": "Blue_Grosbeak_0013_2426885014.jpg",
+   "cosine": 0.996,
+   "same_label": true
+  },
+  {
+   "file": "0322.jpg",
+   "nearest_train": "Blue_headed_Vireo_0018_2524368586.jpg",
+   "cosine": 0.9245,
+   "same_label": false
+  },
+  {
+   "file": "0323.jpg",
+   "nearest_train": "Painted_Bunting_0001_480106659.jpg",
+   "cosine": 0.8924,
+   "same_label": false
+  },
+  {
+   "file": "0324.jpg",
+   "nearest_train": "Purple_Finch_0031_2414086362.jpg",
+   "cosine": 0.9118,
+   "same_label": false
+  },
+  {
+   "file": "0325.jpg",
+   "nearest_train": "Evening_Grosbeak_0017_2413927428.jpg",
+   "cosine": 0.9641,
+   "same_label": true
+  },
+  {
+   "file": "0326.jpg",
+   "nearest_train": "Tropical_Kingbird_0011_2032071341.jpg",
+   "cosine": 0.907,
+   "same_label": false
+  },
+  {
+   "file": "0327.jpg",
+   "nearest_train": "Pine_Grosbeak_0020_2169830366.jpg",
+   "cosine": 0.9588,
+   "same_label": true
+  },
+  {
+   "file": "0328.jpg",
+   "nearest_train": "White_eyed_Vireo_0032_2439903710.jpg",
+   "cosine": 0.8914,
+   "same_label": false
+  },
+  {
+   "file": "0329.jpg",
+   "nearest_train": "White_crowned_Sparrow_0008_2229271003.jpg",
+   "cosine": 0.9234,
+   "same_label": false
+  },
+  {
+   "file": "0330.jpg",
+   "nearest_train": "Rusty_Blackbird_0020_2505459830.jpg",
+   "cosine": 0.9195,
+   "same_label": false
+  },
+  {
+   "file": "0331.jpg",
+   "nearest_train": "Rose_breasted_Grosbeak_0021_2488178004.jpg",
+   "cosine": 0.9501,
+   "same_label": true
+  },
+  {
+   "file": "0332.jpg",
+   "nearest_train": "Rose_breasted_Grosbeak_0011_2495100097.jpg",
+   "cosine": 0.943,
+   "same_label": true
+  },
+  {
+   "file": "0333.jpg",
+   "nearest_train": "Yellow_throated_Vireo_0024_141589030.jpg",
+   "cosine": 0.9435,
+   "same_label": false
+  },
+  {
+   "file": "0334.jpg",
+   "nearest_train": "Orchard_Oriole_0004_866922334.jpg",
+   "cosine": 0.8324,
+   "same_label": false
+  },
+  {
+   "file": "0335.jpg",
+   "nearest_train": "Eared_Grebe_0034_2675888191.jpg",
+   "cosine": 0.9209,
+   "same_label": false
+  },
+  {
+   "file": "0336.jpg",
+   "nearest_train": "Rhinoceros_Auklet_0012_2281384724.jpg",
+   "cosine": 0.9184,
+   "same_label": false
+  },
+  {
+   "file": "0337.jpg",
+   "nearest_train": "Pigeon_Guillemot_0023_915489249.jpg",
+   "cosine": 0.965,
+   "same_label": true
+  },
+  {
+   "file": "0338.jpg",
+   "nearest_train": "Pigeon_Guillemot_0017_2680477469.jpg",
+   "cosine": 0.9834,
+   "same_label": true
+  },
+  {
+   "file": "0339.jpg",
+   "nearest_train": "Groove_billed_Ani_0015_2292516990.jpg",
+   "cosine": 0.821,
+   "same_label": false
+  },
+  {
+   "file": "0340.jpg",
+   "nearest_train": "Ring_billed_Gull_0025_108118557.jpg",
+   "cosine": 0.9461,
+   "same_label": false
+  },
+  {
+   "file": "0341.jpg",
+   "nearest_train": "Heermann_Gull_0020_2112333012.jpg",
+   "cosine": 0.951,
+   "same_label": false
+  },
+  {
+   "file": "0342.jpg",
+   "nearest_train": "Slaty_backed_Gull_0015_2148179304.jpg",
+   "cosine": 0.9097,
+   "same_label": false
+  },
+  {
+   "file": "0343.jpg",
+   "nearest_train": "California_Gull_0011_535816920.jpg",
+   "cosine": 0.9136,
+   "same_label": true
+  },
+  {
+   "file": "0344.jpg",
+   "nearest_train": "Ring_billed_Gull_0009_65367548.jpg",
+   "cosine": 0.907,
+   "same_label": false
+  },
+  {
+   "file": "0345.jpg",
+   "nearest_train": "Glaucous_winged_Gull_0015_3033311344.jpg",
+   "cosine": 0.9623,
+   "same_label": true
+  },
+  {
+   "file": "0346.jpg",
+   "nearest_train": "Heermann_Gull_0027_2681146971.jpg",
+   "cosine": 0.9053,
+   "same_label": false
+  },
+  {
+   "file": "0347.jpg",
+   "nearest_train": "Glaucous_winged_Gull_0026_47325326.jpg",
+   "cosine": 0.9075,
+   "same_label": true
+  },
+  {
+   "file": "0348.jpg",
+   "nearest_train": "Western_Gull_0014_1297593863.jpg",
+   "cosine": 0.9312,
+   "same_label": false
+  },
+  {
+   "file": "0349.jpg",
+   "nearest_train": "Artic_Tern_0003_2572547634.jpg",
+   "cosine": 0.8559,
+   "same_label": false
+  },
+  {
+   "file": "0350.jpg",
+   "nearest_train": "Horned_Grebe_0023_2532589196.jpg",
+   "cosine": 0.8968,
+   "same_label": false
+  },
+  {
+   "file": "0351.jpg",
+   "nearest_train": "Herring_Gull_0013_2865280712.jpg",
+   "cosine": 0.9196,
+   "same_label": false
+  },
+  {
+   "file": "0352.jpg",
+   "nearest_train": "Western_Grebe_0016_2844327149.jpg",
+   "cosine": 0.8927,
+   "same_label": false
+  },
+  {
+   "file": "0353.jpg",
+   "nearest_train": "Long_tailed_Jaeger_0003_2181661942.jpg",
+   "cosine": 0.9351,
+   "same_label": false
+  },
+  {
+   "file": "0354.jpg",
+   "nearest_train": "Western_Gull_0011_1297593869.jpg",
+   "cosine": 0.8806,
+   "same_label": false
+  },
+  {
+   "file": "0355.jpg",
+   "nearest_train": "Heermann_Gull_0007_2672268735.jpg",
+   "cosine": 0.8812,
+   "same_label": true
+  },
+  {
+   "file": "0356.jpg",
+   "nearest_train": "Ring_billed_Gull_0025_108118557.jpg",
+   "cosine": 0.9288,
+   "same_label": false
+  },
+  {
+   "file": "0357.jpg",
+   "nearest_train": "California_Gull_0019_345031999.jpg",
+   "cosine": 0.897,
+   "same_label": false
+  },
+  {
+   "file": "0358.jpg",
+   "nearest_train": "Caspian_Tern_0020_880811651.jpg",
+   "cosine": 0.9149,
+   "same_label": false
+  },
+  {
+   "file": "0359.jpg",
+   "nearest_train": "Ring_billed_Gull_0013_317848120.jpg",
+   "cosine": 0.9025,
+   "same_label": false
+  },
+  {
+   "file": "0360.jpg",
+   "nearest_train": "Herring_Gull_0008_2552613807.jpg",
+   "cosine": 0.9543,
+   "same_label": true
+  },
+  {
+   "file": "0361.jpg",
+   "nearest_train": "Herring_Gull_0006_311655423.jpg",
+   "cosine": 0.8715,
+   "same_label": true
+  },
+  {
+   "file": "0362.jpg",
+   "nearest_train": "Ivory_Gull_0004_3085159644.jpg",
+   "cosine": 0.7884,
+   "same_label": true
+  },
+  {
+   "file": "0363.jpg",
+   "nearest_train": "Ring_billed_Gull_0013_317848120.jpg",
+   "cosine": 0.8341,
+   "same_label": false
+  },
+  {
+   "file": "0364.jpg",
+   "nearest_train": "Ivory_Gull_0019_xxx.jpg",
+   "cosine": 0.9405,
+   "same_label": true
+  },
+  {
+   "file": "0365.jpg",
+   "nearest_train": "Slaty_backed_Gull_0025_2255271967.jpg",
+   "cosine": 0.8565,
+   "same_label": false
+  },
+  {
+   "file": "0366.jpg",
+   "nearest_train": "Ring_billed_Gull_0005_2324548098.jpg",
+   "cosine": 0.9309,
+   "same_label": true
+  },
+  {
+   "file": "0367.jpg",
+   "nearest_train": "Heermann_Gull_0002_191127454.jpg",
+   "cosine": 0.8493,
+   "same_label": false
+  },
+  {
+   "file": "0368.jpg",
+   "nearest_train": "Herring_Gull_0008_2552613807.jpg",
+   "cosine": 0.9435,
+   "same_label": false
+  },
+  {
+   "file": "0369.jpg",
+   "nearest_train": "California_Gull_0022_2165283064.jpg",
+   "cosine": 0.9301,
+   "same_label": false
+  },
+  {
+   "file": "0370.jpg",
+   "nearest_train": "Herring_Gull_0013_2865280712.jpg",
+   "cosine": 0.9308,
+   "same_label": false
+  },
+  {
+   "file": "0371.jpg",
+   "nearest_train": "Slaty_backed_Gull_0013_339282861.jpg",
+   "cosine": 0.9272,
+   "same_label": true
+  },
+  {
+   "file": "0372.jpg",
+   "nearest_train": "Glaucous_winged_Gull_0007_2815843807.jpg",
+   "cosine": 0.8041,
+   "same_label": false
+  },
+  {
+   "file": "0373.jpg",
+   "nearest_train": "Slaty_backed_Gull_0031_2832465990.jpg",
+   "cosine": 0.9233,
+   "same_label": true
+  },
+  {
+   "file": "0374.jpg",
+   "nearest_train": "Slaty_backed_Gull_0031_2832465990.jpg",
+   "cosine": 0.9223,
+   "same_label": true
+  },
+  {
+   "file": "0375.jpg",
+   "nearest_train": "Forsters_Tern_0022_2816515926.jpg",
+   "cosine": 0.8884,
+   "same_label": false
+  },
+  {
+   "file": "0376.jpg",
+   "nearest_train": "Slaty_backed_Gull_0015_2148179304.jpg",
+   "cosine": 0.977,
+   "same_label": true
+  },
+  {
+   "file": "0377.jpg",
+   "nearest_train": "Western_Gull_0013_1659402977.jpg",
+   "cosine": 0.9375,
+   "same_label": true
+  },
+  {
+   "file": "0378.jpg",
+   "nearest_train": "Pigeon_Guillemot_0018_2681949178.jpg",
+   "cosine": 0.8494,
+   "same_label": false
+  },
+  {
+   "file": "0379.jpg",
+   "nearest_train": "Crested_Auklet_0019_2576628433.jpg",
+   "cosine": 0.8765,
+   "same_label": false
+  },
+  {
+   "file": "0380.jpg",
+   "nearest_train": "Laysan_Albatross_0026_2443209541.jpg",
+   "cosine": 0.7429,
+   "same_label": false
+  },
+  {
+   "file": "0381.jpg",
+   "nearest_train": "California_Gull_0001_1507593116.jpg",
+   "cosine": 0.9304,
+   "same_label": false
+  },
+  {
+   "file": "0382.jpg",
+   "nearest_train": "Ring_billed_Gull_0013_317848120.jpg",
+   "cosine": 0.9301,
+   "same_label": false
+  },
+  {
+   "file": "0383.jpg",
+   "nearest_train": "Ruby_throated_Hummingbird_0011_2595812723.jpg",
+   "cosine": 0.8875,
+   "same_label": false
+  },
+  {
+   "file": "0384.jpg",
+   "nearest_train": "Anna_Hummingbird_0001_2221475899.jpg",
+   "cosine": 0.7551,
+   "same_label": true
+  },
+  {
+   "file": "0385.jpg",
+   "nearest_train": "Rufous_Hummingbird_0012_2069558331.jpg",
+   "cosine": 0.8988,
+   "same_label": false
+  },
+  {
+   "file": "0386.jpg",
+   "nearest_train": "Anna_Hummingbird_0015_313265587.jpg",
+   "cosine": 0.9248,
+   "same_label": true
+  },
+  {
+   "file": "0387.jpg",
+   "nearest_train": "Anna_Hummingbird_0016_2068932620.jpg",
+   "cosine": 0.9575,
+   "same_label": true
+  },
+  {
+   "file": "0388.jpg",
+   "nearest_train": "Anna_Hummingbird_0011_2189942577.jpg",
+   "cosine": 0.9439,
+   "same_label": false
+  },
+  {
+   "file": "0389.jpg",
+   "nearest_train": "Rufous_Hummingbird_0004_2472798444.jpg",
+   "cosine": 0.9096,
+   "same_label": false
+  },
+  {
+   "file": "0390.jpg",
+   "nearest_train": "Rufous_Hummingbird_0002_528597122.jpg",
+   "cosine": 0.9188,
+   "same_label": false
+  },
+  {
+   "file": "0391.jpg",
+   "nearest_train": "Rufous_Hummingbird_0017_2298565516.jpg",
+   "cosine": 0.9628,
+   "same_label": false
+  },
+  {
+   "file": "0392.jpg",
+   "nearest_train": "Rufous_Hummingbird_0002_528597122.jpg",
+   "cosine": 0.8988,
+   "same_label": false
+  },
+  {
+   "file": "0393.jpg",
+   "nearest_train": "Anna_Hummingbird_0011_2189942577.jpg",
+   "cosine": 0.9575,
+   "same_label": false
+  },
+  {
+   "file": "0394.jpg",
+   "nearest_train": "Anna_Hummingbird_0009_409385231.jpg",
+   "cosine": 0.9147,
+   "same_label": false
+  },
+  {
+   "file": "0395.jpg",
+   "nearest_train": "Rufous_Hummingbird_0034_2687512649.jpg",
+   "cosine": 0.9474,
+   "same_label": true
+  },
+  {
+   "file": "0396.jpg",
+   "nearest_train": "Rufous_Hummingbird_0026_2433383376.jpg",
+   "cosine": 0.942,
+   "same_label": true
+  },
+  {
+   "file": "0397.jpg",
+   "nearest_train": "Rufous_Hummingbird_0021_2332117598.jpg",
+   "cosine": 0.893,
+   "same_label": true
+  },
+  {
+   "file": "0398.jpg",
+   "nearest_train": "Rufous_Hummingbird_0026_2433383376.jpg",
+   "cosine": 0.9377,
+   "same_label": true
+  },
+  {
+   "file": "0399.jpg",
+   "nearest_train": "Rufous_Hummingbird_0017_2298565516.jpg",
+   "cosine": 0.9604,
+   "same_label": true
+  },
+  {
+   "file": "0400.jpg",
+   "nearest_train": "Green_Violetear_0017_2843590661.jpg",
+   "cosine": 0.9835,
+   "same_label": true
+  },
+  {
+   "file": "0401.jpg",
+   "nearest_train": "Green_Violetear_0026_2414219031.jpg",
+   "cosine": 0.8325,
+   "same_label": true
+  },
+  {
+   "file": "0402.jpg",
+   "nearest_train": "Green_Violetear_0008_2943313046.jpg",
+   "cosine": 0.888,
+   "same_label": true
+  },
+  {
+   "file": "0403.jpg",
+   "nearest_train": "Green_Violetear_0002_1847413787.jpg",
+   "cosine": 0.935,
+   "same_label": true
+  },
+  {
+   "file": "0404.jpg",
+   "nearest_train": "Green_Violetear_0009_476355611.jpg",
+   "cosine": 0.8927,
+   "same_label": true
+  },
+  {
+   "file": "0405.jpg",
+   "nearest_train": "Green_Violetear_0019_3067129360.jpg",
+   "cosine": 0.9053,
+   "same_label": true
+  },
+  {
+   "file": "0406.jpg",
+   "nearest_train": "Long_tailed_Jaeger_0027_422167455.jpg",
+   "cosine": 0.9335,
+   "same_label": true
+  },
+  {
+   "file": "0407.jpg",
+   "nearest_train": "Long_tailed_Jaeger_0022_1297030820.jpg",
+   "cosine": 0.8186,
+   "same_label": true
+  },
+  {
+   "file": "0408.jpg",
+   "nearest_train": "Long_tailed_Jaeger_0021_1289048239.jpg",
+   "cosine": 0.9402,
+   "same_label": true
+  },
+  {
+   "file": "0409.jpg",
+   "nearest_train": "Long_tailed_Jaeger_0018_2709006867.jpg",
+   "cosine": 0.8727,
+   "same_label": true
+  },
+  {
+   "file": "0410.jpg",
+   "nearest_train": "Long_tailed_Jaeger_0025_81892960.jpg",
+   "cosine": 0.8421,
+   "same_label": true
+  },
+  {
+   "file": "0411.jpg",
+   "nearest_train": "Western_Gull_0006_284283384.jpg",
+   "cosine": 0.8962,
+   "same_label": false
+  },
+  {
+   "file": "0412.jpg",
+   "nearest_train": "Long_tailed_Jaeger_0013_1235660701.jpg",
+   "cosine": 0.9469,
+   "same_label": false
+  },
+  {
+   "file": "0413.jpg",
+   "nearest_train": "Rhinoceros_Auklet_0025_1133842516.jpg",
+   "cosine": 0.9165,
+   "same_label": false
+  },
+  {
+   "file": "0414.jpg",
+   "nearest_train": "Pomarine_Jaeger_0028_2141517795.jpg",
+   "cosine": 0.9752,
+   "same_label": true
+  },
+  {
+   "file": "0415.jpg",
+   "nearest_train": "Pomarine_Jaeger_0019_533913729.jpg",
+   "cosine": 0.9605,
+   "same_label": true
+  },
+  {
+   "file": "0416.jpg",
+   "nearest_train": "Pomarine_Jaeger_0022_2800988017.jpg",
+   "cosine": 0.9294,
+   "same_label": true
+  },
+  {
+   "file": "0417.jpg",
+   "nearest_train": "Pomarine_Jaeger_0027_2803751286.jpg",
+   "cosine": 0.9727,
+   "same_label": true
+  },
+  {
+   "file": "0418.jpg",
+   "nearest_train": "Blue_Jay_0028_173194427.jpg",
+   "cosine": 0.9617,
+   "same_label": true
+  },
+  {
+   "file": "0419.jpg",
+   "nearest_train": "Blue_Jay_0029_2105470125.jpg",
+   "cosine": 0.915,
+   "same_label": true
+  },
+  {
+   "file": "0420.jpg",
+   "nearest_train": "Blue_Jay_0028_173194427.jpg",
+   "cosine": 0.9483,
+   "same_label": true
+  },
+  {
+   "file": "0421.jpg",
+   "nearest_train": "Blue_Jay_0008_2172968959.jpg",
+   "cosine": 0.8317,
+   "same_label": true
+  },
+  {
+   "file": "0422.jpg",
+   "nearest_train": "Blue_Jay_0035_2841578384.jpg",
+   "cosine": 0.9098,
+   "same_label": true
+  },
+  {
+   "file": "0423.jpg",
+   "nearest_train": "Blue_Jay_0028_173194427.jpg",
+   "cosine": 0.9209,
+   "same_label": true
+  },
+  {
+   "file": "0424.jpg",
+   "nearest_train": "Blue_Jay_0032_388783592.jpg",
+   "cosine": 0.9497,
+   "same_label": true
+  },
+  {
+   "file": "0425.jpg",
+   "nearest_train": "Gray_Kingbird_0033_1341384829.jpg",
+   "cosine": 0.9314,
+   "same_label": false
+  },
+  {
+   "file": "0426.jpg",
+   "nearest_train": "Florida_Jay_0022_429285351.jpg",
+   "cosine": 0.9031,
+   "same_label": true
+  },
+  {
+   "file": "0427.jpg",
+   "nearest_train": "Boat_tailed_Grackle_0013_2932480415.jpg",
+   "cosine": 0.8857,
+   "same_label": false
+  },
+  {
+   "file": "0428.jpg",
+   "nearest_train": "Florida_Jay_0009_1519486691.jpg",
+   "cosine": 0.9261,
+   "same_label": true
+  },
+  {
+   "file": "0429.jpg",
+   "nearest_train": "Florida_Jay_0018_2334720072.jpg",
+   "cosine": 0.9979,
+   "same_label": true
+  },
+  {
+   "file": "0430.jpg",
+   "nearest_train": "Brown_Pelican_0028_2472078287.jpg",
+   "cosine": 0.7598,
+   "same_label": false
+  },
+  {
+   "file": "0431.jpg",
+   "nearest_train": "Florida_Jay_0014_2333886235.jpg",
+   "cosine": 0.9972,
+   "same_label": true
+  },
+  {
+   "file": "0432.jpg",
+   "nearest_train": "Green_Jay_0005_1805387582.jpg",
+   "cosine": 0.9883,
+   "same_label": true
+  },
+  {
+   "file": "0433.jpg",
+   "nearest_train": "Green_Jay_0011_361246576.jpg",
+   "cosine": 0.928,
+   "same_label": true
+  },
+  {
+   "file": "0434.jpg",
+   "nearest_train": "Green_Jay_0016_3033141729.jpg",
+   "cosine": 0.9417,
+   "same_label": true
+  },
+  {
+   "file": "0435.jpg",
+   "nearest_train": "Blue_Jay_0002_2087237697.jpg",
+   "cosine": 0.7976,
+   "same_label": false
+  },
+  {
+   "file": "0436.jpg",
+   "nearest_train": "Red_headed_Woodpecker_0012_2578571305.jpg",
+   "cosine": 0.856,
+   "same_label": false
+  },
+  {
+   "file": "0437.jpg",
+   "nearest_train": "Orange_crowned_Warbler_0031_2892735873.jpg",
+   "cosine": 0.8872,
+   "same_label": false
+  },
+  {
+   "file": "0438.jpg",
+   "nearest_train": "Yellow_breasted_Chat_0021_2470118400.jpg",
+   "cosine": 0.8627,
+   "same_label": false
+  },
+  {
+   "file": "0439.jpg",
+   "nearest_train": "Dark_eyed_Junco_0002_2101519271.jpg",
+   "cosine": 0.9283,
+   "same_label": true
+  },
+  {
+   "file": "0440.jpg",
+   "nearest_train": "Dark_eyed_Junco_0019_406101925.jpg",
+   "cosine": 0.8801,
+   "same_label": true
+  },
+  {
+   "file": "0441.jpg",
+   "nearest_train": "Dark_eyed_Junco_0013_3084338398.jpg",
+   "cosine": 0.9251,
+   "same_label": true
+  },
+  {
+   "file": "0442.jpg",
+   "nearest_train": "Field_Sparrow_0013_349699736.jpg",
+   "cosine": 0.9,
+   "same_label": false
+  },
+  {
+   "file": "0443.jpg",
+   "nearest_train": "Dark_eyed_Junco_0006_2638228676.jpg",
+   "cosine": 0.9548,
+   "same_label": true
+  },
+  {
+   "file": "0444.jpg",
+   "nearest_train": "Tropical_Kingbird_0018_2614745168.jpg",
+   "cosine": 0.9629,
+   "same_label": true
+  },
+  {
+   "file": "0445.jpg",
+   "nearest_train": "Great_Crested_Flycatcher_0006_165034762.jpg",
+   "cosine": 0.949,
+   "same_label": false
+  },
+  {
+   "file": "0446.jpg",
+   "nearest_train": "Tropical_Kingbird_0011_2032071341.jpg",
+   "cosine": 0.9624,
+   "same_label": true
+  },
+  {
+   "file": "0447.jpg",
+   "nearest_train": "Black_billed_Cuckoo_0005_484566301.jpg",
+   "cosine": 0.9515,
+   "same_label": false
+  },
+  {
+   "file": "0448.jpg",
+   "nearest_train": "Tropical_Kingbird_0022_2146515330.jpg",
+   "cosine": 0.9791,
+   "same_label": true
+  },
+  {
+   "file": "0449.jpg",
+   "nearest_train": "Sayornis_0004_16712667.jpg",
+   "cosine": 0.8855,
+   "same_label": false
+  },
+  {
+   "file": "0450.jpg",
+   "nearest_train": "Tropical_Kingbird_0028_2146517768.jpg",
+   "cosine": 0.9799,
+   "same_label": true
+  },
+  {
+   "file": "0451.jpg",
+   "nearest_train": "Golden_winged_Warbler_0014_2896481930.jpg",
+   "cosine": 0.9038,
+   "same_label": false
+  },
+  {
+   "file": "0452.jpg",
+   "nearest_train": "Mangrove_Cuckoo_0005_392495593.jpg",
+   "cosine": 0.9219,
+   "same_label": false
+  },
+  {
+   "file": "0453.jpg",
+   "nearest_train": "Gray_Kingbird_0031_505769005.jpg",
+   "cosine": 0.9944,
+   "same_label": true
+  },
+  {
+   "file": "0454.jpg",
+   "nearest_train": "Vesper_Sparrow_0036_1296793534.jpg",
+   "cosine": 0.9136,
+   "same_label": false
+  },
+  {
+   "file": "0455.jpg",
+   "nearest_train": "Olive_sided_Flycatcher_0018_155805868.jpg",
+   "cosine": 0.9138,
+   "same_label": false
+  },
+  {
+   "file": "0456.jpg",
+   "nearest_train": "Mockingbird_0019_337873228.jpg",
+   "cosine": 0.8869,
+   "same_label": false
+  },
+  {
+   "file": "0457.jpg",
+   "nearest_train": "Least_Flycatcher_0025_2956528039.jpg",
+   "cosine": 0.9607,
+   "same_label": false
+  },
+  {
+   "file": "0458.jpg",
+   "nearest_train": "Ringed_Kingfisher_0009_2497147800.jpg",
+   "cosine": 0.9614,
+   "same_label": false
+  },
+  {
+   "file": "0459.jpg",
+   "nearest_train": "Florida_Jay_0010_2334709876.jpg",
+   "cosine": 0.8222,
+   "same_label": false
+  },
+  {
+   "file": "0460.jpg",
+   "nearest_train": "White_breasted_Kingfisher_0019_2835145427.jpg",
+   "cosine": 0.9279,
+   "same_label": false
+  },
+  {
+   "file": "0461.jpg",
+   "nearest_train": "Pied_Kingfisher_0005_359879785.jpg",
+   "cosine": 0.952,
+   "same_label": false
+  },
+  {
+   "file": "0462.jpg",
+   "nearest_train": "Pomarine_Jaeger_0018_533812404.jpg",
+   "cosine": 0.9361,
+   "same_label": false
+  },
+  {
+   "file": "0463.jpg",
+   "nearest_train": "Belted_Kingfisher_0019_2942326245.jpg",
+   "cosine": 0.9671,
+   "same_label": true
+  },
+  {
+   "file": "0464.jpg",
+   "nearest_train": "Pied_Kingfisher_0007_2496956771.jpg",
+   "cosine": 0.9178,
+   "same_label": false
+  },
+  {
+   "file": "0465.jpg",
+   "nearest_train": "Ringed_Kingfisher_0025_2896722729.jpg",
+   "cosine": 0.9315,
+   "same_label": false
+  },
+  {
+   "file": "0466.jpg",
+   "nearest_train": "Ringed_Kingfisher_0023_945528157.jpg",
+   "cosine": 0.9166,
+   "same_label": false
+  },
+  {
+   "file": "0467.jpg",
+   "nearest_train": "Green_Kingfisher_0005_2190640279.jpg",
+   "cosine": 0.9286,
+   "same_label": true
+  },
+  {
+   "file": "0468.jpg",
+   "nearest_train": "Great_Grey_Shrike_0015_2863495948.jpg",
+   "cosine": 0.9257,
+   "same_label": false
+  },
+  {
+   "file": "0469.jpg",
+   "nearest_train": "Pied_Kingfisher_0003_1332201388.jpg",
+   "cosine": 0.9264,
+   "same_label": true
+  },
+  {
+   "file": "0470.jpg",
+   "nearest_train": "Pied_Kingfisher_0026_2431818658.jpg",
+   "cosine": 0.9092,
+   "same_label": true
+  },
+  {
+   "file": "0471.jpg",
+   "nearest_train": "Pied_Kingfisher_0007_2496956771.jpg",
+   "cosine": 0.9195,
+   "same_label": true
+  },
+  {
+   "file": "0472.jpg",
+   "nearest_train": "Pied_Kingfisher_0009_407710776.jpg",
+   "cosine": 0.8788,
+   "same_label": true
+  },
+  {
+   "file": "0473.jpg",
+   "nearest_train": "Pied_Kingfisher_0025_2923147843.jpg",
+   "cosine": 0.992,
+   "same_label": true
+  },
+  {
+   "file": "0474.jpg",
+   "nearest_train": "Pied_Kingfisher_0033_2486197230.jpg",
+   "cosine": 0.9341,
+   "same_label": true
+  },
+  {
+   "file": "0475.jpg",
+   "nearest_train": "Pied_Kingfisher_0004_411032570.jpg",
+   "cosine": 0.8791,
+   "same_label": true
+  },
+  {
+   "file": "0476.jpg",
+   "nearest_train": "Ringed_Kingfisher_0020_2088379408.jpg",
+   "cosine": 0.9278,
+   "same_label": true
+  },
+  {
+   "file": "0477.jpg",
+   "nearest_train": "Ringed_Kingfisher_0032_2352001413.jpg",
+   "cosine": 0.9487,
+   "same_label": true
+  },
+  {
+   "file": "0478.jpg",
+   "nearest_train": "Belted_Kingfisher_0025_32125483.jpg",
+   "cosine": 0.9222,
+   "same_label": false
+  },
+  {
+   "file": "0479.jpg",
+   "nearest_train": "Ringed_Kingfisher_0030_2896892535.jpg",
+   "cosine": 0.9553,
+   "same_label": true
+  },
+  {
+   "file": "0480.jpg",
+   "nearest_train": "Ringed_Kingfisher_0028_655472198.jpg",
+   "cosine": 0.9428,
+   "same_label": true
+  },
+  {
+   "file": "0481.jpg",
+   "nearest_train": "Ringed_Kingfisher_0024_2260405514.jpg",
+   "cosine": 0.8917,
+   "same_label": true
+  },
+  {
+   "file": "0482.jpg",
+   "nearest_train": "Ringed_Kingfisher_0003_229224458.jpg",
+   "cosine": 0.9704,
+   "same_label": true
+  },
+  {
+   "file": "0483.jpg",
+   "nearest_train": "White_breasted_Kingfisher_0025_3055159611.jpg",
+   "cosine": 0.8879,
+   "same_label": true
+  },
+  {
+   "file": "0484.jpg",
+   "nearest_train": "White_breasted_Kingfisher_0030_3179795264.jpg",
+   "cosine": 0.9929,
+   "same_label": true
+  },
+  {
+   "file": "0485.jpg",
+   "nearest_train": "White_breasted_Kingfisher_0026_337234051.jpg",
+   "cosine": 0.8562,
+   "same_label": true
+  },
+  {
+   "file": "0486.jpg",
+   "nearest_train": "White_breasted_Kingfisher_0027_337234149.jpg",
+   "cosine": 0.9337,
+   "same_label": true
+  },
+  {
+   "file": "0487.jpg",
+   "nearest_train": "White_breasted_Kingfisher_0022_3083780031.jpg",
+   "cosine": 0.9065,
+   "same_label": true
+  },
+  {
+   "file": "0488.jpg",
+   "nearest_train": "Ringed_Kingfisher_0030_2896892535.jpg",
+   "cosine": 0.9045,
+   "same_label": false
+  },
+  {
+   "file": "0489.jpg",
+   "nearest_train": "White_breasted_Kingfisher_0022_3083780031.jpg",
+   "cosine": 0.9111,
+   "same_label": true
+  },
+  {
+   "file": "0490.jpg",
+   "nearest_train": "Red_legged_Kittiwake_0015_2672025832.jpg",
+   "cosine": 0.9331,
+   "same_label": true
+  },
+  {
+   "file": "0491.jpg",
+   "nearest_train": "Heermann_Gull_0010_2354042062.jpg",
+   "cosine": 0.8788,
+   "same_label": false
+  },
+  {
+   "file": "0492.jpg",
+   "nearest_train": "Red_legged_Kittiwake_0008_2778949477.jpg",
+   "cosine": 0.8337,
+   "same_label": true
+  },
+  {
+   "file": "0493.jpg",
+   "nearest_train": "Red_legged_Kittiwake_0010_2569029539.jpg",
+   "cosine": 0.9636,
+   "same_label": true
+  },
+  {
+   "file": "0494.jpg",
+   "nearest_train": "American_Pipit_0017_2384519894.jpg",
+   "cosine": 0.9101,
+   "same_label": false
+  },
+  {
+   "file": "0495.jpg",
+   "nearest_train": "American_Pipit_0011_2779492979.jpg",
+   "cosine": 0.9216,
+   "same_label": false
+  },
+  {
+   "file": "0496.jpg",
+   "nearest_train": "Harris_Sparrow_0006_2152344261.jpg",
+   "cosine": 0.9481,
+   "same_label": false
+  },
+  {
+   "file": "0497.jpg",
+   "nearest_train": "Palm_Warbler_0013_2154139521.jpg",
+   "cosine": 0.9281,
+   "same_label": false
+  },
+  {
+   "file": "0498.jpg",
+   "nearest_train": "Horned_Lark_0031_2376117616.jpg",
+   "cosine": 0.9017,
+   "same_label": true
+  },
+  {
+   "file": "0499.jpg",
+   "nearest_train": "Rock_Wren_0003_3015481897.jpg",
+   "cosine": 0.9193,
+   "same_label": false
+  },
+  {
+   "file": "0500.jpg",
+   "nearest_train": "Pacific_Loon_0012_3092137231.jpg",
+   "cosine": 0.9733,
+   "same_label": true
+  },
+  {
+   "file": "0501.jpg",
+   "nearest_train": "Pacific_Loon_0007_177308274.jpg",
+   "cosine": 0.913,
+   "same_label": true
+  },
+  {
+   "file": "0502.jpg",
+   "nearest_train": "Pacific_Loon_0013_2819894999.jpg",
+   "cosine": 0.9692,
+   "same_label": true
+  },
+  {
+   "file": "0503.jpg",
+   "nearest_train": "Pacific_Loon_0025_179436135.jpg",
+   "cosine": 0.9138,
+   "same_label": true
+  },
+  {
+   "file": "0504.jpg",
+   "nearest_train": "Pacific_Loon_0018_207213537.jpg",
+   "cosine": 0.9131,
+   "same_label": true
+  },
+  {
+   "file": "0505.jpg",
+   "nearest_train": "Pacific_Loon_0017_180115554.jpg",
+   "cosine": 0.9425,
+   "same_label": true
+  },
+  {
+   "file": "0506.jpg",
+   "nearest_train": "Pacific_Loon_0020_709516077.jpg",
+   "cosine": 0.9886,
+   "same_label": true
+  },
+  {
+   "file": "0507.jpg",
+   "nearest_train": "Mallard_0023_499083947.jpg",
+   "cosine": 0.9828,
+   "same_label": true
+  },
+  {
+   "file": "0508.jpg",
+   "nearest_train": "Mallard_0019_2405145715.jpg",
+   "cosine": 0.8713,
+   "same_label": true
+  },
+  {
+   "file": "0509.jpg",
+   "nearest_train": "Mallard_0023_499083947.jpg",
+   "cosine": 0.9326,
+   "same_label": true
+  },
+  {
+   "file": "0510.jpg",
+   "nearest_train": "Mallard_0022_2112405723.jpg",
+   "cosine": 0.9211,
+   "same_label": true
+  },
+  {
+   "file": "0511.jpg",
+   "nearest_train": "Mallard_0015_461597050.jpg",
+   "cosine": 0.9048,
+   "same_label": true
+  },
+  {
+   "file": "0512.jpg",
+   "nearest_train": "American_Pipit_0022_1347976832.jpg",
+   "cosine": 0.8773,
+   "same_label": false
+  },
+  {
+   "file": "0513.jpg",
+   "nearest_train": "Western_Meadowlark_0030_85052447.jpg",
+   "cosine": 0.9569,
+   "same_label": true
+  },
+  {
+   "file": "0514.jpg",
+   "nearest_train": "Vesper_Sparrow_0007_404162345.jpg",
+   "cosine": 0.9138,
+   "same_label": false
+  },
+  {
+   "file": "0515.jpg",
+   "nearest_train": "Western_Meadowlark_0019_3001893284.jpg",
+   "cosine": 0.9583,
+   "same_label": true
+  },
+  {
+   "file": "0516.jpg",
+   "nearest_train": "White_crowned_Sparrow_0019_xxx.jpg",
+   "cosine": 0.8676,
+   "same_label": false
+  },
+  {
+   "file": "0517.jpg",
+   "nearest_train": "Western_Meadowlark_0025_2150260191.jpg",
+   "cosine": 0.9371,
+   "same_label": true
+  },
+  {
+   "file": "0518.jpg",
+   "nearest_train": "Hooded_Merganser_0002_1181698662.jpg",
+   "cosine": 0.9388,
+   "same_label": true
+  },
+  {
+   "file": "0519.jpg",
+   "nearest_train": "Hooded_Merganser_0026_2316971365.jpg",
+   "cosine": 0.9643,
+   "same_label": true
+  },
+  {
+   "file": "0520.jpg",
+   "nearest_train": "Gadwall_0029_1874471007.jpg",
+   "cosine": 0.9047,
+   "same_label": false
+  },
+  {
+   "file": "0521.jpg",
+   "nearest_train": "Hooded_Merganser_0002_1181698662.jpg",
+   "cosine": 0.8946,
+   "same_label": true
+  },
+  {
+   "file": "0522.jpg",
+   "nearest_train": "Hooded_Merganser_0015_2155279663.jpg",
+   "cosine": 0.9849,
+   "same_label": true
+  },
+  {
+   "file": "0523.jpg",
+   "nearest_train": "Hooded_Merganser_0012_2224465206.jpg",
+   "cosine": 0.9086,
+   "same_label": true
+  },
+  {
+   "file": "0524.jpg",
+   "nearest_train": "Gadwall_0002_3010967492.jpg",
+   "cosine": 0.9351,
+   "same_label": false
+  },
+  {
+   "file": "0525.jpg",
+   "nearest_train": "Red_breasted_Merganser_0028_2171825005.jpg",
+   "cosine": 0.8877,
+   "same_label": true
+  },
+  {
+   "file": "0526.jpg",
+   "nearest_train": "Red_breasted_Merganser_0027_410866222.jpg",
+   "cosine": 0.9758,
+   "same_label": true
+  },
+  {
+   "file": "0527.jpg",
+   "nearest_train": "Red_breasted_Merganser_0023_2884701005.jpg",
+   "cosine": 0.9505,
+   "same_label": true
+  },
+  {
+   "file": "0528.jpg",
+   "nearest_train": "Red_breasted_Merganser_0017_xxx.jpg",
+   "cosine": 0.9776,
+   "same_label": true
+  },
+  {
+   "file": "0529.jpg",
+   "nearest_train": "Red_breasted_Merganser_0006_445370759.jpg",
+   "cosine": 0.9553,
+   "same_label": true
+  },
+  {
+   "file": "0530.jpg",
+   "nearest_train": "Red_breasted_Merganser_0007_536403219.jpg",
+   "cosine": 0.96,
+   "same_label": true
+  },
+  {
+   "file": "0531.jpg",
+   "nearest_train": "Mockingbird_0004_xxx.jpg",
+   "cosine": 0.9876,
+   "same_label": true
+  },
+  {
+   "file": "0532.jpg",
+   "nearest_train": "Mockingbird_0004_xxx.jpg",
+   "cosine": 0.9569,
+   "same_label": true
+  },
+  {
+   "file": "0533.jpg",
+   "nearest_train": "Green_Jay_0003_360514395.jpg",
+   "cosine": 0.9135,
+   "same_label": false
+  },
+  {
+   "file": "0534.jpg",
+   "nearest_train": "Mockingbird_0016_3016606916.jpg",
+   "cosine": 0.9162,
+   "same_label": true
+  },
+  {
+   "file": "0535.jpg",
+   "nearest_train": "Mockingbird_0014_951086400.jpg",
+   "cosine": 0.9549,
+   "same_label": true
+  },
+  {
+   "file": "0536.jpg",
+   "nearest_train": "White_eyed_Vireo_0020_3083009361.jpg",
+   "cosine": 0.9218,
+   "same_label": false
+  },
+  {
+   "file": "0537.jpg",
+   "nearest_train": "American_Pipit_0011_2779492979.jpg",
+   "cosine": 0.8645,
+   "same_label": false
+  },
+  {
+   "file": "0538.jpg",
+   "nearest_train": "Nighthawk_0018_512788574.jpg",
+   "cosine": 0.9181,
+   "same_label": true
+  },
+  {
+   "file": "0539.jpg",
+   "nearest_train": "Nighthawk_0026_2620472196.jpg",
+   "cosine": 0.9339,
+   "same_label": true
+  },
+  {
+   "file": "0540.jpg",
+   "nearest_train": "Nighthawk_0026_2620472196.jpg",
+   "cosine": 0.928,
+   "same_label": true
+  },
+  {
+   "file": "0541.jpg",
+   "nearest_train": "Whip_poor_Will_0006_141932898.jpg",
+   "cosine": 0.8775,
+   "same_label": false
+  },
+  {
+   "file": "0542.jpg",
+   "nearest_train": "Pileated_Woodpecker_0028_2483563065.jpg",
+   "cosine": 0.8853,
+   "same_label": false
+  },
+  {
+   "file": "0543.jpg",
+   "nearest_train": "Clark_Nutcracker_0011_2643020986.jpg",
+   "cosine": 0.992,
+   "same_label": true
+  },
+  {
+   "file": "0544.jpg",
+   "nearest_train": "Clark_Nutcracker_0009_1362129115.jpg",
+   "cosine": 0.9223,
+   "same_label": true
+  },
+  {
+   "file": "0545.jpg",
+   "nearest_train": "Clark_Nutcracker_0025_2309903625.jpg",
+   "cosine": 0.9411,
+   "same_label": true
+  },
+  {
+   "file": "0546.jpg",
+   "nearest_train": "Green_tailed_Towhee_0020_22766551.jpg",
+   "cosine": 0.9173,
+   "same_label": false
+  },
+  {
+   "file": "0547.jpg",
+   "nearest_train": "Purple_Finch_0025_500207789.jpg",
+   "cosine": 0.9205,
+   "same_label": false
+  },
+  {
+   "file": "0548.jpg",
+   "nearest_train": "Gray_crowned_Rosy_Finch_0014_3001168789.jpg",
+   "cosine": 0.8696,
+   "same_label": false
+  },
+  {
+   "file": "0549.jpg",
+   "nearest_train": "Clark_Nutcracker_0027_2129730580.jpg",
+   "cosine": 0.9348,
+   "same_label": true
+  },
+  {
+   "file": "0550.jpg",
+   "nearest_train": "Red_headed_Woodpecker_0027_545676369.jpg",
+   "cosine": 0.9398,
+   "same_label": false
+  },
+  {
+   "file": "0551.jpg",
+   "nearest_train": "Downy_Woodpecker_0011_471625454.jpg",
+   "cosine": 0.9185,
+   "same_label": false
+  },
+  {
+   "file": "0552.jpg",
+   "nearest_train": "Western_Wood_Pewee_0028_16504877.jpg",
+   "cosine": 0.9056,
+   "same_label": false
+  },
+  {
+   "file": "0553.jpg",
+   "nearest_train": "White_breasted_Nuthatch_0031_2422656153.jpg",
+   "cosine": 0.9189,
+   "same_label": true
+  },
+  {
+   "file": "0554.jpg",
+   "nearest_train": "White_breasted_Nuthatch_0010_231978653.jpg",
+   "cosine": 0.8956,
+   "same_label": true
+  },
+  {
+   "file": "0555.jpg",
+   "nearest_train": "White_breasted_Nuthatch_0007_2988186882.jpg",
+   "cosine": 0.9435,
+   "same_label": true
+  },
+  {
+   "file": "0556.jpg",
+   "nearest_train": "Black_billed_Cuckoo_0003_2547137172.jpg",
+   "cosine": 0.9222,
+   "same_label": false
+  },
+  {
+   "file": "0557.jpg",
+   "nearest_train": "Cardinal_0001_2981915906.jpg",
+   "cosine": 0.9184,
+   "same_label": false
+  },
+  {
+   "file": "0558.jpg",
+   "nearest_train": "Baltimore_Oriole_0007_2549684342.jpg",
+   "cosine": 0.9537,
+   "same_label": true
+  },
+  {
+   "file": "0559.jpg",
+   "nearest_train": "Baltimore_Oriole_0006_2526889240.jpg",
+   "cosine": 0.9481,
+   "same_label": true
+  },
+  {
+   "file": "0560.jpg",
+   "nearest_train": "Red_headed_Woodpecker_0011_309708127.jpg",
+   "cosine": 0.9235,
+   "same_label": false
+  },
+  {
+   "file": "0561.jpg",
+   "nearest_train": "Bay_breasted_Warbler_0019_2537142964.jpg",
+   "cosine": 0.9592,
+   "same_label": false
+  },
+  {
+   "file": "0562.jpg",
+   "nearest_train": "Orchard_Oriole_0028_2481603085.jpg",
+   "cosine": 0.8765,
+   "same_label": false
+  },
+  {
+   "file": "0563.jpg",
+   "nearest_train": "Brown_Thrasher_0002_2976313489.jpg",
+   "cosine": 0.9275,
+   "same_label": false
+  },
+  {
+   "file": "0564.jpg",
+   "nearest_train": "Cape_May_Warbler_0012_2409542690.jpg",
+   "cosine": 0.8791,
+   "same_label": false
+  },
+  {
+   "file": "0565.jpg",
+   "nearest_train": "Ruby_throated_Hummingbird_0018_2725343851.jpg",
+   "cosine": 0.8746,
+   "same_label": false
+  },
+  {
+   "file": "0566.jpg",
+   "nearest_train": "Canada_Warbler_0022_538698268.jpg",
+   "cosine": 0.81,
+   "same_label": false
+  },
+  {
+   "file": "0567.jpg",
+   "nearest_train": "Common_Yellowthroat_0002_2679007659.jpg",
+   "cosine": 0.8909,
+   "same_label": false
+  },
+  {
+   "file": "0568.jpg",
+   "nearest_train": "Western_Wood_Pewee_0002_2453935647.jpg",
+   "cosine": 0.9384,
+   "same_label": false
+  },
+  {
+   "file": "0569.jpg",
+   "nearest_train": "Nashville_Warbler_0014_487162325.jpg",
+   "cosine": 0.935,
+   "same_label": false
+  },
+  {
+   "file": "0570.jpg",
+   "nearest_train": "Orchard_Oriole_0033_2486541642.jpg",
+   "cosine": 0.9424,
+   "same_label": true
+  },
+  {
+   "file": "0571.jpg",
+   "nearest_train": "Hooded_Warbler_0002_2499838711.jpg",
+   "cosine": 0.9409,
+   "same_label": false
+  },
+  {
+   "file": "0572.jpg",
+   "nearest_train": "Yellow_headed_Blackbird_0009_483173184.jpg",
+   "cosine": 0.9337,
+   "same_label": false
+  },
+  {
+   "file": "0573.jpg",
+   "nearest_train": "Henslow_Sparrow_0026_274943914.jpg",
+   "cosine": 0.8836,
+   "same_label": false
+  },
+  {
+   "file": "0574.jpg",
+   "nearest_train": "Scarlet_Tanager_0003_2486092815.jpg",
+   "cosine": 0.9224,
+   "same_label": false
+  },
+  {
+   "file": "0575.jpg",
+   "nearest_train": "Carolina_Wren_0002_465498694.jpg",
+   "cosine": 0.9086,
+   "same_label": false
+  },
+  {
+   "file": "0576.jpg",
+   "nearest_train": "Black_throated_Sparrow_0032_504916165.jpg",
+   "cosine": 0.8991,
+   "same_label": false
+  },
+  {
+   "file": "0577.jpg",
+   "nearest_train": "Scott_Oriole_0027_2499110771.jpg",
+   "cosine": 0.898,
+   "same_label": true
+  },
+  {
+   "file": "0578.jpg",
+   "nearest_train": "Scott_Oriole_0020_2252908844.jpg",
+   "cosine": 0.9807,
+   "same_label": true
+  },
+  {
+   "file": "0579.jpg",
+   "nearest_train": "Scott_Oriole_0023_412138702.jpg",
+   "cosine": 0.9871,
+   "same_label": true
+  },
+  {
+   "file": "0580.jpg",
+   "nearest_train": "Scott_Oriole_0020_2252908844.jpg",
+   "cosine": 0.9861,
+   "same_label": true
+  },
+  {
+   "file": "0581.jpg",
+   "nearest_train": "Baltimore_Oriole_0013_1800220631.jpg",
+   "cosine": 0.9332,
+   "same_label": false
+  },
+  {
+   "file": "0582.jpg",
+   "nearest_train": "Acadian_Flycatcher_0026_2511706172.jpg",
+   "cosine": 0.9307,
+   "same_label": false
+  },
+  {
+   "file": "0583.jpg",
+   "nearest_train": "Canada_Warbler_0014_2693136273.jpg",
+   "cosine": 0.8919,
+   "same_label": false
+  },
+  {
+   "file": "0584.jpg",
+   "nearest_train": "Ovenbird_0004_2693949698.jpg",
+   "cosine": 0.9356,
+   "same_label": true
+  },
+  {
+   "file": "0585.jpg",
+   "nearest_train": "Ovenbird_0005_2671476715.jpg",
+   "cosine": 0.9641,
+   "same_label": true
+  },
+  {
+   "file": "0586.jpg",
+   "nearest_train": "Ovenbird_0016_205264982.jpg",
+   "cosine": 0.8998,
+   "same_label": true
+  },
+  {
+   "file": "0587.jpg",
+   "nearest_train": "Song_Sparrow_0034_166614633.jpg",
+   "cosine": 0.8725,
+   "same_label": false
+  },
+  {
+   "file": "0588.jpg",
+   "nearest_train": "Brown_Pelican_0014_422965191.jpg",
+   "cosine": 0.9474,
+   "same_label": true
+  },
+  {
+   "file": "0589.jpg",
+   "nearest_train": "Brown_Pelican_0022_301939463.jpg",
+   "cosine": 0.9553,
+   "same_label": true
+  },
+  {
+   "file": "0590.jpg",
+   "nearest_train": "Brown_Pelican_0025_305209285.jpg",
+   "cosine": 0.9191,
+   "same_label": true
+  },
+  {
+   "file": "0591.jpg",
+   "nearest_train": "Brown_Pelican_0012_302096318.jpg",
+   "cosine": 0.9738,
+   "same_label": true
+  },
+  {
+   "file": "0592.jpg",
+   "nearest_train": "Brown_Pelican_0010_2891997397.jpg",
+   "cosine": 0.937,
+   "same_label": true
+  },
+  {
+   "file": "0593.jpg",
+   "nearest_train": "Brown_Pelican_0024_2485661490.jpg",
+   "cosine": 0.9887,
+   "same_label": true
+  },
+  {
+   "file": "0594.jpg",
+   "nearest_train": "White_Pelican_0002_1734131838.jpg",
+   "cosine": 0.9066,
+   "same_label": true
+  },
+  {
+   "file": "0595.jpg",
+   "nearest_train": "White_Pelican_0020_xxx.jpg",
+   "cosine": 0.9018,
+   "same_label": true
+  },
+  {
+   "file": "0596.jpg",
+   "nearest_train": "White_Pelican_0002_1734131838.jpg",
+   "cosine": 0.9,
+   "same_label": true
+  },
+  {
+   "file": "0597.jpg",
+   "nearest_train": "White_Pelican_0002_1734131838.jpg",
+   "cosine": 0.9291,
+   "same_label": true
+  },
+  {
+   "file": "0598.jpg",
+   "nearest_train": "White_Pelican_0021_1836095727.jpg",
+   "cosine": 0.9489,
+   "same_label": true
+  },
+  {
+   "file": "0599.jpg",
+   "nearest_train": "Tropical_Kingbird_0009_2618800129.jpg",
+   "cosine": 0.9287,
+   "same_label": false
+  },
+  {
+   "file": "0600.jpg",
+   "nearest_train": "Western_Wood_Pewee_0028_16504877.jpg",
+   "cosine": 0.9143,
+   "same_label": true
+  },
+  {
+   "file": "0601.jpg",
+   "nearest_train": "Olive_sided_Flycatcher_0001_2222824199.jpg",
+   "cosine": 0.9525,
+   "same_label": false
+  },
+  {
+   "file": "0602.jpg",
+   "nearest_train": "Tropical_Kingbird_0034_2032874960.jpg",
+   "cosine": 0.9534,
+   "same_label": false
+  },
+  {
+   "file": "0603.jpg",
+   "nearest_train": "Gray_Kingbird_0027_440871837.jpg",
+   "cosine": 0.8391,
+   "same_label": false
+  },
+  {
+   "file": "0604.jpg",
+   "nearest_train": "Western_Wood_Pewee_0002_2453935647.jpg",
+   "cosine": 0.9466,
+   "same_label": true
+  },
+  {
+   "file": "0605.jpg",
+   "nearest_train": "Palm_Warbler_0018_1465181028.jpg",
+   "cosine": 0.9337,
+   "same_label": false
+  },
+  {
+   "file": "0606.jpg",
+   "nearest_train": "Cerulean_Warbler_0008_2513907655.jpg",
+   "cosine": 0.9085,
+   "same_label": false
+  },
+  {
+   "file": "0607.jpg",
+   "nearest_train": "Scissor_tailed_Flycatcher_0008_466355443.jpg",
+   "cosine": 0.9234,
+   "same_label": false
+  },
+  {
+   "file": "0608.jpg",
+   "nearest_train": "Loggerhead_Shrike_0034_2083112207.jpg",
+   "cosine": 0.8303,
+   "same_label": false
+  },
+  {
+   "file": "0609.jpg",
+   "nearest_train": "European_Goldfinch_0023_2508668954.jpg",
+   "cosine": 0.9384,
+   "same_label": false
+  },
+  {
+   "file": "0610.jpg",
+   "nearest_train": "Sayornis_0016_3004439198.jpg",
+   "cosine": 0.9124,
+   "same_label": true
+  },
+  {
+   "file": "0611.jpg",
+   "nearest_train": "Horned_Lark_0009_307261985.jpg",
+   "cosine": 0.9253,
+   "same_label": false
+  },
+  {
+   "file": "0612.jpg",
+   "nearest_train": "Bronzed_Cowbird_0009_815138425.jpg",
+   "cosine": 0.9129,
+   "same_label": false
+  },
+  {
+   "file": "0613.jpg",
+   "nearest_train": "Black_throated_Sparrow_0033_16270522.jpg",
+   "cosine": 0.819,
+   "same_label": false
+  },
+  {
+   "file": "0614.jpg",
+   "nearest_train": "American_Pipit_0009_2982057159.jpg",
+   "cosine": 0.9653,
+   "same_label": true
+  },
+  {
+   "file": "0615.jpg",
+   "nearest_train": "American_Pipit_0011_2779492979.jpg",
+   "cosine": 0.9026,
+   "same_label": true
+  },
+  {
+   "file": "0616.jpg",
+   "nearest_train": "Western_Wood_Pewee_0020_202369246.jpg",
+   "cosine": 0.9001,
+   "same_label": false
+  },
+  {
+   "file": "0617.jpg",
+   "nearest_train": "Nighthawk_0011_30160821.jpg",
+   "cosine": 0.8639,
+   "same_label": false
+  },
+  {
+   "file": "0618.jpg",
+   "nearest_train": "White_necked_Raven_0005_2743778391.jpg",
+   "cosine": 0.7649,
+   "same_label": false
+  },
+  {
+   "file": "0619.jpg",
+   "nearest_train": "Whip_poor_Will_0007_288062508.jpg",
+   "cosine": 0.8653,
+   "same_label": true
+  },
+  {
+   "file": "0620.jpg",
+   "nearest_train": "Ovenbird_0015_2916446301.jpg",
+   "cosine": 0.8535,
+   "same_label": false
+  },
+  {
+   "file": "0621.jpg",
+   "nearest_train": "Horned_Puffin_0008_2854198014.jpg",
+   "cosine": 0.9638,
+   "same_label": true
+  },
+  {
+   "file": "0622.jpg",
+   "nearest_train": "Horned_Puffin_0001_2820693418.jpg",
+   "cosine": 0.8848,
+   "same_label": true
+  },
+  {
+   "file": "0623.jpg",
+   "nearest_train": "Rhinoceros_Auklet_0031_7658455.jpg",
+   "cosine": 0.9034,
+   "same_label": false
+  },
+  {
+   "file": "0624.jpg",
+   "nearest_train": "Horned_Puffin_0005_2854198040.jpg",
+   "cosine": 0.9534,
+   "same_label": true
+  },
+  {
+   "file": "0625.jpg",
+   "nearest_train": "Horned_Puffin_0001_2820693418.jpg",
+   "cosine": 0.8656,
+   "same_label": true
+  },
+  {
+   "file": "0626.jpg",
+   "nearest_train": "Horned_Puffin_0001_2820693418.jpg",
+   "cosine": 0.8846,
+   "same_label": true
+  },
+  {
+   "file": "0627.jpg",
+   "nearest_train": "Fish_Crow_0023_28793093.jpg",
+   "cosine": 0.9224,
+   "same_label": false
+  },
+  {
+   "file": "0628.jpg",
+   "nearest_train": "Brown_Thrasher_0006_2262365152.jpg",
+   "cosine": 0.8494,
+   "same_label": false
+  },
+  {
+   "file": "0629.jpg",
+   "nearest_train": "Frigatebird_0018_2876055327.jpg",
+   "cosine": 0.949,
+   "same_label": false
+  },
+  {
+   "file": "0630.jpg",
+   "nearest_train": "Common_Raven_0015_2535407958.jpg",
+   "cosine": 0.9934,
+   "same_label": true
+  },
+  {
+   "file": "0631.jpg",
+   "nearest_train": "Fish_Crow_0021_463190163.jpg",
+   "cosine": 0.9335,
+   "same_label": false
+  },
+  {
+   "file": "0632.jpg",
+   "nearest_train": "Common_Raven_0006_268818212.jpg",
+   "cosine": 0.8641,
+   "same_label": false
+  },
+  {
+   "file": "0633.jpg",
+   "nearest_train": "Crested_Auklet_0021_1297094684.jpg",
+   "cosine": 0.8934,
+   "same_label": false
+  },
+  {
+   "file": "0634.jpg",
+   "nearest_train": "White_necked_Raven_0023_2965605485.jpg",
+   "cosine": 0.8739,
+   "same_label": true
+  },
+  {
+   "file": "0635.jpg",
+   "nearest_train": "White_necked_Raven_0030_2316395285.jpg",
+   "cosine": 0.8821,
+   "same_label": true
+  },
+  {
+   "file": "0636.jpg",
+   "nearest_train": "White_necked_Raven_0030_2316395285.jpg",
+   "cosine": 0.9468,
+   "same_label": true
+  },
+  {
+   "file": "0637.jpg",
+   "nearest_train": "White_necked_Raven_0020_2966523590.jpg",
+   "cosine": 0.9847,
+   "same_label": true
+  },
+  {
+   "file": "0638.jpg",
+   "nearest_train": "Painted_Bunting_0002_2554766256.jpg",
+   "cosine": 0.9173,
+   "same_label": false
+  },
+  {
+   "file": "0639.jpg",
+   "nearest_train": "Kentucky_Warbler_0017_154170680.jpg",
+   "cosine": 0.9256,
+   "same_label": false
+  },
+  {
+   "file": "0640.jpg",
+   "nearest_train": "Canada_Warbler_0008_506852385.jpg",
+   "cosine": 0.8335,
+   "same_label": false
+  },
+  {
+   "file": "0641.jpg",
+   "nearest_train": "Acadian_Flycatcher_0027_2701321003.jpg",
+   "cosine": 0.9386,
+   "same_label": false
+  },
+  {
+   "file": "0642.jpg",
+   "nearest_train": "Kentucky_Warbler_0029_xxx.jpg",
+   "cosine": 0.9335,
+   "same_label": false
+  },
+  {
+   "file": "0643.jpg",
+   "nearest_train": "Prothonotary_Warbler_0034_2528025563.jpg",
+   "cosine": 0.919,
+   "same_label": false
+  },
+  {
+   "file": "0644.jpg",
+   "nearest_train": "Geococcyx_0001_170821958.jpg",
+   "cosine": 0.9496,
+   "same_label": true
+  },
+  {
+   "file": "0645.jpg",
+   "nearest_train": "Geococcyx_0022_413242645.jpg",
+   "cosine": 0.8736,
+   "same_label": true
+  },
+  {
+   "file": "0646.jpg",
+   "nearest_train": "Geococcyx_0019_413242635.jpg",
+   "cosine": 0.8483,
+   "same_label": true
+  },
+  {
+   "file": "0647.jpg",
+   "nearest_train": "Geococcyx_0016_2095789090.jpg",
+   "cosine": 0.9062,
+   "same_label": true
+  },
+  {
+   "file": "0648.jpg",
+   "nearest_train": "Geococcyx_0015_322617428.jpg",
+   "cosine": 0.8919,
+   "same_label": true
+  },
+  {
+   "file": "0649.jpg",
+   "nearest_train": "Loggerhead_Shrike_0029_2047999766.jpg",
+   "cosine": 0.892,
+   "same_label": true
+  },
+  {
+   "file": "0650.jpg",
+   "nearest_train": "Loggerhead_Shrike_0033_2340194761.jpg",
+   "cosine": 0.9218,
+   "same_label": true
+  },
+  {
+   "file": "0651.jpg",
+   "nearest_train": "Loggerhead_Shrike_0026_2058714884.jpg",
+   "cosine": 0.9289,
+   "same_label": true
+  },
+  {
+   "file": "0652.jpg",
+   "nearest_train": "Great_Grey_Shrike_0028_46809644.jpg",
+   "cosine": 0.9068,
+   "same_label": false
+  },
+  {
+   "file": "0653.jpg",
+   "nearest_train": "Great_Grey_Shrike_0008_2218794527.jpg",
+   "cosine": 0.962,
+   "same_label": false
+  },
+  {
+   "file": "0654.jpg",
+   "nearest_train": "Loggerhead_Shrike_0009_2078442893.jpg",
+   "cosine": 0.9365,
+   "same_label": true
+  },
+  {
+   "file": "0655.jpg",
+   "nearest_train": "Loggerhead_Shrike_0035_2960876098.jpg",
+   "cosine": 0.9551,
+   "same_label": true
+  },
+  {
+   "file": "0656.jpg",
+   "nearest_train": "Great_Grey_Shrike_0022_1505761693.jpg",
+   "cosine": 0.8974,
+   "same_label": true
+  },
+  {
+   "file": "0657.jpg",
+   "nearest_train": "Black_throated_Sparrow_0009_1288150990.jpg",
+   "cosine": 0.918,
+   "same_label": false
+  },
+  {
+   "file": "0658.jpg",
+   "nearest_train": "Great_Grey_Shrike_0008_2218794527.jpg",
+   "cosine": 0.9475,
+   "same_label": true
+  },
+  {
+   "file": "0659.jpg",
+   "nearest_train": "Great_Grey_Shrike_0008_2218794527.jpg",
+   "cosine": 0.947,
+   "same_label": true
+  },
+  {
+   "file": "0660.jpg",
+   "nearest_train": "Great_Grey_Shrike_0007_125027553.jpg",
+   "cosine": 0.8652,
+   "same_label": true
+  },
+  {
+   "file": "0661.jpg",
+   "nearest_train": "Loggerhead_Shrike_0009_2078442893.jpg",
+   "cosine": 0.8846,
+   "same_label": false
+  },
+  {
+   "file": "0662.jpg",
+   "nearest_train": "Baird_Sparrow_0032_xxx.jpg",
+   "cosine": 0.9861,
+   "same_label": true
+  },
+  {
+   "file": "0663.jpg",
+   "nearest_train": "Baird_Sparrow_0008_672058123.jpg",
+   "cosine": 0.9825,
+   "same_label": true
+  },
+  {
+   "file": "0664.jpg",
+   "nearest_train": "Baird_Sparrow_0016_2102098568.jpg",
+   "cosine": 0.9977,
+   "same_label": true
+  },
+  {
+   "file": "0665.jpg",
+   "nearest_train": "Henslow_Sparrow_0001_2557782105.jpg",
+   "cosine": 0.8948,
+   "same_label": false
+  },
+  {
+   "file": "0666.jpg",
+   "nearest_train": "Grasshopper_Sparrow_0031_164865110.jpg",
+   "cosine": 0.9492,
+   "same_label": false
+  },
+  {
+   "file": "0667.jpg",
+   "nearest_train": "Vesper_Sparrow_0035_525042903.jpg",
+   "cosine": 0.9409,
+   "same_label": false
+  },
+  {
+   "file": "0668.jpg",
+   "nearest_train": "Baird_Sparrow_0001_2538811870.jpg",
+   "cosine": 0.9961,
+   "same_label": true
+  },
+  {
+   "file": "0669.jpg",
+   "nearest_train": "Summer_Tanager_0014_414287134.jpg",
+   "cosine": 0.8528,
+   "same_label": false
+  },
+  {
+   "file": "0670.jpg",
+   "nearest_train": "Bobolink_0006_323626208.jpg",
+   "cosine": 0.9147,
+   "same_label": false
+  },
+  {
+   "file": "0671.jpg",
+   "nearest_train": "Black_throated_Sparrow_0011_2530603516.jpg",
+   "cosine": 0.9924,
+   "same_label": true
+  },
+  {
+   "file": "0672.jpg",
+   "nearest_train": "Brewer_Sparrow_0018_549531868.jpg",
+   "cosine": 0.9453,
+   "same_label": false
+  },
+  {
+   "file": "0673.jpg",
+   "nearest_train": "Black_throated_Sparrow_0011_2530603516.jpg",
+   "cosine": 0.9225,
+   "same_label": true
+  },
+  {
+   "file": "0674.jpg",
+   "nearest_train": "Hooded_Oriole_0035_2539065957.jpg",
+   "cosine": 0.9044,
+   "same_label": false
+  },
+  {
+   "file": "0675.jpg",
+   "nearest_train": "Black_throated_Sparrow_0036_541595788.jpg",
+   "cosine": 0.9728,
+   "same_label": true
+  },
+  {
+   "file": "0676.jpg",
+   "nearest_train": "Baird_Sparrow_0018_2102096030.jpg",
+   "cosine": 0.8906,
+   "same_label": false
+  },
+  {
+   "file": "0677.jpg",
+   "nearest_train": "Mourning_Warbler_0005_2518946213.jpg",
+   "cosine": 0.9048,
+   "same_label": false
+  },
+  {
+   "file": "0678.jpg",
+   "nearest_train": "Chestnut_sided_Warbler_0026_497210450.jpg",
+   "cosine": 0.9352,
+   "same_label": false
+  },
+  {
+   "file": "0679.jpg",
+   "nearest_train": "Black_throated_Sparrow_0029_2637357409.jpg",
+   "cosine": 0.9267,
+   "same_label": false
+  },
+  {
+   "file": "0680.jpg",
+   "nearest_train": "Brewer_Sparrow_0010_37600307.jpg",
+   "cosine": 0.8792,
+   "same_label": true
+  },
+  {
+   "file": "0681.jpg",
+   "nearest_train": "Western_Wood_Pewee_0033_653130275.jpg",
+   "cosine": 0.8898,
+   "same_label": false
+  },
+  {
+   "file": "0682.jpg",
+   "nearest_train": "Brewer_Sparrow_0016_16270523.jpg",
+   "cosine": 0.8526,
+   "same_label": true
+  },
+  {
+   "file": "0683.jpg",
+   "nearest_train": "Warbling_Vireo_0001_2519611472.jpg",
+   "cosine": 0.915,
+   "same_label": false
+  },
+  {
+   "file": "0684.jpg",
+   "nearest_train": "Purple_Finch_0003_2374852324.jpg",
+   "cosine": 0.935,
+   "same_label": false
+  },
+  {
+   "file": "0685.jpg",
+   "nearest_train": "American_Goldfinch_0019_2471592845.jpg",
+   "cosine": 0.9378,
+   "same_label": false
+  },
+  {
+   "file": "0686.jpg",
+   "nearest_train": "Least_Flycatcher_0005_59211310.jpg",
+   "cosine": 0.8476,
+   "same_label": false
+  },
+  {
+   "file": "0687.jpg",
+   "nearest_train": "Downy_Woodpecker_0015_399663600.jpg",
+   "cosine": 0.8784,
+   "same_label": false
+  },
+  {
+   "file": "0688.jpg",
+   "nearest_train": "Chipping_Sparrow_0006_3075226789.jpg",
+   "cosine": 0.9461,
+   "same_label": true
+  },
+  {
+   "file": "0689.jpg",
+   "nearest_train": "Field_Sparrow_0015_3080282051.jpg",
+   "cosine": 0.9321,
+   "same_label": false
+  },
+  {
+   "file": "0690.jpg",
+   "nearest_train": "Brewer_Sparrow_0034_481922205.jpg",
+   "cosine": 0.8639,
+   "same_label": false
+  },
+  {
+   "file": "0691.jpg",
+   "nearest_train": "Yellow_Warbler_0008_137737909.jpg",
+   "cosine": 0.9025,
+   "same_label": false
+  },
+  {
+   "file": "0692.jpg",
+   "nearest_train": "Blue_winged_Warbler_0026_2833833434.jpg",
+   "cosine": 0.8861,
+   "same_label": false
+  },
+  {
+   "file": "0693.jpg",
+   "nearest_train": "Least_Flycatcher_0010_2737904500.jpg",
+   "cosine": 0.9019,
+   "same_label": false
+  },
+  {
+   "file": "0694.jpg",
+   "nearest_train": "Le_Conte_Sparrow_0012_2213868006.jpg",
+   "cosine": 0.8913,
+   "same_label": false
+  },
+  {
+   "file": "0695.jpg",
+   "nearest_train": "Yellow_throated_Vireo_0005_2487545363.jpg",
+   "cosine": 0.9083,
+   "same_label": false
+  },
+  {
+   "file": "0696.jpg",
+   "nearest_train": "House_Sparrow_0011_3048400207.jpg",
+   "cosine": 0.9054,
+   "same_label": true
+  },
+  {
+   "file": "0697.jpg",
+   "nearest_train": "House_Sparrow_0012_2106145138.jpg",
+   "cosine": 0.9894,
+   "same_label": true
+  },
+  {
+   "file": "0698.jpg",
+   "nearest_train": "Purple_Finch_0024_15786109.jpg",
+   "cosine": 0.9157,
+   "same_label": false
+  },
+  {
+   "file": "0699.jpg",
+   "nearest_train": "Prairie_Warbler_0007_2545961817.jpg",
+   "cosine": 0.9199,
+   "same_label": false
+  },
+  {
+   "file": "0700.jpg",
+   "nearest_train": "House_Sparrow_0008_356172865.jpg",
+   "cosine": 0.9144,
+   "same_label": true
+  },
+  {
+   "file": "0701.jpg",
+   "nearest_train": "Red_eyed_Vireo_0005_2850972890.jpg",
+   "cosine": 0.8246,
+   "same_label": false
+  },
+  {
+   "file": "0702.jpg",
+   "nearest_train": "Louisiana_Waterthrush_0004_2414130345.jpg",
+   "cosine": 0.9541,
+   "same_label": false
+  },
+  {
+   "file": "0703.jpg",
+   "nearest_train": "Black_throated_Sparrow_0011_2530603516.jpg",
+   "cosine": 0.9066,
+   "same_label": false
+  },
+  {
+   "file": "0704.jpg",
+   "nearest_train": "Palm_Warbler_0010_467821032.jpg",
+   "cosine": 0.9233,
+   "same_label": false
+  },
+  {
+   "file": "0705.jpg",
+   "nearest_train": "Field_Sparrow_0009_2687291480.jpg",
+   "cosine": 0.9721,
+   "same_label": true
+  },
+  {
+   "file": "0706.jpg",
+   "nearest_train": "Lincoln_Sparrow_0007_3051554860.jpg",
+   "cosine": 0.8287,
+   "same_label": false
+  },
+  {
+   "file": "0707.jpg",
+   "nearest_train": "Philadelphia_Vireo_0014_59216347.jpg",
+   "cosine": 0.9315,
+   "same_label": false
+  },
+  {
+   "file": "0708.jpg",
+   "nearest_train": "Western_Wood_Pewee_0013_2609889992.jpg",
+   "cosine": 0.92,
+   "same_label": false
+  },
+  {
+   "file": "0709.jpg",
+   "nearest_train": "Fox_Sparrow_0020_2098248505.jpg",
+   "cosine": 0.9393,
+   "same_label": true
+  },
+  {
+   "file": "0710.jpg",
+   "nearest_train": "Henslow_Sparrow_0008_2193799162.jpg",
+   "cosine": 0.7884,
+   "same_label": false
+  },
+  {
+   "file": "0711.jpg",
+   "nearest_train": "Swainson_Warbler_0018_437031544.jpg",
+   "cosine": 0.8843,
+   "same_label": false
+  },
+  {
+   "file": "0712.jpg",
+   "nearest_train": "Savannah_Sparrow_0023_2994668423.jpg",
+   "cosine": 0.888,
+   "same_label": false
+  },
+  {
+   "file": "0713.jpg",
+   "nearest_train": "White_throated_Sparrow_0025_2384953183.jpg",
+   "cosine": 0.8729,
+   "same_label": false
+  },
+  {
+   "file": "0714.jpg",
+   "nearest_train": "Winter_Wren_0019_2928898149.jpg",
+   "cosine": 0.9319,
+   "same_label": false
+  },
+  {
+   "file": "0715.jpg",
+   "nearest_train": "Henslow_Sparrow_0019_184444546.jpg",
+   "cosine": 0.9266,
+   "same_label": false
+  },
+  {
+   "file": "0716.jpg",
+   "nearest_train": "Grasshopper_Sparrow_0017_1268280854.jpg",
+   "cosine": 0.9771,
+   "same_label": true
+  },
+  {
+   "file": "0717.jpg",
+   "nearest_train": "Grasshopper_Sparrow_0031_164865110.jpg",
+   "cosine": 0.9359,
+   "same_label": true
+  },
+  {
+   "file": "0718.jpg",
+   "nearest_train": "Bewick_Wren_0034_167744800.jpg",
+   "cosine": 0.9052,
+   "same_label": false
+  },
+  {
+   "file": "0719.jpg",
+   "nearest_train": "Western_Wood_Pewee_0011_2238182192.jpg",
+   "cosine": 0.9477,
+   "same_label": false
+  },
+  {
+   "file": "0720.jpg",
+   "nearest_train": "Bobolink_0018_2616868506.jpg",
+   "cosine": 0.7724,
+   "same_label": false
+  },
+  {
+   "file": "0721.jpg",
+   "nearest_train": "Grasshopper_Sparrow_0002_2627445970.jpg",
+   "cosine": 0.9513,
+   "same_label": true
+  },
+  {
+   "file": "0722.jpg",
+   "nearest_train": "White_eyed_Vireo_0012_469066899.jpg",
+   "cosine": 0.8873,
+   "same_label": false
+  },
+  {
+   "file": "0723.jpg",
+   "nearest_train": "Harris_Sparrow_0018_2941353289.jpg",
+   "cosine": 0.9967,
+   "same_label": true
+  },
+  {
+   "file": "0724.jpg",
+   "nearest_train": "Clay_colored_Sparrow_0019_1573506840.jpg",
+   "cosine": 0.9217,
+   "same_label": false
+  },
+  {
+   "file": "0725.jpg",
+   "nearest_train": "Harris_Sparrow_0020_2942208666.jpg",
+   "cosine": 0.9691,
+   "same_label": true
+  },
+  {
+   "file": "0726.jpg",
+   "nearest_train": "Painted_Bunting_0028_xxx.jpg",
+   "cosine": 0.9321,
+   "same_label": false
+  },
+  {
+   "file": "0727.jpg",
+   "nearest_train": "Henslow_Sparrow_0028_2621306589.jpg",
+   "cosine": 0.942,
+   "same_label": true
+  },
+  {
+   "file": "0728.jpg",
+   "nearest_train": "Song_Sparrow_0028_2697116121.jpg",
+   "cosine": 0.9302,
+   "same_label": false
+  },
+  {
+   "file": "0729.jpg",
+   "nearest_train": "Henslow_Sparrow_0002_274992483.jpg",
+   "cosine": 0.8781,
+   "same_label": true
+  },
+  {
+   "file": "0730.jpg",
+   "nearest_train": "Clay_colored_Sparrow_0017_2917329002.jpg",
+   "cosine": 0.8462,
+   "same_label": false
+  },
+  {
+   "file": "0731.jpg",
+   "nearest_train": "Marsh_Wren_0010_2999206139.jpg",
+   "cosine": 0.9011,
+   "same_label": false
+  },
+  {
+   "file": "0732.jpg",
+   "nearest_train": "Henslow_Sparrow_0007_305387503.jpg",
+   "cosine": 0.9082,
+   "same_label": true
+  },
+  {
+   "file": "0733.jpg",
+   "nearest_train": "Henslow_Sparrow_0018_2493234965.jpg",
+   "cosine": 0.9952,
+   "same_label": true
+  },
+  {
+   "file": "0734.jpg",
+   "nearest_train": "Le_Conte_Sparrow_0023_3047470704.jpg",
+   "cosine": 0.9363,
+   "same_label": true
+  },
+  {
+   "file": "0735.jpg",
+   "nearest_train": "Grasshopper_Sparrow_0031_164865110.jpg",
+   "cosine": 0.94,
+   "same_label": false
+  },
+  {
+   "file": "0736.jpg",
+   "nearest_train": "Lincoln_Sparrow_0030_2742523201.jpg",
+   "cosine": 0.9076,
+   "same_label": false
+  },
+  {
+   "file": "0737.jpg",
+   "nearest_train": "Le_Conte_Sparrow_0030_2121761826.jpg",
+   "cosine": 0.9472,
+   "same_label": true
+  },
+  {
+   "file": "0738.jpg",
+   "nearest_train": "Le_Conte_Sparrow_0010_1343624657.jpg",
+   "cosine": 0.9452,
+   "same_label": true
+  },
+  {
+   "file": "0739.jpg",
+   "nearest_train": "Black_throated_Sparrow_0031_504916179.jpg",
+   "cosine": 0.935,
+   "same_label": false
+  },
+  {
+   "file": "0740.jpg",
+   "nearest_train": "Nelson_Sharp_tailed_Sparrow_0026_3003999509.jpg",
+   "cosine": 0.9117,
+   "same_label": false
+  },
+  {
+   "file": "0741.jpg",
+   "nearest_train": "Lincoln_Sparrow_0025_2887690902.jpg",
+   "cosine": 0.9914,
+   "same_label": true
+  },
+  {
+   "file": "0742.jpg",
+   "nearest_train": "Field_Sparrow_0001_3066895391.jpg",
+   "cosine": 0.9259,
+   "same_label": false
+  },
+  {
+   "file": "0743.jpg",
+   "nearest_train": "Lincoln_Sparrow_0025_2887690902.jpg",
+   "cosine": 0.9758,
+   "same_label": true
+  },
+  {
+   "file": "0744.jpg",
+   "nearest_train": "Song_Sparrow_0004_2338128915.jpg",
+   "cosine": 0.9309,
+   "same_label": false
+  },
+  {
+   "file": "0745.jpg",
+   "nearest_train": "White_crowned_Sparrow_0023_2225913204.jpg",
+   "cosine": 0.9302,
+   "same_label": false
+  },
+  {
+   "file": "0746.jpg",
+   "nearest_train": "Lincoln_Sparrow_0014_313506084.jpg",
+   "cosine": 0.9371,
+   "same_label": true
+  },
+  {
+   "file": "0747.jpg",
+   "nearest_train": "Lincoln_Sparrow_0018_2116079801.jpg",
+   "cosine": 0.9978,
+   "same_label": true
+  },
+  {
+   "file": "0748.jpg",
+   "nearest_train": "Clay_colored_Sparrow_0020_3038374285.jpg",
+   "cosine": 0.875,
+   "same_label": false
+  },
+  {
+   "file": "0749.jpg",
+   "nearest_train": "Nelson_Sharp_tailed_Sparrow_0007_1557009642.jpg",
+   "cosine": 0.8793,
+   "same_label": true
+  },
+  {
+   "file": "0750.jpg",
+   "nearest_train": "Nelson_Sharp_tailed_Sparrow_0015_299852330.jpg",
+   "cosine": 0.919,
+   "same_label": true
+  },
+  {
+   "file": "0751.jpg",
+   "nearest_train": "Nelson_Sharp_tailed_Sparrow_0004_152204610.jpg",
+   "cosine": 0.9868,
+   "same_label": true
+  },
+  {
+   "file": "0752.jpg",
+   "nearest_train": "Marsh_Wren_0030_2068994674.jpg",
+   "cosine": 0.9436,
+   "same_label": false
+  },
+  {
+   "file": "0753.jpg",
+   "nearest_train": "Nelson_Sharp_tailed_Sparrow_0015_299852330.jpg",
+   "cosine": 0.9415,
+   "same_label": true
+  },
+  {
+   "file": "0754.jpg",
+   "nearest_train": "Baird_Sparrow_0032_xxx.jpg",
+   "cosine": 0.9294,
+   "same_label": false
+  },
+  {
+   "file": "0755.jpg",
+   "nearest_train": "Grasshopper_Sparrow_0013_2903856054.jpg",
+   "cosine": 0.8861,
+   "same_label": false
+  },
+  {
+   "file": "0756.jpg",
+   "nearest_train": "Yellow_throated_Vireo_0007_147252880.jpg",
+   "cosine": 0.8601,
+   "same_label": false
+  },
+  {
+   "file": "0757.jpg",
+   "nearest_train": "Nelson_Sharp_tailed_Sparrow_0013_59212125.jpg",
+   "cosine": 0.9066,
+   "same_label": false
+  },
+  {
+   "file": "0758.jpg",
+   "nearest_train": "Northern_Waterthrush_0003_2302384872.jpg",
+   "cosine": 0.8361,
+   "same_label": false
+  },
+  {
+   "file": "0759.jpg",
+   "nearest_train": "Yellow_breasted_Chat_0035_2481783830.jpg",
+   "cosine": 0.9074,
+   "same_label": false
+  },
+  {
+   "file": "0760.jpg",
+   "nearest_train": "Savannah_Sparrow_0004_2560880594.jpg",
+   "cosine": 0.8648,
+   "same_label": true
+  },
+  {
+   "file": "0761.jpg",
+   "nearest_train": "Seaside_Sparrow_0014_2838128393.jpg",
+   "cosine": 0.9814,
+   "same_label": true
+  },
+  {
+   "file": "0762.jpg",
+   "nearest_train": "White_crowned_Sparrow_0020_2327623753.jpg",
+   "cosine": 0.8928,
+   "same_label": false
+  },
+  {
+   "file": "0763.jpg",
+   "nearest_train": "Marsh_Wren_0011_2539720919.jpg",
+   "cosine": 0.8933,
+   "same_label": false
+  },
+  {
+   "file": "0764.jpg",
+   "nearest_train": "Marsh_Wren_0026_53824752.jpg",
+   "cosine": 0.8759,
+   "same_label": false
+  },
+  {
+   "file": "0765.jpg",
+   "nearest_train": "Seaside_Sparrow_0020_2141415204.jpg",
+   "cosine": 0.8874,
+   "same_label": true
+  },
+  {
+   "file": "0766.jpg",
+   "nearest_train": "Song_Sparrow_0024_127063426.jpg",
+   "cosine": 0.8693,
+   "same_label": true
+  },
+  {
+   "file": "0767.jpg",
+   "nearest_train": "Song_Sparrow_0013_444794389.jpg",
+   "cosine": 0.904,
+   "same_label": true
+  },
+  {
+   "file": "0768.jpg",
+   "nearest_train": "Louisiana_Waterthrush_0011_2513079700.jpg",
+   "cosine": 0.8416,
+   "same_label": false
+  },
+  {
+   "file": "0769.jpg",
+   "nearest_train": "Yellow_breasted_Chat_0035_2481783830.jpg",
+   "cosine": 0.9363,
+   "same_label": false
+  },
+  {
+   "file": "0770.jpg",
+   "nearest_train": "Canada_Warbler_0029_154761982.jpg",
+   "cosine": 0.9221,
+   "same_label": false
+  },
+  {
+   "file": "0771.jpg",
+   "nearest_train": "Prairie_Warbler_0032_2490198426.jpg",
+   "cosine": 0.9263,
+   "same_label": false
+  },
+  {
+   "file": "0772.jpg",
+   "nearest_train": "Vesper_Sparrow_0017_2549337769.jpg",
+   "cosine": 0.8507,
+   "same_label": false
+  },
+  {
+   "file": "0773.jpg",
+   "nearest_train": "Vesper_Sparrow_0012_1769798260.jpg",
+   "cosine": 0.9077,
+   "same_label": false
+  },
+  {
+   "file": "0774.jpg",
+   "nearest_train": "Le_Conte_Sparrow_0009_450136733.jpg",
+   "cosine": 0.8904,
+   "same_label": false
+  },
+  {
+   "file": "0775.jpg",
+   "nearest_train": "Tree_Sparrow_0014_2901875212.jpg",
+   "cosine": 0.9004,
+   "same_label": true
+  },
+  {
+   "file": "0776.jpg",
+   "nearest_train": "Brown_Creeper_0005_2944141013.jpg",
+   "cosine": 0.8802,
+   "same_label": false
+  },
+  {
+   "file": "0777.jpg",
+   "nearest_train": "White_throated_Sparrow_0016_2467785238.jpg",
+   "cosine": 0.8091,
+   "same_label": false
+  },
+  {
+   "file": "0778.jpg",
+   "nearest_train": "Grasshopper_Sparrow_0011_576192873.jpg",
+   "cosine": 0.9325,
+   "same_label": false
+  },
+  {
+   "file": "0779.jpg",
+   "nearest_train": "Savannah_Sparrow_0027_1013983382.jpg",
+   "cosine": 0.9176,
+   "same_label": false
+  },
+  {
+   "file": "0780.jpg",
+   "nearest_train": "Grasshopper_Sparrow_0023_2549019821.jpg",
+   "cosine": 0.9148,
+   "same_label": false
+  },
+  {
+   "file": "0781.jpg",
+   "nearest_train": "Vesper_Sparrow_0031_2490239339.jpg",
+   "cosine": 0.9774,
+   "same_label": true
+  },
+  {
+   "file": "0782.jpg",
+   "nearest_train": "Vesper_Sparrow_0025_3006146567.jpg",
+   "cosine": 0.9726,
+   "same_label": true
+  },
+  {
+   "file": "0783.jpg",
+   "nearest_train": "Baird_Sparrow_0025_2779560955.jpg",
+   "cosine": 0.8328,
+   "same_label": false
+  },
+  {
+   "file": "0784.jpg",
+   "nearest_train": "Savannah_Sparrow_0027_1013983382.jpg",
+   "cosine": 0.9076,
+   "same_label": false
+  },
+  {
+   "file": "0785.jpg",
+   "nearest_train": "Vesper_Sparrow_0010_144879272.jpg",
+   "cosine": 0.9405,
+   "same_label": true
+  },
+  {
+   "file": "0786.jpg",
+   "nearest_train": "Mockingbird_0027_xxx.jpg",
+   "cosine": 0.9299,
+   "same_label": false
+  },
+  {
+   "file": "0787.jpg",
+   "nearest_train": "Chipping_Sparrow_0001_226687764.jpg",
+   "cosine": 0.8839,
+   "same_label": false
+  },
+  {
+   "file": "0788.jpg",
+   "nearest_train": "House_Sparrow_0019_26603689.jpg",
+   "cosine": 0.7737,
+   "same_label": false
+  },
+  {
+   "file": "0789.jpg",
+   "nearest_train": "Green_tailed_Towhee_0001_2201100778.jpg",
+   "cosine": 0.8466,
+   "same_label": false
+  },
+  {
+   "file": "0790.jpg",
+   "nearest_train": "Marsh_Wren_0005_2256533722.jpg",
+   "cosine": 0.88,
+   "same_label": false
+  },
+  {
+   "file": "0791.jpg",
+   "nearest_train": "Chipping_Sparrow_0012_2462909394.jpg",
+   "cosine": 0.9075,
+   "same_label": false
+  },
+  {
+   "file": "0792.jpg",
+   "nearest_train": "Louisiana_Waterthrush_0024_10442225.jpg",
+   "cosine": 0.8939,
+   "same_label": false
+  },
+  {
+   "file": "0793.jpg",
+   "nearest_train": "Hooded_Warbler_0011_1472759322.jpg",
+   "cosine": 0.8987,
+   "same_label": false
+  },
+  {
+   "file": "0794.jpg",
+   "nearest_train": "Black_throated_Sparrow_0031_504916179.jpg",
+   "cosine": 0.9271,
+   "same_label": false
+  },
+  {
+   "file": "0795.jpg",
+   "nearest_train": "Red_bellied_Woodpecker_0020_2281610719.jpg",
+   "cosine": 0.8857,
+   "same_label": false
+  },
+  {
+   "file": "0796.jpg",
+   "nearest_train": "White_throated_Sparrow_0014_2887691822.jpg",
+   "cosine": 0.9858,
+   "same_label": true
+  },
+  {
+   "file": "0797.jpg",
+   "nearest_train": "Worm_eating_Warbler_0020_2837683220.jpg",
+   "cosine": 0.8798,
+   "same_label": false
+  },
+  {
+   "file": "0798.jpg",
+   "nearest_train": "Rusty_Blackbird_0017_2961421713.jpg",
+   "cosine": 0.9273,
+   "same_label": false
+  },
+  {
+   "file": "0799.jpg",
+   "nearest_train": "Carolina_Wren_0021_3064462117.jpg",
+   "cosine": 0.9215,
+   "same_label": false
+  },
+  {
+   "file": "0800.jpg",
+   "nearest_train": "Boat_tailed_Grackle_0024_462834561.jpg",
+   "cosine": 0.9107,
+   "same_label": false
+  },
+  {
+   "file": "0801.jpg",
+   "nearest_train": "Cape_Glossy_Starling_0032_3188892648.jpg",
+   "cosine": 0.9314,
+   "same_label": true
+  },
+  {
+   "file": "0802.jpg",
+   "nearest_train": "Bewick_Wren_0019_305351818.jpg",
+   "cosine": 0.8993,
+   "same_label": false
+  },
+  {
+   "file": "0803.jpg",
+   "nearest_train": "Rusty_Blackbird_0017_2961421713.jpg",
+   "cosine": 0.9278,
+   "same_label": false
+  },
+  {
+   "file": "0804.jpg",
+   "nearest_train": "Spotted_Catbird_0002_2609850097.jpg",
+   "cosine": 0.8809,
+   "same_label": false
+  },
+  {
+   "file": "0805.jpg",
+   "nearest_train": "Bank_Swallow_0021_310601911.jpg",
+   "cosine": 0.8824,
+   "same_label": true
+  },
+  {
+   "file": "0806.jpg",
+   "nearest_train": "Scissor_tailed_Flycatcher_0003_2819862001.jpg",
+   "cosine": 0.9094,
+   "same_label": false
+  },
+  {
+   "file": "0807.jpg",
+   "nearest_train": "Bank_Swallow_0018_2775643471.jpg",
+   "cosine": 0.9346,
+   "same_label": true
+  },
+  {
+   "file": "0808.jpg",
+   "nearest_train": "Barn_Swallow_0024_820423004.jpg",
+   "cosine": 0.9515,
+   "same_label": false
+  },
+  {
+   "file": "0809.jpg",
+   "nearest_train": "Loggerhead_Shrike_0034_2083112207.jpg",
+   "cosine": 0.8849,
+   "same_label": false
+  },
+  {
+   "file": "0810.jpg",
+   "nearest_train": "Barn_Swallow_0014_484185866.jpg",
+   "cosine": 0.9058,
+   "same_label": true
+  },
+  {
+   "file": "0811.jpg",
+   "nearest_train": "European_Goldfinch_0022_1891622914.jpg",
+   "cosine": 0.8499,
+   "same_label": false
+  },
+  {
+   "file": "0812.jpg",
+   "nearest_train": "Barn_Swallow_0015_335625657.jpg",
+   "cosine": 0.897,
+   "same_label": true
+  },
+  {
+   "file": "0813.jpg",
+   "nearest_train": "Tree_Swallow_0007_133236408.jpg",
+   "cosine": 0.872,
+   "same_label": false
+  },
+  {
+   "file": "0814.jpg",
+   "nearest_train": "Bank_Swallow_0022_987303653.jpg",
+   "cosine": 0.7111,
+   "same_label": false
+  },
+  {
+   "file": "0815.jpg",
+   "nearest_train": "Cliff_Swallow_0022_2044912569.jpg",
+   "cosine": 0.9499,
+   "same_label": true
+  },
+  {
+   "file": "0816.jpg",
+   "nearest_train": "Ovenbird_0005_2671476715.jpg",
+   "cosine": 0.9206,
+   "same_label": false
+  },
+  {
+   "file": "0817.jpg",
+   "nearest_train": "Scissor_tailed_Flycatcher_0031_536647403.jpg",
+   "cosine": 0.9199,
+   "same_label": false
+  },
+  {
+   "file": "0818.jpg",
+   "nearest_train": "Cliff_Swallow_0010_2439269027.jpg",
+   "cosine": 0.9894,
+   "same_label": true
+  },
+  {
+   "file": "0819.jpg",
+   "nearest_train": "Cliff_Swallow_0028_131572746.jpg",
+   "cosine": 0.8911,
+   "same_label": true
+  },
+  {
+   "file": "0820.jpg",
+   "nearest_train": "Cliff_Swallow_0028_131572746.jpg",
+   "cosine": 0.76,
+   "same_label": true
+  },
+  {
+   "file": "0821.jpg",
+   "nearest_train": "Cardinal_0021_2106304649.jpg",
+   "cosine": 0.8566,
+   "same_label": false
+  },
+  {
+   "file": "0822.jpg",
+   "nearest_train": "Purple_Finch_0012_2960556842.jpg",
+   "cosine": 0.884,
+   "same_label": false
+  },
+  {
+   "file": "0823.jpg",
+   "nearest_train": "Barn_Swallow_0010_2677764808.jpg",
+   "cosine": 0.9147,
+   "same_label": false
+  },
+  {
+   "file": "0824.jpg",
+   "nearest_train": "Gray_Kingbird_0012_179376918.jpg",
+   "cosine": 0.9199,
+   "same_label": false
+  },
+  {
+   "file": "0825.jpg",
+   "nearest_train": "Western_Meadowlark_0009_2327954530.jpg",
+   "cosine": 0.9428,
+   "same_label": false
+  },
+  {
+   "file": "0826.jpg",
+   "nearest_train": "Tree_Swallow_0002_227609515.jpg",
+   "cosine": 0.9704,
+   "same_label": true
+  },
+  {
+   "file": "0827.jpg",
+   "nearest_train": "Prairie_Warbler_0006_287222067.jpg",
+   "cosine": 0.91,
+   "same_label": false
+  },
+  {
+   "file": "0828.jpg",
+   "nearest_train": "Rose_breasted_Grosbeak_0013_148131423.jpg",
+   "cosine": 0.9137,
+   "same_label": false
+  },
+  {
+   "file": "0829.jpg",
+   "nearest_train": "Scarlet_Tanager_0021_2541250671.jpg",
+   "cosine": 0.9355,
+   "same_label": true
+  },
+  {
+   "file": "0830.jpg",
+   "nearest_train": "Summer_Tanager_0017_2204655180.jpg",
+   "cosine": 0.8651,
+   "same_label": false
+  },
+  {
+   "file": "0831.jpg",
+   "nearest_train": "Hooded_Oriole_0009_2890234922.jpg",
+   "cosine": 0.9052,
+   "same_label": false
+  },
+  {
+   "file": "0832.jpg",
+   "nearest_train": "Prothonotary_Warbler_0017_1209140363.jpg",
+   "cosine": 0.9437,
+   "same_label": false
+  },
+  {
+   "file": "0833.jpg",
+   "nearest_train": "Mourning_Warbler_0019_2523030398.jpg",
+   "cosine": 0.9039,
+   "same_label": false
+  },
+  {
+   "file": "0834.jpg",
+   "nearest_train": "Western_Wood_Pewee_0003_2453928775.jpg",
+   "cosine": 0.9372,
+   "same_label": false
+  },
+  {
+   "file": "0835.jpg",
+   "nearest_train": "Cape_May_Warbler_0017_480588814.jpg",
+   "cosine": 0.9118,
+   "same_label": false
+  },
+  {
+   "file": "0836.jpg",
+   "nearest_train": "Great_Crested_Flycatcher_0031_2666865049.jpg",
+   "cosine": 0.9468,
+   "same_label": false
+  },
+  {
+   "file": "0837.jpg",
+   "nearest_train": "Ivory_Gull_0007_2310529445.jpg",
+   "cosine": 0.8906,
+   "same_label": false
+  },
+  {
+   "file": "0838.jpg",
+   "nearest_train": "Long_tailed_Jaeger_0016_2203352544.jpg",
+   "cosine": 0.8602,
+   "same_label": false
+  },
+  {
+   "file": "0839.jpg",
+   "nearest_train": "Caspian_Tern_0022_557380120.jpg",
+   "cosine": 0.8782,
+   "same_label": false
+  },
+  {
+   "file": "0840.jpg",
+   "nearest_train": "Black_Tern_0018_542832097.jpg",
+   "cosine": 0.9568,
+   "same_label": false
+  },
+  {
+   "file": "0841.jpg",
+   "nearest_train": "Caspian_Tern_0027_2146025295.jpg",
+   "cosine": 0.9563,
+   "same_label": false
+  },
+  {
+   "file": "0842.jpg",
+   "nearest_train": "Artic_Tern_0028_879755980.jpg",
+   "cosine": 0.957,
+   "same_label": true
+  },
+  {
+   "file": "0843.jpg",
+   "nearest_train": "Artic_Tern_0028_879755980.jpg",
+   "cosine": 0.9582,
+   "same_label": true
+  },
+  {
+   "file": "0844.jpg",
+   "nearest_train": "Marsh_Wren_0018_2505027968.jpg",
+   "cosine": 0.91,
+   "same_label": false
+  },
+  {
+   "file": "0845.jpg",
+   "nearest_train": "Black_Tern_0013_219598607.jpg",
+   "cosine": 0.8374,
+   "same_label": true
+  },
+  {
+   "file": "0846.jpg",
+   "nearest_train": "Black_Tern_0006_222283944.jpg",
+   "cosine": 0.944,
+   "same_label": true
+  },
+  {
+   "file": "0847.jpg",
+   "nearest_train": "Black_Tern_0004_243333817.jpg",
+   "cosine": 0.8677,
+   "same_label": true
+  },
+  {
+   "file": "0848.jpg",
+   "nearest_train": "Caspian_Tern_0012_2446293962.jpg",
+   "cosine": 0.948,
+   "same_label": true
+  },
+  {
+   "file": "0849.jpg",
+   "nearest_train": "Caspian_Tern_0003_2129705920.jpg",
+   "cosine": 0.9625,
+   "same_label": true
+  },
+  {
+   "file": "0850.jpg",
+   "nearest_train": "Caspian_Tern_0012_2446293962.jpg",
+   "cosine": 0.8738,
+   "same_label": true
+  },
+  {
+   "file": "0851.jpg",
+   "nearest_train": "Caspian_Tern_0002_790679330.jpg",
+   "cosine": 0.9009,
+   "same_label": true
+  },
+  {
+   "file": "0852.jpg",
+   "nearest_train": "Common_Tern_0005_333320996.jpg",
+   "cosine": 0.8183,
+   "same_label": false
+  },
+  {
+   "file": "0853.jpg",
+   "nearest_train": "California_Gull_0021_107103581.jpg",
+   "cosine": 0.8636,
+   "same_label": false
+  },
+  {
+   "file": "0854.jpg",
+   "nearest_train": "Caspian_Tern_0004_2677709318.jpg",
+   "cosine": 0.8962,
+   "same_label": true
+  },
+  {
+   "file": "0855.jpg",
+   "nearest_train": "Caspian_Tern_0012_2446293962.jpg",
+   "cosine": 0.9523,
+   "same_label": true
+  },
+  {
+   "file": "0856.jpg",
+   "nearest_train": "Elegant_Tern_0003_2800523347.jpg",
+   "cosine": 0.8593,
+   "same_label": false
+  },
+  {
+   "file": "0857.jpg",
+   "nearest_train": "Common_Tern_0015_2359608334.jpg",
+   "cosine": 0.921,
+   "same_label": true
+  },
+  {
+   "file": "0858.jpg",
+   "nearest_train": "Common_Tern_0027_2426663712.jpg",
+   "cosine": 0.9707,
+   "same_label": true
+  },
+  {
+   "file": "0859.jpg",
+   "nearest_train": "Artic_Tern_0009_1572647757.jpg",
+   "cosine": 0.867,
+   "same_label": false
+  },
+  {
+   "file": "0860.jpg",
+   "nearest_train": "Elegant_Tern_0015_2900262061.jpg",
+   "cosine": 0.8693,
+   "same_label": false
+  },
+  {
+   "file": "0861.jpg",
+   "nearest_train": "Common_Tern_0031_2425849461.jpg",
+   "cosine": 0.9678,
+   "same_label": true
+  },
+  {
+   "file": "0862.jpg",
+   "nearest_train": "Elegant_Tern_0003_2800523347.jpg",
+   "cosine": 0.8699,
+   "same_label": false
+  },
+  {
+   "file": "0863.jpg",
+   "nearest_train": "Elegant_Tern_0017_2764150817.jpg",
+   "cosine": 0.9761,
+   "same_label": true
+  },
+  {
+   "file": "0864.jpg",
+   "nearest_train": "European_Goldfinch_0022_1891622914.jpg",
+   "cosine": 0.8164,
+   "same_label": false
+  },
+  {
+   "file": "0865.jpg",
+   "nearest_train": "Elegant_Tern_0022_2903960188.jpg",
+   "cosine": 0.9923,
+   "same_label": true
+  },
+  {
+   "file": "0866.jpg",
+   "nearest_train": "Elegant_Tern_0022_2903960188.jpg",
+   "cosine": 0.975,
+   "same_label": true
+  },
+  {
+   "file": "0867.jpg",
+   "nearest_train": "Glaucous_winged_Gull_0013_2339234829.jpg",
+   "cosine": 0.8769,
+   "same_label": false
+  },
+  {
+   "file": "0868.jpg",
+   "nearest_train": "Common_Tern_0032_2425848193.jpg",
+   "cosine": 0.9344,
+   "same_label": false
+  },
+  {
+   "file": "0869.jpg",
+   "nearest_train": "Artic_Tern_0032_368286416.jpg",
+   "cosine": 0.9714,
+   "same_label": false
+  },
+  {
+   "file": "0870.jpg",
+   "nearest_train": "Long_tailed_Jaeger_0003_2181661942.jpg",
+   "cosine": 0.8507,
+   "same_label": false
+  },
+  {
+   "file": "0871.jpg",
+   "nearest_train": "Least_Tern_0001_808535227.jpg",
+   "cosine": 0.8418,
+   "same_label": false
+  },
+  {
+   "file": "0872.jpg",
+   "nearest_train": "Forsters_Tern_0005_294035938.jpg",
+   "cosine": 0.9682,
+   "same_label": true
+  },
+  {
+   "file": "0873.jpg",
+   "nearest_train": "Forsters_Tern_0010_1604267510.jpg",
+   "cosine": 0.8719,
+   "same_label": false
+  },
+  {
+   "file": "0874.jpg",
+   "nearest_train": "Elegant_Tern_0006_2790917589.jpg",
+   "cosine": 0.904,
+   "same_label": false
+  },
+  {
+   "file": "0875.jpg",
+   "nearest_train": "Artic_Tern_0006_235286408.jpg",
+   "cosine": 0.9495,
+   "same_label": false
+  },
+  {
+   "file": "0876.jpg",
+   "nearest_train": "Caspian_Tern_0028_2637444780.jpg",
+   "cosine": 0.9308,
+   "same_label": false
+  },
+  {
+   "file": "0877.jpg",
+   "nearest_train": "Horned_Lark_0003_3023719368.jpg",
+   "cosine": 0.9029,
+   "same_label": false
+  },
+  {
+   "file": "0878.jpg",
+   "nearest_train": "Blue_Grosbeak_0026_147218039.jpg",
+   "cosine": 0.894,
+   "same_label": false
+  },
+  {
+   "file": "0879.jpg",
+   "nearest_train": "Green_tailed_Towhee_0017_22766565.jpg",
+   "cosine": 0.9228,
+   "same_label": true
+  },
+  {
+   "file": "0880.jpg",
+   "nearest_train": "Green_tailed_Towhee_0010_136678398.jpg",
+   "cosine": 0.9474,
+   "same_label": true
+  },
+  {
+   "file": "0881.jpg",
+   "nearest_train": "Green_tailed_Towhee_0027_2586589128.jpg",
+   "cosine": 0.9476,
+   "same_label": true
+  },
+  {
+   "file": "0882.jpg",
+   "nearest_train": "Brewer_Sparrow_0015_2617083086.jpg",
+   "cosine": 0.8915,
+   "same_label": false
+  },
+  {
+   "file": "0883.jpg",
+   "nearest_train": "Pine_Warbler_0022_2979156099.jpg",
+   "cosine": 0.9138,
+   "same_label": false
+  },
+  {
+   "file": "0884.jpg",
+   "nearest_train": "Green_tailed_Towhee_0013_184430669.jpg",
+   "cosine": 0.9734,
+   "same_label": true
+  },
+  {
+   "file": "0885.jpg",
+   "nearest_train": "Lincoln_Sparrow_0014_313506084.jpg",
+   "cosine": 0.8973,
+   "same_label": false
+  },
+  {
+   "file": "0886.jpg",
+   "nearest_train": "Brown_Thrasher_0010_2537602439.jpg",
+   "cosine": 0.9869,
+   "same_label": true
+  },
+  {
+   "file": "0887.jpg",
+   "nearest_train": "Black_throated_Blue_Warbler_0021_480647302.jpg",
+   "cosine": 0.9036,
+   "same_label": false
+  },
+  {
+   "file": "0888.jpg",
+   "nearest_train": "Brown_Thrasher_0031_268139718.jpg",
+   "cosine": 0.9282,
+   "same_label": true
+  },
+  {
+   "file": "0889.jpg",
+   "nearest_train": "Brown_Thrasher_0016_2483674980.jpg",
+   "cosine": 0.9913,
+   "same_label": true
+  },
+  {
+   "file": "0890.jpg",
+   "nearest_train": "Yellow_breasted_Chat_0017_2560897471.jpg",
+   "cosine": 0.922,
+   "same_label": false
+  },
+  {
+   "file": "0891.jpg",
+   "nearest_train": "Grasshopper_Sparrow_0013_2903856054.jpg",
+   "cosine": 0.8729,
+   "same_label": false
+  },
+  {
+   "file": "0892.jpg",
+   "nearest_train": "Brewer_Sparrow_0031_2716573148.jpg",
+   "cosine": 0.9594,
+   "same_label": false
+  },
+  {
+   "file": "0893.jpg",
+   "nearest_train": "Sage_Thrasher_0018_161319569.jpg",
+   "cosine": 0.9213,
+   "same_label": true
+  },
+  {
+   "file": "0894.jpg",
+   "nearest_train": "Sage_Thrasher_0002_2532542571.jpg",
+   "cosine": 0.9864,
+   "same_label": true
+  },
+  {
+   "file": "0895.jpg",
+   "nearest_train": "Rock_Wren_0003_3015481897.jpg",
+   "cosine": 0.9386,
+   "same_label": false
+  },
+  {
+   "file": "0896.jpg",
+   "nearest_train": "Black_capped_Vireo_0008_2576203500.jpg",
+   "cosine": 0.8798,
+   "same_label": true
+  },
+  {
+   "file": "0897.jpg",
+   "nearest_train": "Black_throated_Blue_Warbler_0012_2917543822.jpg",
+   "cosine": 0.9326,
+   "same_label": false
+  },
+  {
+   "file": "0898.jpg",
+   "nearest_train": "Le_Conte_Sparrow_0004_2463152544.jpg",
+   "cosine": 0.8292,
+   "same_label": false
+  },
+  {
+   "file": "0899.jpg",
+   "nearest_train": "Red_eyed_Vireo_0020_2693135269.jpg",
+   "cosine": 0.9287,
+   "same_label": false
+  },
+  {
+   "file": "0900.jpg",
+   "nearest_train": "Golden_winged_Warbler_0025_2501121376.jpg",
+   "cosine": 0.9085,
+   "same_label": false
+  },
+  {
+   "file": "0901.jpg",
+   "nearest_train": "Blue_headed_Vireo_0034_2691472948.jpg",
+   "cosine": 0.9757,
+   "same_label": true
+  },
+  {
+   "file": "0902.jpg",
+   "nearest_train": "Red_eyed_Vireo_0021_2693953672.jpg",
+   "cosine": 0.9539,
+   "same_label": false
+  },
+  {
+   "file": "0903.jpg",
+   "nearest_train": "Pine_Warbler_0007_454566850.jpg",
+   "cosine": 0.9319,
+   "same_label": false
+  },
+  {
+   "file": "0904.jpg",
+   "nearest_train": "Pine_Warbler_0001_2313624758.jpg",
+   "cosine": 0.9448,
+   "same_label": false
+  },
+  {
+   "file": "0905.jpg",
+   "nearest_train": "Blue_headed_Vireo_0029_1445270560.jpg",
+   "cosine": 0.9797,
+   "same_label": true
+  },
+  {
+   "file": "0906.jpg",
+   "nearest_train": "Green_tailed_Towhee_0002_3047580332.jpg",
+   "cosine": 0.9366,
+   "same_label": false
+  },
+  {
+   "file": "0907.jpg",
+   "nearest_train": "Red_eyed_Vireo_0010_2224604942.jpg",
+   "cosine": 0.9436,
+   "same_label": false
+  },
+  {
+   "file": "0908.jpg",
+   "nearest_train": "Harris_Sparrow_0023_3018131728.jpg",
+   "cosine": 0.8818,
+   "same_label": false
+  },
+  {
+   "file": "0909.jpg",
+   "nearest_train": "Philadelphia_Vireo_0005_2998376982.jpg",
+   "cosine": 0.89,
+   "same_label": true
+  },
+  {
+   "file": "0910.jpg",
+   "nearest_train": "Philadelphia_Vireo_0005_2998376982.jpg",
+   "cosine": 0.9775,
+   "same_label": true
+  },
+  {
+   "file": "0911.jpg",
+   "nearest_train": "Blue_headed_Vireo_0013_59208715.jpg",
+   "cosine": 0.9226,
+   "same_label": false
+  },
+  {
+   "file": "0912.jpg",
+   "nearest_train": "Golden_winged_Warbler_0014_2896481930.jpg",
+   "cosine": 0.9051,
+   "same_label": false
+  },
+  {
+   "file": "0913.jpg",
+   "nearest_train": "Prothonotary_Warbler_0008_2979157705.jpg",
+   "cosine": 0.9459,
+   "same_label": false
+  },
+  {
+   "file": "0914.jpg",
+   "nearest_train": "Swainson_Warbler_0018_437031544.jpg",
+   "cosine": 0.9015,
+   "same_label": false
+  },
+  {
+   "file": "0915.jpg",
+   "nearest_train": "Red_eyed_Vireo_0022_2693134681.jpg",
+   "cosine": 0.9738,
+   "same_label": true
+  },
+  {
+   "file": "0916.jpg",
+   "nearest_train": "Red_eyed_Vireo_0013_2880017344.jpg",
+   "cosine": 0.9908,
+   "same_label": true
+  },
+  {
+   "file": "0917.jpg",
+   "nearest_train": "Mourning_Warbler_0021_2496732667.jpg",
+   "cosine": 0.927,
+   "same_label": false
+  },
+  {
+   "file": "0918.jpg",
+   "nearest_train": "Tennessee_Warbler_0012_59210336.jpg",
+   "cosine": 1.0,
+   "same_label": false
+  },
+  {
+   "file": "0919.jpg",
+   "nearest_train": "Red_eyed_Vireo_0025_2502711037.jpg",
+   "cosine": 0.988,
+   "same_label": true
+  },
+  {
+   "file": "0920.jpg",
+   "nearest_train": "Philadelphia_Vireo_0021_59213650.jpg",
+   "cosine": 0.9133,
+   "same_label": false
+  },
+  {
+   "file": "0921.jpg",
+   "nearest_train": "Bay_breasted_Warbler_0022_505090264.jpg",
+   "cosine": 0.92,
+   "same_label": false
+  },
+  {
+   "file": "0922.jpg",
+   "nearest_train": "Red_eyed_Vireo_0034_500254638.jpg",
+   "cosine": 0.9182,
+   "same_label": false
+  },
+  {
+   "file": "0923.jpg",
+   "nearest_train": "Philadelphia_Vireo_0002_59215684.jpg",
+   "cosine": 0.9144,
+   "same_label": false
+  },
+  {
+   "file": "0924.jpg",
+   "nearest_train": "Warbling_Vireo_0008_2803662861.jpg",
+   "cosine": 0.9548,
+   "same_label": true
+  },
+  {
+   "file": "0925.jpg",
+   "nearest_train": "Warbling_Vireo_0029_2838167774.jpg",
+   "cosine": 0.9766,
+   "same_label": true
+  },
+  {
+   "file": "0926.jpg",
+   "nearest_train": "Black_throated_Sparrow_0007_3043178790.jpg",
+   "cosine": 0.8424,
+   "same_label": false
+  },
+  {
+   "file": "0927.jpg",
+   "nearest_train": "Warbling_Vireo_0022_2412871087.jpg",
+   "cosine": 0.9826,
+   "same_label": true
+  },
+  {
+   "file": "0928.jpg",
+   "nearest_train": "Warbling_Vireo_0029_2838167774.jpg",
+   "cosine": 0.9621,
+   "same_label": true
+  },
+  {
+   "file": "0929.jpg",
+   "nearest_train": "Red_eyed_Vireo_0030_305729945.jpg",
+   "cosine": 0.8311,
+   "same_label": false
+  },
+  {
+   "file": "0930.jpg",
+   "nearest_train": "Worm_eating_Warbler_0002_2457261355.jpg",
+   "cosine": 0.877,
+   "same_label": false
+  },
+  {
+   "file": "0931.jpg",
+   "nearest_train": "Bronzed_Cowbird_0013_2417085161.jpg",
+   "cosine": 0.9074,
+   "same_label": false
+  },
+  {
+   "file": "0932.jpg",
+   "nearest_train": "Warbling_Vireo_0002_2777154293.jpg",
+   "cosine": 0.9143,
+   "same_label": false
+  },
+  {
+   "file": "0933.jpg",
+   "nearest_train": "White_eyed_Vireo_0003_xxx.jpg",
+   "cosine": 0.9545,
+   "same_label": true
+  },
+  {
+   "file": "0934.jpg",
+   "nearest_train": "Pine_Warbler_0017_517835522.jpg",
+   "cosine": 0.9575,
+   "same_label": false
+  },
+  {
+   "file": "0935.jpg",
+   "nearest_train": "White_eyed_Vireo_0004_2453288754.jpg",
+   "cosine": 0.9481,
+   "same_label": true
+  },
+  {
+   "file": "0936.jpg",
+   "nearest_train": "Acadian_Flycatcher_0001_526757101.jpg",
+   "cosine": 0.9321,
+   "same_label": false
+  },
+  {
+   "file": "0937.jpg",
+   "nearest_train": "Chestnut_sided_Warbler_0016_2561065240.jpg",
+   "cosine": 0.882,
+   "same_label": false
+  },
+  {
+   "file": "0938.jpg",
+   "nearest_train": "Western_Wood_Pewee_0002_2453935647.jpg",
+   "cosine": 0.9316,
+   "same_label": false
+  },
+  {
+   "file": "0939.jpg",
+   "nearest_train": "Yellow_throated_Vireo_0031_2496310376.jpg",
+   "cosine": 0.9881,
+   "same_label": true
+  },
+  {
+   "file": "0940.jpg",
+   "nearest_train": "Cerulean_Warbler_0001_526668322.jpg",
+   "cosine": 0.9388,
+   "same_label": false
+  },
+  {
+   "file": "0941.jpg",
+   "nearest_train": "Yellow_throated_Vireo_0016_59214900.jpg",
+   "cosine": 0.9436,
+   "same_label": true
+  },
+  {
+   "file": "0942.jpg",
+   "nearest_train": "Orchard_Oriole_0033_2486541642.jpg",
+   "cosine": 0.9196,
+   "same_label": false
+  },
+  {
+   "file": "0943.jpg",
+   "nearest_train": "American_Redstart_0003_2551180132.jpg",
+   "cosine": 0.9438,
+   "same_label": false
+  },
+  {
+   "file": "0944.jpg",
+   "nearest_train": "Bay_breasted_Warbler_0007_2527477687.jpg",
+   "cosine": 0.9892,
+   "same_label": true
+  },
+  {
+   "file": "0945.jpg",
+   "nearest_train": "Blue_headed_Vireo_0029_1445270560.jpg",
+   "cosine": 0.9367,
+   "same_label": false
+  },
+  {
+   "file": "0946.jpg",
+   "nearest_train": "White_crowned_Sparrow_0005_352279625.jpg",
+   "cosine": 0.9208,
+   "same_label": false
+  },
+  {
+   "file": "0947.jpg",
+   "nearest_train": "Bay_breasted_Warbler_0030_2465487083.jpg",
+   "cosine": 0.9892,
+   "same_label": true
+  },
+  {
+   "file": "0948.jpg",
+   "nearest_train": "Black_and_white_Warbler_0024_2880015246.jpg",
+   "cosine": 0.9468,
+   "same_label": true
+  },
+  {
+   "file": "0949.jpg",
+   "nearest_train": "Yellow_breasted_Chat_0016_2447000227.jpg",
+   "cosine": 0.8364,
+   "same_label": false
+  },
+  {
+   "file": "0950.jpg",
+   "nearest_train": "Yellow_throated_Vireo_0014_2490159607.jpg",
+   "cosine": 0.9153,
+   "same_label": false
+  },
+  {
+   "file": "0951.jpg",
+   "nearest_train": "Chestnut_sided_Warbler_0006_141303976.jpg",
+   "cosine": 0.7926,
+   "same_label": false
+  },
+  {
+   "file": "0952.jpg",
+   "nearest_train": "Black_capped_Vireo_0005_1977446818.jpg",
+   "cosine": 0.9248,
+   "same_label": false
+  },
+  {
+   "file": "0953.jpg",
+   "nearest_train": "Bay_breasted_Warbler_0018_500314630.jpg",
+   "cosine": 0.9409,
+   "same_label": false
+  },
+  {
+   "file": "0954.jpg",
+   "nearest_train": "Common_Yellowthroat_0011_2559313259.jpg",
+   "cosine": 0.877,
+   "same_label": false
+  },
+  {
+   "file": "0955.jpg",
+   "nearest_train": "Black_throated_Blue_Warbler_0011_2880014334.jpg",
+   "cosine": 0.9804,
+   "same_label": true
+  },
+  {
+   "file": "0956.jpg",
+   "nearest_train": "Black_capped_Vireo_0001_xxx.jpg",
+   "cosine": 0.8982,
+   "same_label": false
+  },
+  {
+   "file": "0957.jpg",
+   "nearest_train": "Blue_winged_Warbler_0006_2966091434.jpg",
+   "cosine": 0.8784,
+   "same_label": false
+  },
+  {
+   "file": "0958.jpg",
+   "nearest_train": "Black_throated_Blue_Warbler_0015_xxx.jpg",
+   "cosine": 0.9562,
+   "same_label": true
+  },
+  {
+   "file": "0959.jpg",
+   "nearest_train": "Philadelphia_Vireo_0032_239356975.jpg",
+   "cosine": 0.9133,
+   "same_label": false
+  },
+  {
+   "file": "0960.jpg",
+   "nearest_train": "Worm_eating_Warbler_0010_1989202690.jpg",
+   "cosine": 0.9341,
+   "same_label": false
+  },
+  {
+   "file": "0961.jpg",
+   "nearest_train": "Blue_winged_Warbler_0025_859531940.jpg",
+   "cosine": 0.9262,
+   "same_label": true
+  },
+  {
+   "file": "0962.jpg",
+   "nearest_train": "Golden_winged_Warbler_0018_2507666617.jpg",
+   "cosine": 0.894,
+   "same_label": false
+  },
+  {
+   "file": "0963.jpg",
+   "nearest_train": "Blue_winged_Warbler_0002_2545961769.jpg",
+   "cosine": 0.992,
+   "same_label": true
+  },
+  {
+   "file": "0964.jpg",
+   "nearest_train": "Prothonotary_Warbler_0017_1209140363.jpg",
+   "cosine": 0.9243,
+   "same_label": false
+  },
+  {
+   "file": "0965.jpg",
+   "nearest_train": "White_eyed_Vireo_0009_2471638203.jpg",
+   "cosine": 0.9563,
+   "same_label": false
+  },
+  {
+   "file": "0966.jpg",
+   "nearest_train": "Cape_May_Warbler_0031_2592812748.jpg",
+   "cosine": 0.926,
+   "same_label": false
+  },
+  {
+   "file": "0967.jpg",
+   "nearest_train": "Chestnut_sided_Warbler_0012_2503688492.jpg",
+   "cosine": 0.9275,
+   "same_label": false
+  },
+  {
+   "file": "0968.jpg",
+   "nearest_train": "Purple_Finch_0003_2374852324.jpg",
+   "cosine": 0.9152,
+   "same_label": false
+  },
+  {
+   "file": "0969.jpg",
+   "nearest_train": "Yellow_breasted_Chat_0017_2560897471.jpg",
+   "cosine": 0.9371,
+   "same_label": false
+  },
+  {
+   "file": "0970.jpg",
+   "nearest_train": "Ovenbird_0004_2693949698.jpg",
+   "cosine": 0.9496,
+   "same_label": false
+  },
+  {
+   "file": "0971.jpg",
+   "nearest_train": "Golden_winged_Warbler_0023_2489764877.jpg",
+   "cosine": 0.9041,
+   "same_label": false
+  },
+  {
+   "file": "0972.jpg",
+   "nearest_train": "Lincoln_Sparrow_0014_313506084.jpg",
+   "cosine": 0.8848,
+   "same_label": false
+  },
+  {
+   "file": "0973.jpg",
+   "nearest_train": "Cape_May_Warbler_0018_2469638982.jpg",
+   "cosine": 0.9264,
+   "same_label": true
+  },
+  {
+   "file": "0974.jpg",
+   "nearest_train": "Philadelphia_Vireo_0008_2536401505.jpg",
+   "cosine": 0.9253,
+   "same_label": false
+  },
+  {
+   "file": "0975.jpg",
+   "nearest_train": "Cape_May_Warbler_0031_2592812748.jpg",
+   "cosine": 0.9595,
+   "same_label": true
+  },
+  {
+   "file": "0976.jpg",
+   "nearest_train": "Tennessee_Warbler_0020_59210520.jpg",
+   "cosine": 1.0,
+   "same_label": false
+  },
+  {
+   "file": "0977.jpg",
+   "nearest_train": "Cape_May_Warbler_0030_2460503684.jpg",
+   "cosine": 0.964,
+   "same_label": true
+  },
+  {
+   "file": "0978.jpg",
+   "nearest_train": "Cape_May_Warbler_0004_512726047.jpg",
+   "cosine": 0.9315,
+   "same_label": true
+  },
+  {
+   "file": "0979.jpg",
+   "nearest_train": "Blue_headed_Vireo_0026_507580600.jpg",
+   "cosine": 0.9479,
+   "same_label": false
+  },
+  {
+   "file": "0980.jpg",
+   "nearest_train": "Cerulean_Warbler_0017_xxx.jpg",
+   "cosine": 0.938,
+   "same_label": true
+  },
+  {
+   "file": "0981.jpg",
+   "nearest_train": "Cape_Glossy_Starling_0008_1423783258.jpg",
+   "cosine": 0.8744,
+   "same_label": false
+  },
+  {
+   "file": "0982.jpg",
+   "nearest_train": "Prothonotary_Warbler_0030_2468915211.jpg",
+   "cosine": 0.9142,
+   "same_label": false
+  },
+  {
+   "file": "0983.jpg",
+   "nearest_train": "Cerulean_Warbler_0024_2654638614.jpg",
+   "cosine": 0.9943,
+   "same_label": true
+  },
+  {
+   "file": "0984.jpg",
+   "nearest_train": "Bay_breasted_Warbler_0008_2240883636.jpg",
+   "cosine": 0.9443,
+   "same_label": false
+  },
+  {
+   "file": "0985.jpg",
+   "nearest_train": "Pine_Grosbeak_0013_197369575.jpg",
+   "cosine": 0.8818,
+   "same_label": false
+  },
+  {
+   "file": "0986.jpg",
+   "nearest_train": "Canada_Warbler_0024_508687587.jpg",
+   "cosine": 0.924,
+   "same_label": false
+  },
+  {
+   "file": "0987.jpg",
+   "nearest_train": "White_crowned_Sparrow_0017_3040625222.jpg",
+   "cosine": 0.9127,
+   "same_label": false
+  },
+  {
+   "file": "0988.jpg",
+   "nearest_train": "Pine_Grosbeak_0021_2605826060.jpg",
+   "cosine": 0.8815,
+   "same_label": false
+  },
+  {
+   "file": "0989.jpg",
+   "nearest_train": "Chestnut_sided_Warbler_0014_2515061386.jpg",
+   "cosine": 0.9434,
+   "same_label": true
+  },
+  {
+   "file": "0990.jpg",
+   "nearest_train": "Chestnut_sided_Warbler_0012_2503688492.jpg",
+   "cosine": 0.9305,
+   "same_label": true
+  },
+  {
+   "file": "0991.jpg",
+   "nearest_train": "Lazuli_Bunting_0018_772550497.jpg",
+   "cosine": 0.8814,
+   "same_label": false
+  },
+  {
+   "file": "0992.jpg",
+   "nearest_train": "Vermilion_Flycatcher_0006_2415600056.jpg",
+   "cosine": 0.9085,
+   "same_label": false
+  },
+  {
+   "file": "0993.jpg",
+   "nearest_train": "Brown_Creeper_0011_114863052.jpg",
+   "cosine": 0.9195,
+   "same_label": false
+  },
+  {
+   "file": "0994.jpg",
+   "nearest_train": "European_Goldfinch_0002_285947945.jpg",
+   "cosine": 0.9282,
+   "same_label": false
+  },
+  {
+   "file": "0995.jpg",
+   "nearest_train": "Tennessee_Warbler_0002_1937049970.jpg",
+   "cosine": 0.8881,
+   "same_label": false
+  },
+  {
+   "file": "0996.jpg",
+   "nearest_train": "Golden_winged_Warbler_0011_2317407918.jpg",
+   "cosine": 0.8488,
+   "same_label": true
+  },
+  {
+   "file": "0997.jpg",
+   "nearest_train": "Golden_winged_Warbler_0011_2317407918.jpg",
+   "cosine": 0.7236,
+   "same_label": true
+  },
+  {
+   "file": "0998.jpg",
+   "nearest_train": "Myrtle_Warbler_0018_2910246240.jpg",
+   "cosine": 0.9264,
+   "same_label": false
+  },
+  {
+   "file": "0999.jpg",
+   "nearest_train": "Canada_Warbler_0007_2693139833.jpg",
+   "cosine": 0.9378,
+   "same_label": false
+  },
+  {
+   "file": "1000.jpg",
+   "nearest_train": "Golden_winged_Warbler_0020_2508494492.jpg",
+   "cosine": 0.918,
+   "same_label": false
+  },
+  {
+   "file": "1001.jpg",
+   "nearest_train": "Painted_Bunting_0015_2385492252.jpg",
+   "cosine": 0.892,
+   "same_label": false
+  },
+  {
+   "file": "1002.jpg",
+   "nearest_train": "Kentucky_Warbler_0023_2512906081.jpg",
+   "cosine": 0.9279,
+   "same_label": false
+  },
+  {
+   "file": "1003.jpg",
+   "nearest_train": "Mourning_Warbler_0006_2500291273.jpg",
+   "cosine": 0.945,
+   "same_label": false
+  },
+  {
+   "file": "1004.jpg",
+   "nearest_train": "Painted_Bunting_0004_2322681294.jpg",
+   "cosine": 0.8183,
+   "same_label": false
+  },
+  {
+   "file": "1005.jpg",
+   "nearest_train": "Cape_May_Warbler_0035_2508656935.jpg",
+   "cosine": 0.8933,
+   "same_label": false
+  },
+  {
+   "file": "1006.jpg",
+   "nearest_train": "Kentucky_Warbler_0029_xxx.jpg",
+   "cosine": 0.9799,
+   "same_label": true
+  },
+  {
+   "file": "1007.jpg",
+   "nearest_train": "Kentucky_Warbler_0018_xxx.jpg",
+   "cosine": 0.979,
+   "same_label": true
+  },
+  {
+   "file": "1008.jpg",
+   "nearest_train": "Common_Yellowthroat_0002_2679007659.jpg",
+   "cosine": 0.9218,
+   "same_label": false
+  },
+  {
+   "file": "1009.jpg",
+   "nearest_train": "Cerulean_Warbler_0022_2658928684.jpg",
+   "cosine": 0.9302,
+   "same_label": false
+  },
+  {
+   "file": "1010.jpg",
+   "nearest_train": "Wilson_Warbler_0035_97930515.jpg",
+   "cosine": 0.9032,
+   "same_label": false
+  },
+  {
+   "file": "1011.jpg",
+   "nearest_train": "Magnolia_Warbler_0009_59214870.jpg",
+   "cosine": 0.9784,
+   "same_label": true
+  },
+  {
+   "file": "1012.jpg",
+   "nearest_train": "Magnolia_Warbler_0010_2524515484.jpg",
+   "cosine": 0.9642,
+   "same_label": true
+  },
+  {
+   "file": "1013.jpg",
+   "nearest_train": "Black_and_white_Warbler_0029_498765940.jpg",
+   "cosine": 0.9497,
+   "same_label": false
+  },
+  {
+   "file": "1014.jpg",
+   "nearest_train": "Swainson_Warbler_0011_520143156.jpg",
+   "cosine": 0.8906,
+   "same_label": false
+  },
+  {
+   "file": "1015.jpg",
+   "nearest_train": "Gray_Catbird_0027_2441274483.jpg",
+   "cosine": 0.9362,
+   "same_label": false
+  },
+  {
+   "file": "1016.jpg",
+   "nearest_train": "Orchard_Oriole_0028_2481603085.jpg",
+   "cosine": 0.9499,
+   "same_label": false
+  },
+  {
+   "file": "1017.jpg",
+   "nearest_train": "American_Redstart_0010_2227581326.jpg",
+   "cosine": 0.911,
+   "same_label": false
+  },
+  {
+   "file": "1018.jpg",
+   "nearest_train": "Mourning_Warbler_0025_2963301056.jpg",
+   "cosine": 0.9512,
+   "same_label": true
+  },
+  {
+   "file": "1019.jpg",
+   "nearest_train": "Prothonotary_Warbler_0017_1209140363.jpg",
+   "cosine": 0.9288,
+   "same_label": false
+  },
+  {
+   "file": "1020.jpg",
+   "nearest_train": "Mourning_Warbler_0021_2496732667.jpg",
+   "cosine": 0.9898,
+   "same_label": true
+  },
+  {
+   "file": "1021.jpg",
+   "nearest_train": "Tennessee_Warbler_0018_2499166295.jpg",
+   "cosine": 0.9333,
+   "same_label": false
+  },
+  {
+   "file": "1022.jpg",
+   "nearest_train": "Eastern_Towhee_0029_2465368346.jpg",
+   "cosine": 0.8323,
+   "same_label": false
+  },
+  {
+   "file": "1023.jpg",
+   "nearest_train": "Magnolia_Warbler_0003_29506813.jpg",
+   "cosine": 0.9353,
+   "same_label": false
+  },
+  {
+   "file": "1024.jpg",
+   "nearest_train": "Olive_sided_Flycatcher_0018_155805868.jpg",
+   "cosine": 0.9343,
+   "same_label": false
+  },
+  {
+   "file": "1025.jpg",
+   "nearest_train": "Nashville_Warbler_0008_2622390699.jpg",
+   "cosine": 0.9451,
+   "same_label": true
+  },
+  {
+   "file": "1026.jpg",
+   "nearest_train": "Black_capped_Vireo_0006_2651638478.jpg",
+   "cosine": 0.9041,
+   "same_label": false
+  },
+  {
+   "file": "1027.jpg",
+   "nearest_train": "Nashville_Warbler_0029_2507430722.jpg",
+   "cosine": 0.9924,
+   "same_label": true
+  },
+  {
+   "file": "1028.jpg",
+   "nearest_train": "American_Goldfinch_0016_317767498.jpg",
+   "cosine": 0.8145,
+   "same_label": false
+  },
+  {
+   "file": "1029.jpg",
+   "nearest_train": "Pine_Warbler_0017_517835522.jpg",
+   "cosine": 0.9477,
+   "same_label": false
+  },
+  {
+   "file": "1030.jpg",
+   "nearest_train": "American_Goldfinch_0016_317767498.jpg",
+   "cosine": 0.8064,
+   "same_label": false
+  },
+  {
+   "file": "1031.jpg",
+   "nearest_train": "Acadian_Flycatcher_0025_2825988520.jpg",
+   "cosine": 0.8573,
+   "same_label": false
+  },
+  {
+   "file": "1032.jpg",
+   "nearest_train": "Black_throated_Blue_Warbler_0018_2884043593.jpg",
+   "cosine": 0.8426,
+   "same_label": false
+  },
+  {
+   "file": "1033.jpg",
+   "nearest_train": "Golden_winged_Warbler_0005_498814033.jpg",
+   "cosine": 0.9092,
+   "same_label": false
+  },
+  {
+   "file": "1034.jpg",
+   "nearest_train": "Golden_winged_Warbler_0027_2494039215.jpg",
+   "cosine": 0.8796,
+   "same_label": false
+  },
+  {
+   "file": "1035.jpg",
+   "nearest_train": "Orange_crowned_Warbler_0016_3102364673.jpg",
+   "cosine": 0.7175,
+   "same_label": true
+  },
+  {
+   "file": "1036.jpg",
+   "nearest_train": "Golden_winged_Warbler_0027_2494039215.jpg",
+   "cosine": 0.8688,
+   "same_label": false
+  },
+  {
+   "file": "1037.jpg",
+   "nearest_train": "Vermilion_Flycatcher_0014_2055483802.jpg",
+   "cosine": 0.9067,
+   "same_label": false
+  },
+  {
+   "file": "1038.jpg",
+   "nearest_train": "Clark_Nutcracker_0011_2643020986.jpg",
+   "cosine": 0.878,
+   "same_label": false
+  },
+  {
+   "file": "1039.jpg",
+   "nearest_train": "Wilson_Warbler_0011_272622595.jpg",
+   "cosine": 0.9242,
+   "same_label": false
+  },
+  {
+   "file": "1040.jpg",
+   "nearest_train": "Black_throated_Sparrow_0025_503930048.jpg",
+   "cosine": 0.9306,
+   "same_label": false
+  },
+  {
+   "file": "1041.jpg",
+   "nearest_train": "Cape_May_Warbler_0016_1473111503.jpg",
+   "cosine": 0.9277,
+   "same_label": false
+  },
+  {
+   "file": "1042.jpg",
+   "nearest_train": "Chipping_Sparrow_0024_2060864636.jpg",
+   "cosine": 0.8932,
+   "same_label": false
+  },
+  {
+   "file": "1043.jpg",
+   "nearest_train": "Ovenbird_0016_205264982.jpg",
+   "cosine": 0.8638,
+   "same_label": false
+  },
+  {
+   "file": "1044.jpg",
+   "nearest_train": "Pine_Warbler_0015_448528089.jpg",
+   "cosine": 0.9317,
+   "same_label": true
+  },
+  {
+   "file": "1045.jpg",
+   "nearest_train": "Purple_Finch_0004_2356254630.jpg",
+   "cosine": 0.941,
+   "same_label": false
+  },
+  {
+   "file": "1046.jpg",
+   "nearest_train": "Wilson_Warbler_0012_59210037.jpg",
+   "cosine": 0.9151,
+   "same_label": false
+  },
+  {
+   "file": "1047.jpg",
+   "nearest_train": "White_breasted_Nuthatch_0009_2220839395.jpg",
+   "cosine": 0.8922,
+   "same_label": false
+  },
+  {
+   "file": "1048.jpg",
+   "nearest_train": "Pine_Warbler_0021_2425544763.jpg",
+   "cosine": 0.9383,
+   "same_label": true
+  },
+  {
+   "file": "1049.jpg",
+   "nearest_train": "Barn_Swallow_0020_2380146927.jpg",
+   "cosine": 0.8638,
+   "same_label": false
+  },
+  {
+   "file": "1050.jpg",
+   "nearest_train": "Yellow_breasted_Chat_0026_165229984.jpg",
+   "cosine": 0.9235,
+   "same_label": false
+  },
+  {
+   "file": "1051.jpg",
+   "nearest_train": "Prairie_Warbler_0009_2223885123.jpg",
+   "cosine": 0.9389,
+   "same_label": true
+  },
+  {
+   "file": "1052.jpg",
+   "nearest_train": "Tennessee_Warbler_0003_2841325902.jpg",
+   "cosine": 0.8719,
+   "same_label": false
+  },
+  {
+   "file": "1053.jpg",
+   "nearest_train": "Northern_Waterthrush_0019_2266599292.jpg",
+   "cosine": 0.9276,
+   "same_label": false
+  },
+  {
+   "file": "1054.jpg",
+   "nearest_train": "Palm_Warbler_0001_1593038484.jpg",
+   "cosine": 0.9445,
+   "same_label": false
+  },
+  {
+   "file": "1055.jpg",
+   "nearest_train": "Prairie_Warbler_0002_2435151998.jpg",
+   "cosine": 0.9947,
+   "same_label": true
+  },
+  {
+   "file": "1056.jpg",
+   "nearest_train": "Northern_Waterthrush_0021_2510339602.jpg",
+   "cosine": 0.8914,
+   "same_label": false
+  },
+  {
+   "file": "1057.jpg",
+   "nearest_train": "White_eyed_Vireo_0026_2377420062.jpg",
+   "cosine": 0.8622,
+   "same_label": false
+  },
+  {
+   "file": "1058.jpg",
+   "nearest_train": "Blue_headed_Vireo_0017_2846234840.jpg",
+   "cosine": 0.9439,
+   "same_label": false
+  },
+  {
+   "file": "1059.jpg",
+   "nearest_train": "Yellow_bellied_Flycatcher_0017_2389151790.jpg",
+   "cosine": 0.9155,
+   "same_label": false
+  },
+  {
+   "file": "1060.jpg",
+   "nearest_train": "Cerulean_Warbler_0007_518557488.jpg",
+   "cosine": 0.9346,
+   "same_label": false
+  },
+  {
+   "file": "1061.jpg",
+   "nearest_train": "Louisiana_Waterthrush_0020_697953108.jpg",
+   "cosine": 0.9265,
+   "same_label": false
+  },
+  {
+   "file": "1062.jpg",
+   "nearest_train": "Prothonotary_Warbler_0034_2528025563.jpg",
+   "cosine": 0.9768,
+   "same_label": true
+  },
+  {
+   "file": "1063.jpg",
+   "nearest_train": "Swainson_Warbler_0014_2517642117.jpg",
+   "cosine": 0.8589,
+   "same_label": true
+  },
+  {
+   "file": "1064.jpg",
+   "nearest_train": "Scarlet_Tanager_0004_3993751.jpg",
+   "cosine": 0.9261,
+   "same_label": false
+  },
+  {
+   "file": "1065.jpg",
+   "nearest_train": "Swainson_Warbler_0017_2378127803.jpg",
+   "cosine": 0.9376,
+   "same_label": true
+  },
+  {
+   "file": "1066.jpg",
+   "nearest_train": "Swainson_Warbler_0008_2658928324.jpg",
+   "cosine": 0.9942,
+   "same_label": true
+  },
+  {
+   "file": "1067.jpg",
+   "nearest_train": "Swainson_Warbler_0020_2432620628.jpg",
+   "cosine": 0.9446,
+   "same_label": true
+  },
+  {
+   "file": "1068.jpg",
+   "nearest_train": "Tennessee_Warbler_0003_2841325902.jpg",
+   "cosine": 0.8184,
+   "same_label": true
+  },
+  {
+   "file": "1069.jpg",
+   "nearest_train": "Red_eyed_Vireo_0011_2224577638.jpg",
+   "cosine": 0.9049,
+   "same_label": false
+  },
+  {
+   "file": "1070.jpg",
+   "nearest_train": "Orange_crowned_Warbler_0016_3102364673.jpg",
+   "cosine": 0.6809,
+   "same_label": false
+  },
+  {
+   "file": "1071.jpg",
+   "nearest_train": "Yellow_throated_Vireo_0005_2487545363.jpg",
+   "cosine": 0.905,
+   "same_label": false
+  },
+  {
+   "file": "1072.jpg",
+   "nearest_train": "Palm_Warbler_0021_2979153949.jpg",
+   "cosine": 0.944,
+   "same_label": false
+  },
+  {
+   "file": "1073.jpg",
+   "nearest_train": "Great_Crested_Flycatcher_0015_122493513.jpg",
+   "cosine": 0.8059,
+   "same_label": false
+  },
+  {
+   "file": "1074.jpg",
+   "nearest_train": "Warbling_Vireo_0014_2816326898.jpg",
+   "cosine": 0.9431,
+   "same_label": false
+  },
+  {
+   "file": "1075.jpg",
+   "nearest_train": "Kentucky_Warbler_0015_2889949759.jpg",
+   "cosine": 0.933,
+   "same_label": false
+  },
+  {
+   "file": "1076.jpg",
+   "nearest_train": "Wilson_Warbler_0022_2483055157.jpg",
+   "cosine": 0.9871,
+   "same_label": true
+  },
+  {
+   "file": "1077.jpg",
+   "nearest_train": "White_eyed_Vireo_0012_469066899.jpg",
+   "cosine": 0.9331,
+   "same_label": false
+  },
+  {
+   "file": "1078.jpg",
+   "nearest_train": "Wilson_Warbler_0033_2884016954.jpg",
+   "cosine": 0.9114,
+   "same_label": true
+  },
+  {
+   "file": "1079.jpg",
+   "nearest_train": "Palm_Warbler_0021_2979153949.jpg",
+   "cosine": 0.94,
+   "same_label": false
+  },
+  {
+   "file": "1080.jpg",
+   "nearest_train": "Carolina_Wren_0021_3064462117.jpg",
+   "cosine": 0.9303,
+   "same_label": false
+  },
+  {
+   "file": "1081.jpg",
+   "nearest_train": "Acadian_Flycatcher_0006_2520332573.jpg",
+   "cosine": 0.9026,
+   "same_label": false
+  },
+  {
+   "file": "1082.jpg",
+   "nearest_train": "Wilson_Warbler_0009_414613725.jpg",
+   "cosine": 0.9169,
+   "same_label": false
+  },
+  {
+   "file": "1083.jpg",
+   "nearest_train": "Black_and_white_Warbler_0016_532383488.jpg",
+   "cosine": 0.8983,
+   "same_label": false
+  },
+  {
+   "file": "1084.jpg",
+   "nearest_train": "White_throated_Sparrow_0027_2223727461.jpg",
+   "cosine": 0.8756,
+   "same_label": false
+  },
+  {
+   "file": "1085.jpg",
+   "nearest_train": "Worm_eating_Warbler_0019_2837637702.jpg",
+   "cosine": 0.9879,
+   "same_label": true
+  },
+  {
+   "file": "1086.jpg",
+   "nearest_train": "Hooded_Warbler_0025_2690306769.jpg",
+   "cosine": 0.8736,
+   "same_label": false
+  },
+  {
+   "file": "1087.jpg",
+   "nearest_train": "Prairie_Warbler_0022_2576957498.jpg",
+   "cosine": 0.8884,
+   "same_label": false
+  },
+  {
+   "file": "1088.jpg",
+   "nearest_train": "Prairie_Warbler_0035_2446257855.jpg",
+   "cosine": 0.92,
+   "same_label": false
+  },
+  {
+   "file": "1089.jpg",
+   "nearest_train": "Red_eyed_Vireo_0034_500254638.jpg",
+   "cosine": 0.9253,
+   "same_label": false
+  },
+  {
+   "file": "1090.jpg",
+   "nearest_train": "Black_capped_Vireo_0023_2726080707.jpg",
+   "cosine": 0.8849,
+   "same_label": false
+  },
+  {
+   "file": "1091.jpg",
+   "nearest_train": "House_Wren_0022_2982711158.jpg",
+   "cosine": 0.9344,
+   "same_label": false
+  },
+  {
+   "file": "1092.jpg",
+   "nearest_train": "Northern_Waterthrush_0015_2509502517.jpg",
+   "cosine": 0.8705,
+   "same_label": true
+  },
+  {
+   "file": "1093.jpg",
+   "nearest_train": "Northern_Waterthrush_0033_2466469528.jpg",
+   "cosine": 0.9387,
+   "same_label": true
+  },
+  {
+   "file": "1094.jpg",
+   "nearest_train": "Cerulean_Warbler_0008_2513907655.jpg",
+   "cosine": 0.9352,
+   "same_label": false
+  },
+  {
+   "file": "1095.jpg",
+   "nearest_train": "Louisiana_Waterthrush_0024_10442225.jpg",
+   "cosine": 0.9227,
+   "same_label": false
+  },
+  {
+   "file": "1096.jpg",
+   "nearest_train": "Northern_Waterthrush_0001_2500053329.jpg",
+   "cosine": 0.9318,
+   "same_label": true
+  },
+  {
+   "file": "1097.jpg",
+   "nearest_train": "Northern_Waterthrush_0033_2466469528.jpg",
+   "cosine": 0.8975,
+   "same_label": true
+  },
+  {
+   "file": "1098.jpg",
+   "nearest_train": "Golden_winged_Warbler_0025_2501121376.jpg",
+   "cosine": 0.9272,
+   "same_label": false
+  },
+  {
+   "file": "1099.jpg",
+   "nearest_train": "Louisiana_Waterthrush_0015_528322687.jpg",
+   "cosine": 0.9691,
+   "same_label": true
+  },
+  {
+   "file": "1100.jpg",
+   "nearest_train": "Northern_Waterthrush_0024_2482674303.jpg",
+   "cosine": 0.879,
+   "same_label": false
+  },
+  {
+   "file": "1101.jpg",
+   "nearest_train": "Louisiana_Waterthrush_0027_2598269893.jpg",
+   "cosine": 0.9417,
+   "same_label": true
+  },
+  {
+   "file": "1102.jpg",
+   "nearest_train": "Northern_Waterthrush_0021_2510339602.jpg",
+   "cosine": 0.8944,
+   "same_label": false
+  },
+  {
+   "file": "1103.jpg",
+   "nearest_train": "Fox_Sparrow_0011_2403528216.jpg",
+   "cosine": 0.8862,
+   "same_label": false
+  },
+  {
+   "file": "1104.jpg",
+   "nearest_train": "Bohemian_Waxwing_0004_222609996.jpg",
+   "cosine": 0.883,
+   "same_label": true
+  },
+  {
+   "file": "1105.jpg",
+   "nearest_train": "Bohemian_Waxwing_0006_2315847634.jpg",
+   "cosine": 0.8739,
+   "same_label": true
+  },
+  {
+   "file": "1106.jpg",
+   "nearest_train": "Bohemian_Waxwing_0003_349131092.jpg",
+   "cosine": 0.9498,
+   "same_label": true
+  },
+  {
+   "file": "1107.jpg",
+   "nearest_train": "Cedar_Waxwing_0023_392397088.jpg",
+   "cosine": 0.8732,
+   "same_label": false
+  },
+  {
+   "file": "1108.jpg",
+   "nearest_train": "Bohemian_Waxwing_0011_2418887318.jpg",
+   "cosine": 0.9813,
+   "same_label": true
+  },
+  {
+   "file": "1109.jpg",
+   "nearest_train": "Cedar_Waxwing_0024_2256345557.jpg",
+   "cosine": 0.8598,
+   "same_label": false
+  },
+  {
+   "file": "1110.jpg",
+   "nearest_train": "Bohemian_Waxwing_0001_2233840010.jpg",
+   "cosine": 0.9129,
+   "same_label": true
+  },
+  {
+   "file": "1111.jpg",
+   "nearest_train": "Bohemian_Waxwing_0022_2087757403.jpg",
+   "cosine": 0.877,
+   "same_label": false
+  },
+  {
+   "file": "1112.jpg",
+   "nearest_train": "Bohemian_Waxwing_0030_2324187537.jpg",
+   "cosine": 0.9224,
+   "same_label": false
+  },
+  {
+   "file": "1113.jpg",
+   "nearest_train": "Pine_Grosbeak_0005_2064080685.jpg",
+   "cosine": 0.9188,
+   "same_label": false
+  },
+  {
+   "file": "1114.jpg",
+   "nearest_train": "Cedar_Waxwing_0012_381146020.jpg",
+   "cosine": 0.9251,
+   "same_label": true
+  },
+  {
+   "file": "1115.jpg",
+   "nearest_train": "Bohemian_Waxwing_0020_2366004309.jpg",
+   "cosine": 0.9501,
+   "same_label": false
+  },
+  {
+   "file": "1116.jpg",
+   "nearest_train": "Bohemian_Waxwing_0019_2426997673.jpg",
+   "cosine": 0.9119,
+   "same_label": false
+  },
+  {
+   "file": "1117.jpg",
+   "nearest_train": "Cedar_Waxwing_0012_381146020.jpg",
+   "cosine": 0.882,
+   "same_label": true
+  },
+  {
+   "file": "1118.jpg",
+   "nearest_train": "Yellow_headed_Blackbird_0025_133117117.jpg",
+   "cosine": 0.8615,
+   "same_label": false
+  },
+  {
+   "file": "1119.jpg",
+   "nearest_train": "American_Three_toed_Woodpecker_0014_2599270284.jpg",
+   "cosine": 0.913,
+   "same_label": true
+  },
+  {
+   "file": "1120.jpg",
+   "nearest_train": "American_Three_toed_Woodpecker_0010_171736739.jpg",
+   "cosine": 0.9457,
+   "same_label": true
+  },
+  {
+   "file": "1121.jpg",
+   "nearest_train": "American_Three_toed_Woodpecker_0011_2599789306.jpg",
+   "cosine": 0.9449,
+   "same_label": true
+  },
+  {
+   "file": "1122.jpg",
+   "nearest_train": "American_Three_toed_Woodpecker_0014_2599270284.jpg",
+   "cosine": 0.9481,
+   "same_label": true
+  },
+  {
+   "file": "1123.jpg",
+   "nearest_train": "Red_cockaded_Woodpecker_0001_2503941412.jpg",
+   "cosine": 0.8967,
+   "same_label": false
+  },
+  {
+   "file": "1124.jpg",
+   "nearest_train": "Pileated_Woodpecker_0015_1975835733.jpg",
+   "cosine": 0.9374,
+   "same_label": true
+  },
+  {
+   "file": "1125.jpg",
+   "nearest_train": "Pileated_Woodpecker_0002_2189400753.jpg",
+   "cosine": 0.9377,
+   "same_label": true
+  },
+  {
+   "file": "1126.jpg",
+   "nearest_train": "Worm_eating_Warbler_0022_392418617.jpg",
+   "cosine": 0.8423,
+   "same_label": false
+  },
+  {
+   "file": "1127.jpg",
+   "nearest_train": "Mockingbird_0028_420595369.jpg",
+   "cosine": 0.9118,
+   "same_label": false
+  },
+  {
+   "file": "1128.jpg",
+   "nearest_train": "Pileated_Woodpecker_0034_2434362429.jpg",
+   "cosine": 0.9204,
+   "same_label": true
+  },
+  {
+   "file": "1129.jpg",
+   "nearest_train": "Pileated_Woodpecker_0012_541439754.jpg",
+   "cosine": 0.9789,
+   "same_label": true
+  },
+  {
+   "file": "1130.jpg",
+   "nearest_train": "Red_bellied_Woodpecker_0032_2554235092.jpg",
+   "cosine": 0.8892,
+   "same_label": false
+  },
+  {
+   "file": "1131.jpg",
+   "nearest_train": "Pileated_Woodpecker_0021_25993105.jpg",
+   "cosine": 0.9356,
+   "same_label": true
+  },
+  {
+   "file": "1132.jpg",
+   "nearest_train": "Brown_Creeper_0001_2345844695.jpg",
+   "cosine": 0.8994,
+   "same_label": false
+  },
+  {
+   "file": "1133.jpg",
+   "nearest_train": "Red_bellied_Woodpecker_0029_2524626125.jpg",
+   "cosine": 0.9779,
+   "same_label": true
+  },
+  {
+   "file": "1134.jpg",
+   "nearest_train": "Downy_Woodpecker_0024_2266194677.jpg",
+   "cosine": 0.9012,
+   "same_label": false
+  },
+  {
+   "file": "1135.jpg",
+   "nearest_train": "European_Goldfinch_0007_2689891155.jpg",
+   "cosine": 0.8985,
+   "same_label": false
+  },
+  {
+   "file": "1136.jpg",
+   "nearest_train": "Red_bellied_Woodpecker_0028_2554234492.jpg",
+   "cosine": 0.991,
+   "same_label": true
+  },
+  {
+   "file": "1137.jpg",
+   "nearest_train": "Red_bellied_Woodpecker_0019_143774989.jpg",
+   "cosine": 0.927,
+   "same_label": true
+  },
+  {
+   "file": "1138.jpg",
+   "nearest_train": "Red_bellied_Woodpecker_0034_2553408369.jpg",
+   "cosine": 0.9781,
+   "same_label": true
+  },
+  {
+   "file": "1139.jpg",
+   "nearest_train": "Red_cockaded_Woodpecker_0012_115003152.jpg",
+   "cosine": 0.9698,
+   "same_label": true
+  },
+  {
+   "file": "1140.jpg",
+   "nearest_train": "Scott_Oriole_0027_2499110771.jpg",
+   "cosine": 0.9176,
+   "same_label": false
+  },
+  {
+   "file": "1141.jpg",
+   "nearest_train": "Red_cockaded_Woodpecker_0018_266064299.jpg",
+   "cosine": 0.9428,
+   "same_label": true
+  },
+  {
+   "file": "1142.jpg",
+   "nearest_train": "Red_cockaded_Woodpecker_0005_2056629595.jpg",
+   "cosine": 0.9327,
+   "same_label": true
+  },
+  {
+   "file": "1143.jpg",
+   "nearest_train": "Red_headed_Woodpecker_0019_454761427.jpg",
+   "cosine": 0.9573,
+   "same_label": true
+  },
+  {
+   "file": "1144.jpg",
+   "nearest_train": "Carolina_Wren_0009_2576271197.jpg",
+   "cosine": 0.8474,
+   "same_label": false
+  },
+  {
+   "file": "1145.jpg",
+   "nearest_train": "Red_headed_Woodpecker_0026_562180201.jpg",
+   "cosine": 0.9904,
+   "same_label": true
+  },
+  {
+   "file": "1146.jpg",
+   "nearest_train": "Red_headed_Woodpecker_0027_545676369.jpg",
+   "cosine": 0.9361,
+   "same_label": true
+  },
+  {
+   "file": "1147.jpg",
+   "nearest_train": "Red_cockaded_Woodpecker_0018_266064299.jpg",
+   "cosine": 0.9291,
+   "same_label": false
+  },
+  {
+   "file": "1148.jpg",
+   "nearest_train": "Red_headed_Woodpecker_0006_1444142273.jpg",
+   "cosine": 0.9095,
+   "same_label": true
+  },
+  {
+   "file": "1149.jpg",
+   "nearest_train": "Pine_Warbler_0005_xxx.jpg",
+   "cosine": 0.8666,
+   "same_label": false
+  },
+  {
+   "file": "1150.jpg",
+   "nearest_train": "Downy_Woodpecker_0037_2219924352.jpg",
+   "cosine": 0.9535,
+   "same_label": true
+  },
+  {
+   "file": "1151.jpg",
+   "nearest_train": "Downy_Woodpecker_0037_2219924352.jpg",
+   "cosine": 0.8902,
+   "same_label": true
+  },
+  {
+   "file": "1152.jpg",
+   "nearest_train": "Downy_Woodpecker_0015_399663600.jpg",
+   "cosine": 0.9312,
+   "same_label": true
+  },
+  {
+   "file": "1153.jpg",
+   "nearest_train": "Downy_Woodpecker_0002_60238957.jpg",
+   "cosine": 0.9416,
+   "same_label": true
+  },
+  {
+   "file": "1154.jpg",
+   "nearest_train": "White_breasted_Nuthatch_0019_2933773443.jpg",
+   "cosine": 0.8844,
+   "same_label": false
+  },
+  {
+   "file": "1155.jpg",
+   "nearest_train": "Harris_Sparrow_0012_399463859.jpg",
+   "cosine": 0.9185,
+   "same_label": false
+  },
+  {
+   "file": "1156.jpg",
+   "nearest_train": "Downy_Woodpecker_0038_2237320201.jpg",
+   "cosine": 0.8646,
+   "same_label": true
+  },
+  {
+   "file": "1157.jpg",
+   "nearest_train": "Bewick_Wren_0006_169590205.jpg",
+   "cosine": 0.8569,
+   "same_label": true
+  },
+  {
+   "file": "1158.jpg",
+   "nearest_train": "Winter_Wren_0006_3084830996.jpg",
+   "cosine": 0.9223,
+   "same_label": false
+  },
+  {
+   "file": "1159.jpg",
+   "nearest_train": "Bewick_Wren_0006_169590205.jpg",
+   "cosine": 0.9876,
+   "same_label": true
+  },
+  {
+   "file": "1160.jpg",
+   "nearest_train": "Blue_Grosbeak_0029_3090719376.jpg",
+   "cosine": 0.8799,
+   "same_label": false
+  },
+  {
+   "file": "1161.jpg",
+   "nearest_train": "White_throated_Sparrow_0012_2660677462.jpg",
+   "cosine": 0.9207,
+   "same_label": false
+  },
+  {
+   "file": "1162.jpg",
+   "nearest_train": "Blue_headed_Vireo_0029_1445270560.jpg",
+   "cosine": 0.9201,
+   "same_label": false
+  },
+  {
+   "file": "1163.jpg",
+   "nearest_train": "House_Wren_0017_166159476.jpg",
+   "cosine": 0.8294,
+   "same_label": false
+  },
+  {
+   "file": "1164.jpg",
+   "nearest_train": "Black_throated_Sparrow_0012_2326857476.jpg",
+   "cosine": 0.8665,
+   "same_label": false
+  },
+  {
+   "file": "1165.jpg",
+   "nearest_train": "Hooded_Oriole_0022_2347113912.jpg",
+   "cosine": 0.8491,
+   "same_label": false
+  },
+  {
+   "file": "1166.jpg",
+   "nearest_train": "Carolina_Wren_0030_2978143076.jpg",
+   "cosine": 0.8955,
+   "same_label": false
+  },
+  {
+   "file": "1167.jpg",
+   "nearest_train": "Cactus_Wren_0009_2056959965.jpg",
+   "cosine": 0.9081,
+   "same_label": true
+  },
+  {
+   "file": "1168.jpg",
+   "nearest_train": "Rock_Wren_0018_1187242214.jpg",
+   "cosine": 0.7788,
+   "same_label": false
+  },
+  {
+   "file": "1169.jpg",
+   "nearest_train": "Carolina_Wren_0009_2576271197.jpg",
+   "cosine": 0.9983,
+   "same_label": true
+  },
+  {
+   "file": "1170.jpg",
+   "nearest_train": "Acadian_Flycatcher_0001_526757101.jpg",
+   "cosine": 0.9624,
+   "same_label": false
+  },
+  {
+   "file": "1171.jpg",
+   "nearest_train": "Carolina_Wren_0012_2576267527.jpg",
+   "cosine": 0.9973,
+   "same_label": true
+  },
+  {
+   "file": "1172.jpg",
+   "nearest_train": "Carolina_Wren_0015_2576273955.jpg",
+   "cosine": 0.9957,
+   "same_label": true
+  },
+  {
+   "file": "1173.jpg",
+   "nearest_train": "Loggerhead_Shrike_0034_2083112207.jpg",
+   "cosine": 0.8427,
+   "same_label": false
+  },
+  {
+   "file": "1174.jpg",
+   "nearest_train": "Painted_Bunting_0005_xxx.jpg",
+   "cosine": 0.9074,
+   "same_label": false
+  },
+  {
+   "file": "1175.jpg",
+   "nearest_train": "Purple_Finch_0016_2265549038.jpg",
+   "cosine": 0.9321,
+   "same_label": false
+  },
+  {
+   "file": "1176.jpg",
+   "nearest_train": "Olive_sided_Flycatcher_0014_2793753018.jpg",
+   "cosine": 0.9442,
+   "same_label": false
+  },
+  {
+   "file": "1177.jpg",
+   "nearest_train": "Nashville_Warbler_0026_1425208690.jpg",
+   "cosine": 0.8809,
+   "same_label": false
+  },
+  {
+   "file": "1178.jpg",
+   "nearest_train": "Western_Meadowlark_0031_126227376.jpg",
+   "cosine": 0.9362,
+   "same_label": false
+  },
+  {
+   "file": "1179.jpg",
+   "nearest_train": "House_Wren_0005_2896309429.jpg",
+   "cosine": 0.9637,
+   "same_label": true
+  },
+  {
+   "file": "1180.jpg",
+   "nearest_train": "Yellow_breasted_Chat_0034_2747911937.jpg",
+   "cosine": 0.9085,
+   "same_label": false
+  },
+  {
+   "file": "1181.jpg",
+   "nearest_train": "Marsh_Wren_0003_2785608840.jpg",
+   "cosine": 0.9311,
+   "same_label": true
+  },
+  {
+   "file": "1182.jpg",
+   "nearest_train": "Marsh_Wren_0026_53824752.jpg",
+   "cosine": 0.9472,
+   "same_label": true
+  },
+  {
+   "file": "1183.jpg",
+   "nearest_train": "Marsh_Wren_0020_2505029466.jpg",
+   "cosine": 0.9263,
+   "same_label": true
+  },
+  {
+   "file": "1184.jpg",
+   "nearest_train": "Marsh_Wren_0030_2068994674.jpg",
+   "cosine": 0.9037,
+   "same_label": true
+  },
+  {
+   "file": "1185.jpg",
+   "nearest_train": "Marsh_Wren_0032_887281664.jpg",
+   "cosine": 0.9635,
+   "same_label": true
+  },
+  {
+   "file": "1186.jpg",
+   "nearest_train": "Marsh_Wren_0030_2068994674.jpg",
+   "cosine": 0.987,
+   "same_label": true
+  },
+  {
+   "file": "1187.jpg",
+   "nearest_train": "Rock_Wren_0012_79531058.jpg",
+   "cosine": 0.873,
+   "same_label": true
+  },
+  {
+   "file": "1188.jpg",
+   "nearest_train": "Bewick_Wren_0007_2520613236.jpg",
+   "cosine": 0.9331,
+   "same_label": false
+  },
+  {
+   "file": "1189.jpg",
+   "nearest_train": "Rock_Wren_0010_205259109.jpg",
+   "cosine": 0.9399,
+   "same_label": true
+  },
+  {
+   "file": "1190.jpg",
+   "nearest_train": "Yellow_breasted_Chat_0008_2529831947.jpg",
+   "cosine": 0.8789,
+   "same_label": false
+  },
+  {
+   "file": "1191.jpg",
+   "nearest_train": "Rock_Wren_0023_291147322.jpg",
+   "cosine": 0.889,
+   "same_label": true
+  },
+  {
+   "file": "1192.jpg",
+   "nearest_train": "Winter_Wren_0026_2929455133.jpg",
+   "cosine": 0.9797,
+   "same_label": true
+  },
+  {
+   "file": "1193.jpg",
+   "nearest_train": "Lincoln_Sparrow_0030_2742523201.jpg",
+   "cosine": 0.8954,
+   "same_label": false
+  },
+  {
+   "file": "1194.jpg",
+   "nearest_train": "Carolina_Wren_0021_3064462117.jpg",
+   "cosine": 0.9301,
+   "same_label": false
+  },
+  {
+   "file": "1195.jpg",
+   "nearest_train": "Canada_Warbler_0007_2693139833.jpg",
+   "cosine": 0.9097,
+   "same_label": false
+  },
+  {
+   "file": "1196.jpg",
+   "nearest_train": "Winter_Wren_0029_2928896637.jpg",
+   "cosine": 0.9572,
+   "same_label": true
+  },
+  {
+   "file": "1197.jpg",
+   "nearest_train": "Kentucky_Warbler_0010_677178244.jpg",
+   "cosine": 0.9331,
+   "same_label": false
+  },
+  {
+   "file": "1198.jpg",
+   "nearest_train": "Northern_Waterthrush_0014_481840994.jpg",
+   "cosine": 0.9088,
+   "same_label": false
+  },
+  {
+   "file": "1199.jpg",
+   "nearest_train": "Olive_sided_Flycatcher_0005_2833910923.jpg",
+   "cosine": 0.8982,
+   "same_label": false
+  },
+  {
+   "file": "1200.jpg",
+   "nearest_train": "Tennessee_Warbler_0007_2429745454.jpg",
+   "cosine": 0.8762,
+   "same_label": false
+  },
+  {
+   "file": "1201.jpg",
+   "nearest_train": "Golden_winged_Warbler_0018_2507666617.jpg",
+   "cosine": 0.9311,
+   "same_label": false
+  },
+  {
+   "file": "1202.jpg",
+   "nearest_train": "Blue_Grosbeak_0029_3090719376.jpg",
+   "cosine": 0.8808,
+   "same_label": false
+  },
+  {
+   "file": "1203.jpg",
+   "nearest_train": "Blue_winged_Warbler_0011_2521539056.jpg",
+   "cosine": 0.9386,
+   "same_label": false
+  }
+ ]
+}

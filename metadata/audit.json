@@ -1,0 +1,806 @@
+{
+ "num_train": 4829,
+ "num_test": 1204,
+ "num_classes": 200,
+ "train_images_per_class": {
+  "min": 16,
+  "median": 25.0,
+  "max": 31,
+  "mean": 24.14
+ },
+ "test_images_per_class": {
+  "min": 4,
+  "median": 6.0,
+  "max": 8,
+  "mean": 6.02
+ },
+ "val_split": {
+  "fraction": 0.2,
+  "seed": 20260926,
+  "fit": 3870,
+  "val": 959
+ },
+ "image_width": {
+  "min": 162,
+  "median": 500,
+  "max": 500,
+  "mean": 474.22
+ },
+ "image_height": {
+  "min": 121,
+  "median": 375,
+  "max": 500,
+  "mean": 397.3
+ },
+ "short_side": {
+  "min": 121,
+  "median": 375,
+  "max": 500,
+  "mean": 372.66
+ },
+ "colour_modes": {
+  "RGB": 6033
+ },
+ "exact_duplicates": {
+  "summary": {
+   "groups": 7,
+   "train_test_groups": 4,
+   "label_conflicts": 7
+  },
+  "groups": [
+   [
+    {
+     "split": "Train",
+     "filename": "Crested_Auklet_0024_2676149281.jpg",
+     "label": 4,
+     "species": "Crested Auklet"
+    },
+    {
+     "split": "Train",
+     "filename": "Parakeet_Auklet_0027_2676149281.jpg",
+     "label": 6,
+     "species": "Parakeet Auklet"
+    }
+   ],
+   [
+    {
+     "split": "Train",
+     "filename": "Indigo_Bunting_0006_15376001.jpg",
+     "label": 13,
+     "species": "Indigo Bunting"
+    },
+    {
+     "split": "Test",
+     "filename": "0273.jpg",
+     "label": 46,
+     "species": "American Goldfinch"
+    }
+   ],
+   [
+    {
+     "split": "Train",
+     "filename": "American_Goldfinch_0013_146872871.jpg",
+     "label": 46,
+     "species": "American Goldfinch"
+    },
+    {
+     "split": "Test",
+     "filename": "0197.jpg",
+     "label": 34,
+     "species": "Purple Finch"
+    }
+   ],
+   [
+    {
+     "split": "Train",
+     "filename": "Philadelphia_Vireo_0002_59215684.jpg",
+     "label": 152,
+     "species": "Philadelphia Vireo"
+    },
+    {
+     "split": "Train",
+     "filename": "Warbling_Vireo_0004_59215684.jpg",
+     "label": 154,
+     "species": "Warbling Vireo"
+    }
+   ],
+   [
+    {
+     "split": "Train",
+     "filename": "Red_eyed_Vireo_0029_59210443.jpg",
+     "label": 153,
+     "species": "Red eyed Vireo"
+    },
+    {
+     "split": "Train",
+     "filename": "Tennessee_Warbler_0009_59210443.jpg",
+     "label": 178,
+     "species": "Tennessee Warbler"
+    }
+   ],
+   [
+    {
+     "split": "Train",
+     "filename": "Tennessee_Warbler_0020_59210520.jpg",
+     "label": 178,
+     "species": "Tennessee Warbler"
+    },
+    {
+     "split": "Test",
+     "filename": "0976.jpg",
+     "label": 162,
+     "species": "Cape May Warbler"
+    }
+   ],
+   [
+    {
+     "split": "Train",
+     "filename": "Tennessee_Warbler_0012_59210336.jpg",
+     "label": 178,
+     "species": "Tennessee Warbler"
+    },
+    {
+     "split": "Test",
+     "filename": "0918.jpg",
+     "label": 153,
+     "species": "Red eyed Vireo"
+    }
+   ]
+  ]
+ },
+ "near_duplicates": {
+  "max_dhash_bits": 6,
+  "summary": {
+   "groups": 43,
+   "train_test_groups": 19,
+   "label_conflicts": 2
+  },
+  "pairs": [
+   {
+    "distance": 0,
+    "a": {
+     "split": "Train",
+     "filename": "Baird_Sparrow_0018_2102096030.jpg",
+     "label": 112,
+     "species": "Baird Sparrow"
+    },
+    "b": {
+     "split": "Train",
+     "filename": "Baird_Sparrow_0017_2101316863.jpg",
+     "label": 112,
+     "species": "Baird Sparrow"
+    }
+   },
+   {
+    "distance": 1,
+    "a": {
+     "split": "Train",
+     "filename": "American_Crow_0017_2359869348.jpg",
+     "label": 28,
+     "species": "American Crow"
+    },
+    "b": {
+     "split": "Train",
+     "filename": "American_Crow_0015_2365091282.jpg",
+     "label": 28,
+     "species": "American Crow"
+    }
+   },
+   {
+    "distance": 1,
+    "a": {
+     "split": "Train",
+     "filename": "Ruby_throated_Hummingbird_0019_2451323040.jpg",
+     "label": 67,
+     "species": "Ruby throated Hummingbird"
+    },
+    "b": {
+     "split": "Train",
+     "filename": "Ruby_throated_Hummingbird_0004_483395699.jpg",
+     "label": 67,
+     "species": "Ruby throated Hummingbird"
+    }
+   },
+   {
+    "distance": 1,
+    "a": {
+     "split": "Train",
+     "filename": "American_Redstart_0029_2532979219.jpg",
+     "label": 108,
+     "species": "American Redstart"
+    },
+    "b": {
+     "split": "Train",
+     "filename": "American_Redstart_0028_2799100119.jpg",
+     "label": 108,
+     "species": "American Redstart"
+    }
+   },
+   {
+    "distance": 1,
+    "a": {
+     "split": "Train",
+     "filename": "Baird_Sparrow_0016_2102098568.jpg",
+     "label": 112,
+     "species": "Baird Sparrow"
+    },
+    "b": {
+     "split": "Train",
+     "filename": "Baird_Sparrow_0015_2101317721.jpg",
+     "label": 112,
+     "species": "Baird Sparrow"
+    }
+   },
+   {
+    "distance": 1,
+    "a": {
+     "split": "Train",
+     "filename": "Caspian_Tern_0022_557380120.jpg",
+     "label": 142,
+     "species": "Caspian Tern"
+    },
+    "b": {
+     "split": "Train",
+     "filename": "Caspian_Tern_0007_557373290.jpg",
+     "label": 142,
+     "species": "Caspian Tern"
+    }
+   },
+   {
+    "distance": 2,
+    "a": {
+     "split": "Train",
+     "filename": "Florida_Jay_0018_2334720072.jpg",
+     "label": 73,
+     "species": "Florida Jay"
+    },
+    "b": {
+     "split": "Test",
+     "filename": "0429.jpg",
+     "label": 73,
+     "species": "Florida Jay"
+    }
+   },
+   {
+    "distance": 2,
+    "a": {
+     "split": "Train",
+     "filename": "Baird_Sparrow_0018_2102096030.jpg",
+     "label": 112,
+     "species": "Baird Sparrow"
+    },
+    "b": {
+     "split": "Train",
+     "filename": "Baird_Sparrow_0020_2101315275.jpg",
+     "label": 112,
+     "species": "Baird Sparrow"
+    }
+   },
+   {
+    "distance": 2,
+    "a": {
+     "split": "Train",
+     "filename": "Baird_Sparrow_0016_2102098568.jpg",
+     "label": 112,
+     "species": "Baird Sparrow"
+    },
+    "b": {
+     "split": "Test",
+     "filename": "0664.jpg",
+     "label": 112,
+     "species": "Baird Sparrow"
+    }
+   },
+   {
+    "distance": 2,
+    "a": {
+     "split": "Train",
+     "filename": "Baird_Sparrow_0017_2101316863.jpg",
+     "label": 112,
+     "species": "Baird Sparrow"
+    },
+    "b": {
+     "split": "Train",
+     "filename": "Baird_Sparrow_0020_2101315275.jpg",
+     "label": 112,
+     "species": "Baird Sparrow"
+    }
+   },
+   {
+    "distance": 2,
+    "a": {
+     "split": "Test",
+     "filename": "0798.jpg",
+     "label": 133,
+     "species": "Cape Glossy Starling"
+    },
+    "b": {
+     "split": "Test",
+     "filename": "0803.jpg",
+     "label": 133,
+     "species": "Cape Glossy Starling"
+    }
+   },
+   {
+    "distance": 3,
+    "a": {
+     "split": "Train",
+     "filename": "Eastern_Towhee_0009_2509457459.jpg",
+     "label": 20,
+     "species": "Eastern Towhee"
+    },
+    "b": {
+     "split": "Test",
+     "filename": "0120.jpg",
+     "label": 20,
+     "species": "Eastern Towhee"
+    }
+   },
+   {
+    "distance": 3,
+    "a": {
+     "split": "Train",
+     "filename": "Baird_Sparrow_0004_2539483091.jpg",
+     "label": 112,
+     "species": "Baird Sparrow"
+    },
+    "b": {
+     "split": "Train",
+     "filename": "Baird_Sparrow_0001_2538811870.jpg",
+     "label": 112,
+     "species": "Baird Sparrow"
+    }
+   },
+   {
+    "distance": 3,
+    "a": {
+     "split": "Train",
+     "filename": "Baird_Sparrow_0015_2101317721.jpg",
+     "label": 112,
+     "species": "Baird Sparrow"
+    },
+    "b": {
+     "split": "Test",
+     "filename": "0664.jpg",
+     "label": 112,
+     "species": "Baird Sparrow"
+    }
+   },
+   {
+    "distance": 3,
+    "a": {
+     "split": "Train",
+     "filename": "Nashville_Warbler_0029_2507430722.jpg",
+     "label": 171,
+     "species": "Nashville Warbler"
+    },
+    "b": {
+     "split": "Test",
+     "filename": "1027.jpg",
+     "label": 171,
+     "species": "Nashville Warbler"
+    }
+   },
+   {
+    "distance": 3,
+    "a": {
+     "split": "Train",
+     "filename": "Carolina_Wren_0011_2576268447.jpg",
+     "label": 194,
+     "species": "Carolina Wren"
+    },
+    "b": {
+     "split": "Train",
+     "filename": "Carolina_Wren_0009_2576271197.jpg",
+     "label": 194,
+     "species": "Carolina Wren"
+    }
+   },
+   {
+    "distance": 3,
+    "a": {
+     "split": "Train",
+     "filename": "Carolina_Wren_0015_2576273955.jpg",
+     "label": 194,
+     "species": "Carolina Wren"
+    },
+    "b": {
+     "split": "Test",
+     "filename": "1172.jpg",
+     "label": 194,
+     "species": "Carolina Wren"
+    }
+   },
+   {
+    "distance": 4,
+    "a": {
+     "split": "Train",
+     "filename": "Eastern_Towhee_0007_2510288234.jpg",
+     "label": 20,
+     "species": "Eastern Towhee"
+    },
+    "b": {
+     "split": "Train",
+     "filename": "Eastern_Towhee_0014_2509455409.jpg",
+     "label": 20,
+     "species": "Eastern Towhee"
+    }
+   },
+   {
+    "distance": 4,
+    "a": {
+     "split": "Train",
+     "filename": "Green_Violetear_0004_1848240130.jpg",
+     "label": 69,
+     "species": "Green Violetear"
+    },
+    "b": {
+     "split": "Train",
+     "filename": "Green_Violetear_0001_1849664882.jpg",
+     "label": 69,
+     "species": "Green Violetear"
+    }
+   },
+   {
+    "distance": 4,
+    "a": {
+     "split": "Train",
+     "filename": "Florida_Jay_0018_2334720072.jpg",
+     "label": 73,
+     "species": "Florida Jay"
+    },
+    "b": {
+     "split": "Train",
+     "filename": "Florida_Jay_0012_2333891141.jpg",
+     "label": 73,
+     "species": "Florida Jay"
+    }
+   },
+   {
+    "distance": 4,
+    "a": {
+     "split": "Train",
+     "filename": "Florida_Jay_0017_2333894291.jpg",
+     "label": 73,
+     "species": "Florida Jay"
+    },
+    "b": {
+     "split": "Train",
+     "filename": "Florida_Jay_0012_2333891141.jpg",
+     "label": 73,
+     "species": "Florida Jay"
+    }
+   },
+   {
+    "distance": 4,
+    "a": {
+     "split": "Train",
+     "filename": "Florida_Jay_0012_2333891141.jpg",
+     "label": 73,
+     "species": "Florida Jay"
+    },
+    "b": {
+     "split": "Test",
+     "filename": "0429.jpg",
+     "label": 73,
+     "species": "Florida Jay"
+    }
+   },
+   {
+    "distance": 4,
+    "a": {
+     "split": "Train",
+     "filename": "Baird_Sparrow_0001_2538811870.jpg",
+     "label": 112,
+     "species": "Baird Sparrow"
+    },
+    "b": {
+     "split": "Test",
+     "filename": "0668.jpg",
+     "label": 112,
+     "species": "Baird Sparrow"
+    }
+   },
+   {
+    "distance": 4,
+    "a": {
+     "split": "Train",
+     "filename": "Lincoln_Sparrow_0018_2116079801.jpg",
+     "label": 124,
+     "species": "Lincoln Sparrow"
+    },
+    "b": {
+     "split": "Test",
+     "filename": "0747.jpg",
+     "label": 124,
+     "species": "Lincoln Sparrow"
+    }
+   },
+   {
+    "distance": 4,
+    "a": {
+     "split": "Train",
+     "filename": "Blue_winged_Warbler_0006_2966091434.jpg",
+     "label": 160,
+     "species": "Blue winged Warbler"
+    },
+    "b": {
+     "split": "Test",
+     "filename": "0583.jpg",
+     "label": 98,
+     "species": "Ovenbird"
+    }
+   },
+   {
+    "distance": 4,
+    "a": {
+     "split": "Train",
+     "filename": "Bewick_Wren_0014_169590206.jpg",
+     "label": 192,
+     "species": "Bewick Wren"
+    },
+    "b": {
+     "split": "Test",
+     "filename": "1159.jpg",
+     "label": 192,
+     "species": "Bewick Wren"
+    }
+   },
+   {
+    "distance": 4,
+    "a": {
+     "split": "Train",
+     "filename": "Carolina_Wren_0007_2576273005.jpg",
+     "label": 194,
+     "species": "Carolina Wren"
+    },
+    "b": {
+     "split": "Test",
+     "filename": "1171.jpg",
+     "label": 194,
+     "species": "Carolina Wren"
+    }
+   },
+   {
+    "distance": 4,
+    "a": {
+     "split": "Train",
+     "filename": "Carolina_Wren_0012_2576267527.jpg",
+     "label": 194,
+     "species": "Carolina Wren"
+    },
+    "b": {
+     "split": "Test",
+     "filename": "1169.jpg",
+     "label": 194,
+     "species": "Carolina Wren"
+    }
+   },
+   {
+    "distance": 4,
+    "a": {
+     "split": "Train",
+     "filename": "Carolina_Wren_0008_2577096262.jpg",
+     "label": 194,
+     "species": "Carolina Wren"
+    },
+    "b": {
+     "split": "Test",
+     "filename": "1171.jpg",
+     "label": 194,
+     "species": "Carolina Wren"
+    }
+   },
+   {
+    "distance": 5,
+    "a": {
+     "split": "Train",
+     "filename": "Cardinal_0002_2981916350.jpg",
+     "label": 16,
+     "species": "Cardinal"
+    },
+    "b": {
+     "split": "Train",
+     "filename": "Cardinal_0001_2981915906.jpg",
+     "label": 16,
+     "species": "Cardinal"
+    }
+   },
+   {
+    "distance": 5,
+    "a": {
+     "split": "Train",
+     "filename": "Fish_Crow_0016_2061064881.jpg",
+     "label": 29,
+     "species": "Fish Crow"
+    },
+    "b": {
+     "split": "Test",
+     "filename": "0169.jpg",
+     "label": 29,
+     "species": "Fish Crow"
+    }
+   },
+   {
+    "distance": 5,
+    "a": {
+     "split": "Train",
+     "filename": "Baird_Sparrow_0004_2539483091.jpg",
+     "label": 112,
+     "species": "Baird Sparrow"
+    },
+    "b": {
+     "split": "Test",
+     "filename": "0668.jpg",
+     "label": 112,
+     "species": "Baird Sparrow"
+    }
+   },
+   {
+    "distance": 5,
+    "a": {
+     "split": "Train",
+     "filename": "Red_bellied_Woodpecker_0033_2553412327.jpg",
+     "label": 188,
+     "species": "Red bellied Woodpecker"
+    },
+    "b": {
+     "split": "Train",
+     "filename": "Red_bellied_Woodpecker_0032_2554235092.jpg",
+     "label": 188,
+     "species": "Red bellied Woodpecker"
+    }
+   },
+   {
+    "distance": 5,
+    "a": {
+     "split": "Train",
+     "filename": "Carolina_Wren_0027_2572866312.jpg",
+     "label": 194,
+     "species": "Carolina Wren"
+    },
+    "b": {
+     "split": "Train",
+     "filename": "Carolina_Wren_0028_2572041747.jpg",
+     "label": 194,
+     "species": "Carolina Wren"
+    }
+   },
+   {
+    "distance": 5,
+    "a": {
+     "split": "Train",
+     "filename": "Carolina_Wren_0027_2572866312.jpg",
+     "label": 194,
+     "species": "Carolina Wren"
+    },
+    "b": {
+     "split": "Train",
+     "filename": "Carolina_Wren_0029_2572042159.jpg",
+     "label": 194,
+     "species": "Carolina Wren"
+    }
+   },
+   {
+    "distance": 6,
+    "a": {
+     "split": "Train",
+     "filename": "Olive_sided_Flycatcher_0002_1032735124.jpg",
+     "label": 39,
+     "species": "Olive sided Flycatcher"
+    },
+    "b": {
+     "split": "Train",
+     "filename": "Olive_sided_Flycatcher_0006_1031880919.jpg",
+     "label": 39,
+     "species": "Olive sided Flycatcher"
+    }
+   },
+   {
+    "distance": 6,
+    "a": {
+     "split": "Train",
+     "filename": "White_breasted_Kingfisher_0007_3044777937.jpg",
+     "label": 82,
+     "species": "White breasted Kingfisher"
+    },
+    "b": {
+     "split": "Train",
+     "filename": "Pileated_Woodpecker_0001_2875831137.jpg",
+     "label": 187,
+     "species": "Pileated Woodpecker"
+    }
+   },
+   {
+    "distance": 6,
+    "a": {
+     "split": "Train",
+     "filename": "Cliff_Swallow_0010_2439269027.jpg",
+     "label": 136,
+     "species": "Cliff Swallow"
+    },
+    "b": {
+     "split": "Test",
+     "filename": "0818.jpg",
+     "label": 136,
+     "species": "Cliff Swallow"
+    }
+   },
+   {
+    "distance": 6,
+    "a": {
+     "split": "Train",
+     "filename": "Myrtle_Warbler_0012_272624497.jpg",
+     "label": 170,
+     "species": "Myrtle Warbler"
+    },
+    "b": {
+     "split": "Train",
+     "filename": "Myrtle_Warbler_0005_350921433.jpg",
+     "label": 170,
+     "species": "Myrtle Warbler"
+    }
+   },
+   {
+    "distance": 6,
+    "a": {
+     "split": "Train",
+     "filename": "Bewick_Wren_0006_169590205.jpg",
+     "label": 192,
+     "species": "Bewick Wren"
+    },
+    "b": {
+     "split": "Test",
+     "filename": "1159.jpg",
+     "label": 192,
+     "species": "Bewick Wren"
+    }
+   },
+   {
+    "distance": 6,
+    "a": {
+     "split": "Train",
+     "filename": "Carolina_Wren_0009_2576271197.jpg",
+     "label": 194,
+     "species": "Carolina Wren"
+    },
+    "b": {
+     "split": "Train",
+     "filename": "Carolina_Wren_0010_2577100064.jpg",
+     "label": 194,
+     "species": "Carolina Wren"
+    }
+   },
+   {
+    "distance": 6,
+    "a": {
+     "split": "Train",
+     "filename": "Carolina_Wren_0019_2577106834.jpg",
+     "label": 194,
+     "species": "Carolina Wren"
+    },
+    "b": {
+     "split": "Test",
+     "filename": "1172.jpg",
+     "label": 194,
+     "species": "Carolina Wren"
+    }
+   },
+   {
+    "distance": 6,
+    "a": {
+     "split": "Test",
+     "filename": "1169.jpg",
+     "label": 194,
+     "species": "Carolina Wren"
+    },
+    "b": {
+     "split": "Test",
+     "filename": "1171.jpg",
+     "label": 194,
+     "species": "Carolina Wren"
+    }
+   }
+  ]
+ }
+}

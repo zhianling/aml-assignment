@@ -1,0 +1,8 @@
+{
+ "note": "Manual review of train/test duplicate candidates from audit.json (dHash) against a contact sheet. Pairs listed here were judged to be different photos and are NOT treated as duplicates.",
+ "false_positive_pairs": [
+  ["Blue_winged_Warbler_0006_2966091434.jpg", "0583.jpg"]
+ ],
+ "same_session_note": "Review of embedding_audit.json (DINOv3 ViT-L/16 at 448 px, mean patch token). All 47 test images at cosine >= 0.985 that dHash had not flagged were confirmed as shots of the same bird on the same perch against the same background, differing in pose or by an added frame/watermark; every one shares its training twin's label. In a random sample of 12 from [0.975, 0.985) most were still same-session, but seabirds over open water or in flight against sky could not be told apart from generic look-alikes, and below 0.975 look-alikes dominate (nearest-neighbour label agreement falls from 1.00 to 0.87 in [0.96, 0.975)). 0.985 is therefore a conservative cut: it flags only confirmed copies.",
+ "same_session_threshold": 0.985
+}

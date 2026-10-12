@@ -1,0 +1,14 @@
+run_name = "vit_l_dinov3_336"
+backbone = "vit_l_dinov3"
+img_size = 336
+head_init = "heads/vit_l_dinov3@448__cls__fit.pt"
+global_pool = "token"
+epochs = 30
+early_stop_patience = 0
+batch_size = 16
+accum_steps = 4
+lr = 1e-4
+layer_decay = 0.8
+drop_path = 0.2
+grad_checkpointing = true
+channels_last = false

@@ -1,0 +1,13 @@
+run_name = "abl_resnet__control__s2"
+backbone = "resnet50_in1k"
+img_size = 448
+head_init = "heads/resnet50_in1k@448__pooled__fit.pt"
+epochs = 30
+early_stop_patience = 0
+batch_size = 32
+accum_steps = 2
+lr = 0.0003
+layer_decay = 1.0
+drop_path = 0.05
+seed = 2
+notes = "ablation control: resnet50_448 recipe, seed 2"

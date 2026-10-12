@@ -1,0 +1,16 @@
+run_name = "abl_resnet__mixup_cutmix__s0"
+backbone = "resnet50_in1k"
+img_size = 448
+head_init = "heads/resnet50_in1k@448__pooled__fit.pt"
+epochs = 30
+early_stop_patience = 0
+batch_size = 32
+accum_steps = 2
+lr = 0.0003
+layer_decay = 1.0
+drop_path = 0.05
+mixup_alpha = 0.8
+cutmix_alpha = 1.0
+mixup_prob = 1.0
+seed = 0
+notes = "ablation add/mixup_cutmix: Mixup (alpha 0.8) or CutMix (alpha 1.0) on every batch"

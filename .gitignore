@@ -1,0 +1,74 @@
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Large local artefacts: raw images, cached features, checkpoints and run outputs
+data/
+features/
+runs/
+*.pt
+# ...except the few linear-probe heads the configs start fine-tuning from (~1 MB each),
+# which Colab needs from the git checkout
+!heads/*.pt
+*.pth
+*.safetensors
+*.npz
+
+# ============================================================================
+# Kept on this machine only. The public repository holds the training pipeline (data preparation,
+# backbone screening, fine-tuning, evaluation, ablations), its configs and the logs of the reported
+# runs; everything below stays local.
+# ============================================================================
+
+# IDE settings, notes, the report, the slides, and the web app (published on Hugging Face)
+/.idea/
+/.run/
+/app/
+/docs/
+/out/
+/presentation/
+/report/
+
+# Analysis and app tooling outside the training pipeline: Grad-CAM, CAM-guided zoom, the
+# iNaturalist overlap check, report and walk-through figures, and building/publishing the app
+src/birdcls/cam.py
+scripts/app_embeddings.py
+scripts/app_embeddings_kernel.py
+scripts/app_smoke.py
+scripts/build_app_bundle.py
+scripts/cam_zoom.py
+scripts/doc_figures.py
+scripts/gradcam_errors.py
+scripts/inat21_overlap.py
+scripts/publish_app.py
+scripts/report_assets.py
+metadata/inat21_taxa.json
+results/gradcam_errors.json
+results/gradcam_review.csv
+tests/test_app_predictor.py
+tests/test_cam.py
+tests/test_gradcam_errors.py
+
+# Runs the report does not use: the archived all-data retrains and a config that was never trained
+configs/convnext_l_dinov3_448.toml
+configs/archive/
+results/run_logs/archive/
+results/run_logs/kaggle_sessions/
+results/archive/
+scripts/make_full_config.py
+tests/test_make_full_config.py
+# compare_models.py's default output over every run; the report's table is results/report/
+results/comparison.csv
+results/ensemble.json
+# Heads only those runs start from: the fit+val refits and the untrained ConvNeXt-L DINOv3 config's
+heads/convnext_l_dinov3@448__pooled.pt
+heads/convnext_l_dinov3@448__pooled__fit.pt
+heads/convnext_l_inat21@448__pooled.pt
+heads/eva02_l_inat21__pooled.pt
+heads/resnet50_in1k@448__pooled.pt
+heads/vit_l_dinov3@448__cls.pt

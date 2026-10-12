@@ -1,0 +1,15 @@
+run_name = "abl_convnext__no_ema__s0"
+backbone = "convnext_l_inat21"
+img_size = 448
+head_init = "heads/convnext_l_inat21@448__pooled__fit.pt"
+epochs = 20
+early_stop_patience = 0
+batch_size = 16
+accum_steps = 4
+lr = 5e-05
+layer_decay = 0.9
+drop_path = 0.3
+grad_checkpointing = true
+ema_decay = 0.0
+seed = 0
+notes = "ablation remove/no_ema: no weight averaging"
